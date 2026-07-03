@@ -1,6 +1,6 @@
 # Awesome Cross-Origin Storage (COS) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of resources for the Cross-Origin Storage (COS) API, a proposed Web platform API that lets sites store and retrieve large, content-addressed resources, such as AI models, WebAssembly runtimes, Web fonts, and shared libraries, from a shared, cross-origin storage bucket keyed by the SHA-256 hash of a file's bytes, so the same bytes don't need to be downloaded again for every origin that uses them. See the Related section below for background.
+> A curated list of resources for the [Cross-Origin Storage (COS) API](https://wicg.github.io/cross-origin-storage/), a proposed Web platform API that lets sites store and retrieve large, content-addressed resources, such as AI models, WebAssembly runtimes, Web fonts, and shared libraries, from a shared, cross-origin storage bucket keyed by the SHA-256 hash of a file's bytes, so the same bytes don't need to be downloaded again for every origin that uses them. See the Related section below for background.
 
 <p align="center">
   <img src="cos-logo.png" width="120" alt="Cross-Origin Storage icon">
