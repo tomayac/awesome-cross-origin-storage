@@ -1,0 +1,11 @@
+{
+  "name": "awesome-cross-origin-storage",
+  "private": true,
+  "description": "A curated list of resources for the Cross-Origin Storage (COS) API",
+  "scripts": {
+    "test": "awesome-lint"
+  },
+  "devDependencies": {
+    "awesome-lint": "^2.3.0"
+  }
+}

@@ -50,6 +50,7 @@ Working examples of Cross-Origin Storage sharing real-world assets between unrel
 
 ## Tools
 
+- [@types/wicg-cross-origin-storage](https://www.npmjs.com/package/@types/wicg-cross-origin-storage) - TypeScript type definitions for the proposed API. ([source](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/wicg-cross-origin-storage))
 - [cos-resource-fetcher](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/cos-resource-fetcher) - Fetches large resource blobs, such as model weights and WebAssembly files, via Cross-Origin Storage when available, automatically falling back to the [Cache API](https://developer.mozilla.org/en-US/docs/Web/API/Cache).
 - [Vite plugin cross-origin storage](https://github.com/danielroe/cross-origin-storage) - Vite plugin that bundles vendor chunks, such as React or Three.js, into separate vendor chunks and automatically injects a loader script that fetches them from Cross-Origin Storage.
 
