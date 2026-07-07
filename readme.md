@@ -52,10 +52,13 @@ Working examples of Cross-Origin Storage sharing real-world assets between unrel
 
 - [@types/wicg-cross-origin-storage](https://www.npmjs.com/package/@types/wicg-cross-origin-storage) - TypeScript type definitions for the proposed API. ([source](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/wicg-cross-origin-storage))
 - [cos-resource-fetcher](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/cos-resource-fetcher) - Fetches large resource blobs, such as model weights and WebAssembly files, via Cross-Origin Storage when available, automatically falling back to the [Cache API](https://developer.mozilla.org/en-US/docs/Web/API/Cache).
+- [npm-sha256-hash-fetcher](https://github.com/tomayac/npm-sha256-hash-fetcher) - Zero-dependency library that fetches the latest resolved version and SHA-256 file hashes for npm packages via the jsDelivr API, for computing the hashes Cross-Origin Storage needs.
 - [Vite plugin cross-origin storage](https://github.com/danielroe/cross-origin-storage) - Vite plugin that bundles vendor chunks, such as React or Three.js, into separate vendor chunks and automatically injects a loader script that fetches them from Cross-Origin Storage.
 
 ## Related
 
+- [Cross-Origin Storage on Chrome Platform Status](https://chromestatus.com/feature/5163371507875840) - Tracks the feature's implementation status in Chrome.
+- [Experimenting with the proposed Cross-Origin Storage API in Transformers.js](https://huggingface.co/blog/cross-origin-storage) - Hugging Face blog post on using Cross-Origin Storage to share large AI model files and WebAssembly runtimes across origins, by Thomas Steiner.
 - [WICG/cross-origin-storage](https://github.com/WICG/cross-origin-storage) - The explainer and spec discussion for the Cross-Origin Storage API.
 
 ## Contributing
