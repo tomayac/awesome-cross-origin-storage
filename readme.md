@@ -18,6 +18,7 @@ The API isn't shipped in any browser yet. The projects below currently build aga
 - [Public Hash List](#public-hash-list)
 - [Demos](#demos)
 - [Tools](#tools)
+- [Standardization](#standardization)
 - [Related](#related)
 
 ## Implementations
@@ -29,6 +30,7 @@ Projects that have added opt-in Cross-Origin Storage support, typically as a pro
 - [Cross-Origin Storage Extension (Safari)](https://github.com/web-ai-community/cross-origin-storage-extension) - Browser extension that polyfills the proposed API by injecting `navigator.crossOriginStorage.requestFileHandle()` into every page. Same source as the Chrome extension above; under App Store review.
 - [Emscripten](https://emscripten.org/docs/compiling/CrossOriginStorage.html) - Adds Cross-Origin Storage support for sharing generated WebAssembly files. ([PR](https://github.com/emscripten-core/emscripten/pull/27066))
 - [Flutter](https://github.com/flutter/flutter/issues/181433#issuecomment-4361950100) - Adds Cross-Origin Storage support for sharing the Skia WebAssembly runtime. ([PR](https://github.com/flutter/flutter/pull/184149))
+- [Prompt API Polyfill](https://www.npmjs.com/package/prompt-api-polyfill) - Polyfills the Prompt API (`LanguageModel`); shares the AI model via Cross-Origin Storage when its [WebLLM backend](https://github.com/GoogleChromeLabs/web-ai-demos/blob/190f209c0f993b9abc6d530d33f40849cc11b70b/prompt-api-polyfill/backends/webllm.js#L59-L60) or [Transformers.js backend](https://github.com/GoogleChromeLabs/web-ai-demos/blob/190f209c0f993b9abc6d530d33f40849cc11b70b/prompt-api-polyfill/backends/transformers.js#L32-L33) is enabled. ([source](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/prompt-api-polyfill))
 - [Transformers.js](https://huggingface.co/docs/transformers.js/api/env#envtransformersenvironment--object) - Adds Cross-Origin Storage support for sharing AI models and WebAssembly runtimes. ([PR](https://github.com/huggingface/transformers.js/pull/1549))
 - [WebLLM](https://webllm.mlc.ai/docs/user/advanced_usage.html#using-cross-origin-storage-cache) - Adds Cross-Origin Storage support for sharing AI models and WebAssembly runtimes. ([PR](https://github.com/mlc-ai/web-llm/pull/748))
 - [wllama](https://github.com/ngxson/wllama/pull/248) - Adds Cross-Origin Storage support for sharing AI models.
@@ -56,9 +58,15 @@ Working examples of Cross-Origin Storage sharing real-world assets between unrel
 - [npm-sha256-hash-fetcher](https://github.com/tomayac/npm-sha256-hash-fetcher) - Zero-dependency library that fetches the latest resolved version and SHA-256 file hashes for npm packages via the jsDelivr API, for computing the hashes Cross-Origin Storage needs.
 - [Vite plugin cross-origin storage](https://github.com/danielroe/cross-origin-storage) - Vite plugin that bundles vendor chunks, such as React or Three.js, into separate vendor chunks and automatically injects a loader script that fetches them from Cross-Origin Storage.
 
+## Standardization
+
+- [CSS Working Group issue](https://github.com/w3c/csswg-drafts/issues/14056) - Proposal for the `<cross-origin-storage>` request-url-modifier used in CSS `url()`.
+- [Cross-Origin Storage on Chrome Platform Status](https://chromestatus.com/feature/5163371507875840) - Tracks the feature's implementation status in Chrome.
+- [Mozilla Standards Position](https://github.com/mozilla/standards-positions/issues/1427) - Mozilla's standards position request for Cross-Origin Storage.
+- WebKit Standards Position - Not yet filed; see the [WebKit Standards Positions repository](https://github.com/WebKit/standards-positions/issues) for when it lands.
+
 ## Related
 
-- [Cross-Origin Storage on Chrome Platform Status](https://chromestatus.com/feature/5163371507875840) - Tracks the feature's implementation status in Chrome.
 - [Experimenting with the proposed Cross-Origin Storage API in Transformers.js](https://huggingface.co/blog/cross-origin-storage) - Hugging Face blog post on using Cross-Origin Storage to share large AI model files and WebAssembly runtimes across origins, by Thomas Steiner.
 - [WICG/cross-origin-storage](https://github.com/WICG/cross-origin-storage) - The explainer and spec discussion for the Cross-Origin Storage API.
 
