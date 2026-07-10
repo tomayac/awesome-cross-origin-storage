@@ -60,11 +60,12 @@ Working examples of Cross-Origin Storage sharing real-world assets between unrel
 
 ## Standardization
 
-- [CSS Working Group issue](https://github.com/w3c/csswg-drafts/issues/14056) - Proposal for the `<cross-origin-storage>` request-url-modifier used in CSS `url()`.
-- [Cross-Origin Storage on Chrome Platform Status](https://chromestatus.com/feature/5163371507875840) - Tracks the feature's implementation status in Chrome.
 - [Explainer](https://github.com/WICG/cross-origin-storage/blob/main/README.md) - The WICG explainer for the Cross-Origin Storage API, covering motivation and use cases.
-- [Mozilla Standards Position](https://github.com/mozilla/standards-positions/issues/1427) - Mozilla's standards position request for Cross-Origin Storage.
 - [Spec](https://wicg.github.io/cross-origin-storage/) - The rendered Cross-Origin Storage API spec draft.
+- [CSS Working Group issue](https://github.com/w3c/csswg-drafts/issues/14056) - Proposal for the `<cross-origin-storage>` request-url-modifier used in CSS `url()`.
+- [`web-features` entry request](https://github.com/web-platform-dx/web-features/issues/4029) - Request to add Cross-Origin Storage as a tracked feature in the `web-features` project.
+- [Cross-Origin Storage on Chrome Platform Status](https://chromestatus.com/feature/5163371507875840) - Tracks the feature's implementation status in Chrome.
+- [Mozilla Standards Position](https://github.com/mozilla/standards-positions/issues/1427) - Mozilla's standards position request for Cross-Origin Storage.
 - WebKit Standards Position - Not yet filed; see the [WebKit Standards Positions repository](https://github.com/WebKit/standards-positions/issues) for when it lands.
 
 ## Related
