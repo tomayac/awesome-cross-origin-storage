@@ -45,6 +45,7 @@ Infrastructure behind the PHL availability-gating allowlist described above.
 
 Working examples of Cross-Origin Storage sharing real-world assets between unrelated origins.
 
+- [Declarative integrations](https://github.com/web-ai-community/cross-origin-storage-extension#supported-integrations) - Documented, working code samples for all four ways to use Cross-Origin Storage: the imperative JS API, the CSS `cross-origin-storage()` function, the declarative HTML `crossoriginstorage` attribute, and declarative JS import attributes.
 - [ffmpeg.wasm](https://tomayac.github.io/ffmpeg.wasm/apps/hello-world/) - Shares the FFmpeg WebAssembly binary across origins. ([source](https://github.com/tomayac/ffmpeg.wasm/blob/main/packages/util/src/index.ts), [PR](https://github.com/ffmpegwasm/ffmpeg.wasm/pull/940))
 - [Google Fonts](https://tomayac.github.io/google-fonts-cos/index.html) - Shares Google Fonts files across origins. ([source](https://github.com/tomayac/google-fonts-cos/), [embed code generator](https://tomayac.github.io/google-fonts-cos/generator.html))
 - [React](https://github.com/tomayac/react-app-cos) - Shares the React library across origins using the [Vite plugin cross-origin storage](https://github.com/danielroe/cross-origin-storage).
