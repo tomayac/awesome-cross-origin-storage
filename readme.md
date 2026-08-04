@@ -39,7 +39,7 @@ Projects that have added opt-in Cross-Origin Storage support, typically as a pro
 
 Infrastructure behind the PHL availability-gating allowlist described above.
 
-- [tomayac/public-hash-list](https://github.com/tomayac/public-hash-list) - Generates the Public Hash List: gathers SHA-256 hashes of widely-deployed files from popular CDN catalogs, npm popularity rankings, and HTTP Archive crawl data (hashes must appear on at least 100 independent origins to qualify), plus hand-curated AI model and manual-addition sections, and publishes the result as a flat, Public-Suffix-List-style allowlist. ([data file](https://github.com/tomayac/public-hash-list/blob/main/data/public-hash-list.dat))
+- [tomayac/public-hash-list](https://github.com/tomayac/public-hash-list) - Generates the Public Hash List: gathers SHA-256 hashes of widely-deployed files from popular CDN catalogs, npm popularity rankings, and HTTP Archive crawl data (hashes must appear on at least 100 independent origins to qualify), plus hand-curated AI model and manual-addition sections, and publishes the result as a flat, Public-Suffix-List-style allowlist. ([data file](https://github.com/tomayac/public-hash-list/blob/main/data/public-hash-list-lfs.dat))
 
 ## Demos
 
