@@ -72,6 +72,7 @@ Working examples of Cross-Origin Storage sharing real-world assets between unrel
 ## Related
 
 - [Experimenting with the proposed Cross-Origin Storage API in Transformers.js](https://huggingface.co/blog/cross-origin-storage) - Hugging Face blog post on using Cross-Origin Storage to share large AI model files and WebAssembly runtimes across origins, by Thomas Steiner.
+- [Working Draft podcast: Cross-Origin Storage API – Caching über Origins hinweg, mit Thomas Steiner](https://workingdraft.de/723/) - Podcast episode about Cross-Origin Storage, with Thomas Steiner. In German.
 
 ## Contributing
 
