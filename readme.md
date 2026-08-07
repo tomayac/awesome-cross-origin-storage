@@ -15,6 +15,7 @@ The API isn't shipped in any browser yet. The projects below currently build aga
 ## Contents
 
 - [Implementations](#implementations)
+- [Prototype Browser Implementations](#prototype-browser-implementations)
 - [Public Hash List](#public-hash-list)
 - [Demos](#demos)
 - [Tools](#tools)
@@ -31,10 +32,16 @@ Projects that have added opt-in Cross-Origin Storage support, typically as a pro
 - [Emscripten](https://emscripten.org/docs/compiling/CrossOriginStorage.html) - Adds Cross-Origin Storage support for sharing generated WebAssembly files. ([PR](https://github.com/emscripten-core/emscripten/pull/27066))
 - [Flutter](https://github.com/flutter/flutter/issues/181433#issuecomment-4361950100) - Adds Cross-Origin Storage support for sharing the Skia WebAssembly runtime. ([PR](https://github.com/flutter/flutter/pull/184149))
 - [Prompt API Polyfill](https://www.npmjs.com/package/prompt-api-polyfill) - Polyfills the Prompt API (`LanguageModel`); shares the AI model via Cross-Origin Storage when its [WebLLM backend](https://github.com/GoogleChromeLabs/web-ai-demos/blob/190f209c0f993b9abc6d530d33f40849cc11b70b/prompt-api-polyfill/backends/webllm.js#L59-L60) or [Transformers.js backend](https://github.com/GoogleChromeLabs/web-ai-demos/blob/190f209c0f993b9abc6d530d33f40849cc11b70b/prompt-api-polyfill/backends/transformers.js#L32-L33) is enabled. ([source](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/prompt-api-polyfill))
-- [Servo](https://github.com/tomayac/servo) - Prototype, native (non-polyfilled) implementation of Cross-Origin Storage in the Servo browser engine, ready for testing. ([binaries](https://github.com/tomayac/servo/releases))
 - [Transformers.js](https://huggingface.co/docs/transformers.js/api/env#envtransformersenvironment--object) - Adds Cross-Origin Storage support for sharing AI models and WebAssembly runtimes. ([PR](https://github.com/huggingface/transformers.js/pull/1549))
 - [WebLLM](https://webllm.mlc.ai/docs/user/advanced_usage.html#using-cross-origin-storage-cache) - Adds Cross-Origin Storage support for sharing AI models and WebAssembly runtimes. ([PR](https://github.com/mlc-ai/web-llm/pull/748))
 - [wllama](https://github.com/ngxson/wllama/pull/248) - Adds Cross-Origin Storage support for sharing AI models.
+
+## Prototype Browser Implementations
+
+Native (non-polyfilled) implementations of Cross-Origin Storage in browser engines, ready for testing. Unofficial personal forks, not yet upstreamed.
+
+- [Ladybird](https://github.com/tomayac/ladybird) - Prototype implementation in the Ladybird browser engine. ([binaries](https://github.com/tomayac/ladybird/releases))
+- [Servo](https://github.com/tomayac/servo) - Prototype implementation in the Servo browser engine. ([binaries](https://github.com/tomayac/servo/releases))
 
 ## Public Hash List
 
