@@ -74,6 +74,8 @@ Working examples of Cross-Origin Storage sharing real-world assets between unrel
 - [Spec](https://wicg.github.io/cross-origin-storage/) - The rendered Cross-Origin Storage API spec draft.
 - [W3C TAG Design Review](https://github.com/w3ctag/design-reviews/issues/1254) - Early incubation review of Cross-Origin Storage by the W3C Technical Architecture Group.
 - [CSS Working Group issue](https://github.com/w3c/csswg-drafts/issues/14056) - Proposal for the `<cross-origin-storage>` request-url-modifier used in CSS `url()`.
+- [WHATWG HTML issue: `crossoriginstorage` attribute](https://github.com/whatwg/html/issues/12770) - Proposal to add the `crossoriginstorage` attribute to `<link>` and `<script>`.
+- [WHATWG HTML issue: `crossOriginStorage` import attribute](https://github.com/whatwg/html/issues/12771) - Proposal to add the `crossOriginStorage` import attribute for JS module imports.
 - [`web-features` entry request](https://github.com/web-platform-dx/web-features/issues/4029) - Request to add Cross-Origin Storage as a tracked feature in the `web-features` project.
 - [Web Platform Tests PR](https://github.com/web-platform-tests/wpt/pull/61811) - Adds cross-browser interoperability tests for the Cross-Origin Storage API.
 - [Cross-Origin Storage on Chrome Platform Status](https://chromestatus.com/feature/5163371507875840) - Tracks the feature's implementation status in Chrome.
