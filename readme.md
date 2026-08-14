@@ -43,6 +43,7 @@ Native (non-polyfilled) implementations of Cross-Origin Storage in browser engin
 - [Firefox](https://github.com/tomayac/firefox) - Prototype implementation in Firefox. ([binaries](https://github.com/tomayac/firefox/releases))
 - [Ladybird](https://github.com/tomayac/ladybird) - Prototype implementation in the Ladybird browser engine. ([binaries](https://github.com/tomayac/ladybird/releases))
 - [Servo](https://github.com/tomayac/servo) - Prototype implementation in the Servo browser engine. ([binaries](https://github.com/tomayac/servo/releases))
+- [WebKit](https://github.com/tomayac/WebKit) - Prototype implementation in the WebKit browser engine. ([binaries](https://github.com/tomayac/WebKit/releases))
 
 ## Public Hash List
 
