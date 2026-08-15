@@ -40,6 +40,7 @@ Projects that have added opt-in Cross-Origin Storage support, typically as a pro
 
 Native (non-polyfilled) implementations of Cross-Origin Storage in browser engines, ready for testing. Unofficial personal forks, not yet upstreamed.
 
+- [Chromium](https://chromium-review.googlesource.com/c/chromium/src/+/8256403) - Prototype implementation in Chromium, as a work-in-progress Gerrit CL rather than a GitHub fork. ([binaries](https://github.com/tomayac/Chromium/releases))
 - [Firefox](https://github.com/tomayac/firefox) - Prototype implementation in Firefox. ([binaries](https://github.com/tomayac/firefox/releases))
 - [Ladybird](https://github.com/tomayac/ladybird) - Prototype implementation in the Ladybird browser engine. ([binaries](https://github.com/tomayac/ladybird/releases))
 - [Servo](https://github.com/tomayac/servo) - Prototype implementation in the Servo browser engine. ([binaries](https://github.com/tomayac/servo/releases))
