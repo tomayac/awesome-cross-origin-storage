@@ -91,7 +91,10 @@ Working examples of Cross-Origin Storage sharing real-world assets between unrel
 
 ## Related
 
+- [A New Era of Web Storage (Cross-Origin Storage)](https://www.youtube.com/watch?v=in8hSRUKoxY) - YouTube video introducing Cross-Origin Storage, by Practical Coder.
+- [Cross-Origin Storage API: Stop Downloading Twice](https://morello.dev/blog/cross-origin-storage-api) - Blog post explaining how Cross-Origin Storage lets sites share one cached copy of a file across origins by SHA-256 hash, by Dennis Morello.
 - [Experimenting with the proposed Cross-Origin Storage API in Transformers.js](https://huggingface.co/blog/cross-origin-storage) - Hugging Face blog post on using Cross-Origin Storage to share large AI model files and WebAssembly runtimes across origins, by Thomas Steiner.
+- [HTTP cache partitioning: the same image, downloaded twice](https://joanleon.dev/en/http-cache-partitioning-cross-origin-storage/) - Blog post on why cache partitioning makes browsers re-download identical cross-site resources, and what Cross-Origin Storage proposes to fix it, by Joan León.
 - [Working Draft podcast: Cross-Origin Storage API – Caching über Origins hinweg, mit Thomas Steiner](https://workingdraft.de/723/) - Podcast episode about Cross-Origin Storage, with Thomas Steiner. In German.
 
 ## Contributing
