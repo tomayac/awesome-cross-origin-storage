@@ -87,7 +87,9 @@ Working examples of Cross-Origin Storage sharing real-world assets between unrel
 - [Intent to Prototype](https://groups.google.com/a/chromium.org/g/blink-dev/c/p5nq70aN63o/m/uNm_oaEOBQAJ) - Blink-dev thread announcing Chromium's intent to prototype Cross-Origin Storage.
 - [Cross-Origin Storage on Chrome Platform Status](https://chromestatus.com/feature/5163371507875840) - Tracks the feature's implementation status in Chrome.
 - [Mozilla Standards Position](https://github.com/mozilla/standards-positions/issues/1427) - Mozilla's standards position request for Cross-Origin Storage.
+- [Mozilla feature request](https://bugzilla.mozilla.org/show_bug.cgi?id=2071521) - Bugzilla request to support Cross-Origin Storage for reuse of WebLLM model artifacts across sites.
 - [WebKit Standards Position](https://github.com/WebKit/standards-positions/issues/703) - WebKit's standards position request for Cross-Origin Storage.
+- [WebKit feature request](https://bugs.webkit.org/show_bug.cgi?id=324017) - Bug tracker request to support Cross-Origin Storage for reuse of WebLLM model artifacts across sites.
 
 ## Related
 
