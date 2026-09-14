@@ -15,6 +15,8 @@ The API isn't shipped in any browser yet. The projects below currently build aga
 ## Contents
 
 - [Implementations](#implementations)
+  - [Extensions](#extensions)
+  - [Integrations](#integrations)
 - [Prototype Browser Implementations](#prototype-browser-implementations)
 - [Public Hash List](#public-hash-list)
 - [Demos](#demos)
@@ -24,16 +26,25 @@ The API isn't shipped in any browser yet. The projects below currently build aga
 
 ## Implementations
 
-Projects that have added opt-in Cross-Origin Storage support, typically as a progressive enhancement layered on top of the extension below.
+### Extensions
+
+Browser extensions that polyfill the proposed API.
 
 - [Cross-Origin Storage Extension (Chrome)](https://chromewebstore.google.com/detail/cross-origin-storage/denpnpcgjgikjpoglpjefakmdcbmlgih) - Browser extension that polyfills the proposed API by injecting `navigator.crossOriginStorage.requestFileHandle()` into every page. ([source](https://github.com/web-ai-community/cross-origin-storage-extension))
 - [Cross-Origin Storage Extension (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/cross-origin-storage/) - Browser extension that polyfills the proposed API by injecting `navigator.crossOriginStorage.requestFileHandle()` into every page. Same source as the Chrome extension above.
 - [Cross-Origin Storage Extension (Safari)](https://apps.apple.com/app/cross-origin-storage/id6788319695) - Browser extension that polyfills the proposed API by injecting `navigator.crossOriginStorage.requestFileHandle()` into every page. Same source as the Chrome extension above.
+
+### Integrations
+
+Projects that have added Cross-Origin Storage support, typically as an opt-in progressive enhancement layered on top of the extensions above.
+
 - [Emscripten](https://emscripten.org/docs/compiling/CrossOriginStorage.html) - Adds Cross-Origin Storage support for sharing generated WebAssembly files. ([PR](https://github.com/emscripten-core/emscripten/pull/27066))
 - [Flutter](https://github.com/flutter/flutter/issues/181433#issuecomment-4361950100) - Adds Cross-Origin Storage support for sharing the Skia WebAssembly runtime. ([PR](https://github.com/flutter/flutter/pull/184149))
+- [Prebid.js](https://github.com/prebid/Prebid.js) - Adding a CDN-based, Cross-Origin-Storage-ready distribution to the popular header bidding library. Work in progress. ([PR](https://github.com/prebid/Prebid.js/pull/15329))
 - [Prompt API Polyfill](https://www.npmjs.com/package/prompt-api-polyfill) - Polyfills the Prompt API (`LanguageModel`); shares the AI model via Cross-Origin Storage when its [WebLLM backend](https://github.com/GoogleChromeLabs/web-ai-demos/blob/190f209c0f993b9abc6d530d33f40849cc11b70b/prompt-api-polyfill/backends/webllm.js#L59-L60) or [Transformers.js backend](https://github.com/GoogleChromeLabs/web-ai-demos/blob/190f209c0f993b9abc6d530d33f40849cc11b70b/prompt-api-polyfill/backends/transformers.js#L32-L33) is enabled. ([source](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/prompt-api-polyfill))
 - [Transformers.js](https://huggingface.co/docs/transformers.js/api/env#envtransformersenvironment--object) - Adds Cross-Origin Storage support for sharing AI models and WebAssembly runtimes. ([PR](https://github.com/huggingface/transformers.js/pull/1549))
-- [WebLLM](https://webllm.mlc.ai/docs/user/advanced_usage.html#using-cross-origin-storage-cache) - Adds Cross-Origin Storage support for sharing AI models and WebAssembly runtimes. ([PR](https://github.com/mlc-ai/web-llm/pull/748))
+- [Vite plugin cross-origin storage](https://github.com/danielroe/cross-origin-storage) - Nuxt-team-built Vite plugin for content-addressed chunking, bottom-up hashing, and a runtime loader, plus `nuxt-cos`, a thin Nuxt module wrapping it.
+- [WebLLM](https://webllm.mlc.ai/docs/user/advanced_usage.html#using-cross-origin-storage-cache) - Adds Cross-Origin Storage support for sharing AI models and WebAssembly runtimes. ([PR](https://github.com/mlc-ai/web-llm/pull/748), [companion PR](https://github.com/apache/tvm/pull/18893))
 - [wllama](https://github.com/ngxson/wllama/pull/248) - Adds Cross-Origin Storage support for sharing AI models.
 
 ## Prototype Browser Implementations
@@ -70,7 +81,6 @@ Working examples of Cross-Origin Storage sharing real-world assets between unrel
 - [@types/wicg-cross-origin-storage](https://www.npmjs.com/package/@types/wicg-cross-origin-storage) - TypeScript type definitions for the proposed API. ([source](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/wicg-cross-origin-storage))
 - [cos-resource-fetcher](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/cos-resource-fetcher) - Fetches large resource blobs, such as model weights and WebAssembly files, via Cross-Origin Storage when available, automatically falling back to the [Cache API](https://developer.mozilla.org/en-US/docs/Web/API/Cache).
 - [npm-sha256-hash-fetcher](https://github.com/tomayac/npm-sha256-hash-fetcher) - Zero-dependency library that fetches the latest resolved version and SHA-256 file hashes for npm packages via the jsDelivr API, for computing the hashes Cross-Origin Storage needs.
-- [Vite plugin cross-origin storage](https://github.com/danielroe/cross-origin-storage) - Vite plugin that bundles vendor chunks, such as React or Three.js, into separate vendor chunks and automatically injects a loader script that fetches them from Cross-Origin Storage.
 
 ## Standardization
 
