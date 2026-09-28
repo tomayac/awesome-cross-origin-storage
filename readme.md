@@ -93,6 +93,7 @@ Working examples of Cross-Origin Storage sharing real-world assets between unrel
 - [WHATWG Fetch issue: `crossOriginStorage` request option](https://github.com/whatwg/fetch/issues/1954) - Proposal to add a `crossOriginStorage` option to `RequestInit`, so imperative `fetch()` calls can opt into Cross-Origin Storage alongside `integrity`.
 - [`web-features` entry request](https://github.com/web-platform-dx/web-features/issues/4029) - Request to add Cross-Origin Storage as a tracked feature in the `web-features` project.
 - [Web Platform Tests PR](https://github.com/web-platform-tests/wpt/pull/61811) - Adds cross-browser interoperability tests for the Cross-Origin Storage API.
+- [Expressions of support](https://github.com/WICG/cross-origin-storage/issues?q=state%3Aopen%20label%3A%22expression%20of%20support%22) - Open issues in the WICG explainer repository where partners express on-the-record demand for Cross-Origin Storage.
 - [Chromium umbrella bug](https://crbug.com/547587764) - Tracks Chromium implementation work for Cross-Origin Storage. ([subtasks](https://crbug.com/547587764/dependencies))
 - [Intent to Prototype](https://groups.google.com/a/chromium.org/g/blink-dev/c/p5nq70aN63o/m/uNm_oaEOBQAJ) - Blink-dev thread announcing Chromium's intent to prototype Cross-Origin Storage.
 - [Cross-Origin Storage on Chrome Platform Status](https://chromestatus.com/feature/5163371507875840) - Tracks the feature's implementation status in Chrome.
