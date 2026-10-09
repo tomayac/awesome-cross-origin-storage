@@ -6,7 +6,7 @@
   <img src="cos-logo.png" width="120" alt="Cross-Origin Storage icon">
 </p>
 
-Cross-Origin Storage is content-addressed, not name-addressed: `navigator.crossOriginStorage.getFileHandle(hash)` looks up an entry by the hash of its bytes, so any origin that stores or requests identical bytes resolves to the same entry regardless of the URL it came from. There's no traditional browser permission prompt. Instead, access is controlled at write time via an `origins` option: same-site only by default, an explicit list of allowed origins, or `'*'` for global availability, and visibility can only become more permissive later, never less.
+Cross-Origin Storage addresses entries by content: `navigator.crossOriginStorage.getFileHandle(hash)` looks up an entry by the hash of its bytes, so any origin that stores or requests identical bytes resolves to the same entry regardless of the URL it came from. There's no traditional browser permission prompt. Access is controlled at write time via an `origins` option: same-site only by default, an explicit list of allowed origins, or `'*'` for global availability, and visibility can only become more permissive later, never less.
 
 For privacy, a second, independent gate controls whether the browser discloses that a resource exists to a *different* origin at all. Only entries on the Public Hash List (PHL), a shared, vendor-neutral allowlist of well-known resources (popular libraries, fonts, WebAssembly runtimes, AI models) that meet a minimum cross-origin popularity (k-anonymity) threshold, can be truthfully reported as present to a requesting origin; everything else returns `NotFoundError`, the same error used when a file is genuinely absent, so cache state can't be probed cross-origin. Browsers may also randomly return `NotFoundError` for files that do qualify ("GREASE'ing"), except where the file is large enough that a spurious re-download would be disproportionate to the privacy benefit.
 
@@ -51,7 +51,7 @@ Projects that have added Cross-Origin Storage support, typically as an opt-in pr
 
 Native (non-polyfilled) implementations of Cross-Origin Storage in browser engines, ready for testing. Unofficial personal forks, not yet upstreamed.
 
-- [Chromium](https://chromium-review.googlesource.com/c/chromium/src/+/8256403) - Prototype implementation in Chromium, as a work-in-progress Gerrit CL rather than a GitHub fork. ([binaries](https://github.com/tomayac/Chromium/releases))
+- [Chromium](https://chromium-review.googlesource.com/c/chromium/src/+/8256403) - Prototype implementation in Chromium, as a work-in-progress Gerrit CL, since Chromium review happens on chromium-review.googlesource.com. ([binaries](https://github.com/tomayac/Chromium/releases))
 - [Firefox](https://github.com/tomayac/firefox) - Prototype implementation in Firefox. ([binaries](https://github.com/tomayac/firefox/releases))
 - [Ladybird](https://github.com/tomayac/ladybird) - Prototype implementation in the Ladybird browser engine. ([binaries](https://github.com/tomayac/ladybird/releases))
 - [Servo](https://github.com/tomayac/servo) - Prototype implementation in the Servo browser engine. ([binaries](https://github.com/tomayac/servo/releases))
