@@ -87,6 +87,7 @@ Working examples of Cross-Origin Storage sharing real-world assets between unrel
 
 - [Explainer](https://github.com/WICG/cross-origin-storage/blob/main/README.md) - The WICG explainer for the Cross-Origin Storage API, covering motivation and use cases.
 - [Overview slide deck](https://goo.gle/cos-slides) - Slides introducing Cross-Origin Storage, its motivation, and its design.
+- [Lightning talk slide deck](https://tomayac.github.io/cos-slides-lightning-talk/?offline#cos) - Interactive, shorter slide deck introducing Cross-Origin Storage.
 - [Spec](https://wicg.github.io/cross-origin-storage/) - The rendered Cross-Origin Storage API spec draft.
 - [W3C TAG Design Review](https://github.com/w3ctag/design-reviews/issues/1254) - Early incubation review of Cross-Origin Storage by the W3C Technical Architecture Group.
 - [Web Machine Learning WG resolution](https://www.w3.org/2026/10/26-webmachinelearning-minutes.html#0d8f) - TPAC 2026 resolution to investigate integrating WebNN caching with Cross-Origin Storage for cross-origin use of compiled models.
