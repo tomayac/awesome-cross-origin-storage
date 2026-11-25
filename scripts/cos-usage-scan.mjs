@@ -94,7 +94,9 @@ async function gh(args, { raw = false } = {}) {
       return raw ? stdout : JSON.parse(stdout);
     } catch (err) {
       const msg = String(err.stderr || err.message);
-      if (/rate limit|secondary|403|429|HTTP 5\d\d/i.test(msg)) {
+      // Only rate limits and server errors are worth waiting out. Any other
+      // 403, such as a token that may not search code, fails at once.
+      if (/rate limit|HTTP 429|HTTP 5\d\d/i.test(msg)) {
         await sleep(30_000 * (attempt + 1));
         continue;
       }
@@ -201,6 +203,8 @@ async function main() {
       files.set(`${h.repository.nameWithOwner}/${h.path}`, h);
     await sleep(7_000);
   }
+  // An empty result would overwrite the report with nothing.
+  if (!files.size) throw new Error('Code search returned no results.');
 
   // 2. Fetch each file, unless its blob is cached, and look for either API.
   const byRepo = new Map();
