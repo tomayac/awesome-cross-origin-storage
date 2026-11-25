@@ -1,6 +1,6 @@
 # Cross-Origin Storage usage on GitHub
 
-Scanned 2026-11-25. 1476 files matched the search. After dropping vendored libraries, agent skills, 10 copies, and 4 repositories that only carry IDL generated from [webref](https://github.com/w3c/webref), 21 repositories use the new API, 8 only the old one, and 32 only link to the specification. 🆕 marks repositories not seen in the previous run, which also appear in the [RSS feed](usage-report.xml).
+Scanned 2026-11-25. 1476 files matched the search. After dropping vendored libraries, agent skills, 10 copies, and 5 repositories that only carry IDL generated from [webref](https://github.com/w3c/webref), 20 repositories use the new API, 8 only the old one, and 32 only link to the specification. 🆕 marks repositories not seen in the previous run, which also appear in the [RSS feed](usage-report.xml).
 
 ## `getFileHandle()`
 
@@ -52,9 +52,6 @@ Scanned 2026-11-25. 1476 files matched the search. After dropping vendored libra
   - [data/anchors/anchors-ge.data](https://github.com/speced/bikeshed-data/blob/7b16eb36243bf7c91eeb6b17f0848fbe269c2134/data/anchors/anchors-ge.data) (docs or mention)
 - [ahmadalfy/blog](https://github.com/ahmadalfy/blog) (★4, pushed 2026-11-17): Source code for alfy.me
   - [_posts/2026-08-31-cross-origin-storage.md](https://github.com/ahmadalfy/blog/blob/14cd0e1f92a5ddb0cc1b798e8889eda01cc28ded/_posts/2026-08-31-cross-origin-storage.md) (docs or mention)
-- 🆕 [eqrion/webidl-index](https://github.com/eqrion/webidl-index) (★1, pushed 2026-11-23)
-  - [data/snapshots/blink/157.json](https://github.com/eqrion/webidl-index/blob/9380e19b14725988fef44cbeb5a972ecf095413f/data/snapshots/blink/157.json) (docs or mention)
-  - [data/snapshots/blink/158.json](https://github.com/eqrion/webidl-index/blob/9380e19b14725988fef44cbeb5a972ecf095413f/data/snapshots/blink/158.json) (docs or mention)
 - [foolip/spec-stats](https://github.com/foolip/spec-stats) (★0, pushed 2026-11-25)
   - [data/github/whatwg/html/issues/12770/index.json](https://github.com/foolip/spec-stats/blob/c170a38fcdbb91aecc65c46fb6c28c0e42d49366/data/github/whatwg/html/issues/12770/index.json) (docs or mention)
   - [data/github/whatwg/html/issues/12771/index.json](https://github.com/foolip/spec-stats/blob/c170a38fcdbb91aecc65c46fb6c28c0e42d49366/data/github/whatwg/html/issues/12771/index.json) (docs or mention)

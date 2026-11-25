@@ -246,10 +246,14 @@ function classify(path, text) {
 }
 
 // Repositories that build from webref: a dependency on `@webref/*`, or a
-// workflow that checks out w3c/webref.
+// build file or workflow that mentions webref, such as `just index-one webref`
+// or a checkout of w3c/webref.
 async function usesWebref(repo) {
   const pkg = await rawFile(repo, 'package.json');
   if (pkg && /"@webref\//.test(pkg)) return true;
+  for (const file of ['justfile', 'Justfile', 'Makefile']) {
+    if (/webref/i.test((await rawFile(repo, file)) || '')) return true;
+  }
   const workflows =
     (await gh(['api', `repos/${repo}/contents/.github/workflows`])) || [];
   for (const { path } of Array.isArray(workflows) ? workflows : []) {

@@ -6,6 +6,5 @@
 <atom:link href="https://tomayac.github.io/awesome-cross-origin-storage/usage-report.xml" rel="self" type="application/rss+xml"/>
 <description>Repositories newly found using the Cross-Origin Storage API</description>
 <lastBuildDate>Wed, 25 Nov 2026 19:03:20 GMT</lastBuildDate>
-<item><title>eqrion/webidl-index: getFileHandle()</title><link>https://github.com/eqrion/webidl-index</link><guid isPermaLink="false">new:eqrion/webidl-index</guid><pubDate>Wed, 25 Nov 2026 19:03:20 GMT</pubDate><description>&lt;p&gt;docs or mention, ★1&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/eqrion/webidl-index/blob/9380e19b14725988fef44cbeb5a972ecf095413f/data/snapshots/blink/157.json&quot;&gt;data/snapshots/blink/157.json&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/eqrion/webidl-index/blob/9380e19b14725988fef44cbeb5a972ecf095413f/data/snapshots/blink/158.json&quot;&gt;data/snapshots/blink/158.json&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description></item>
 </channel>
 </rss>
