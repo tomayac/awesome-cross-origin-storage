@@ -35,6 +35,9 @@ const arg = (name, fallback) => {
 };
 const OUT = arg('out', join(here, 'cos-usage-report.md'));
 const STATE = arg('state', join(here, '.cos-usage-state.json'));
+// Bump whenever matching or classification changes, so that per-file results
+// cached under the old rules are computed again.
+const CACHE_VERSION = 2;
 
 // GitHub code search caps every query at 1,000 results and often far fewer,
 // so the broad term is split by language to see more files.
@@ -89,7 +92,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // Waits until GitHub's rate limits have room again. Primary limits report
 // their reset time. Secondary limits do not, so those back off by attempt.
-async function waitForRateLimit(attempt) {
+async function waitForRateLimit(attempt, msg) {
   let until = Date.now() + 60_000 * (attempt + 1);
   try {
     const { stdout } = await run('gh', ['api', 'rate_limit']);
@@ -100,7 +103,7 @@ async function waitForRateLimit(attempt) {
       until = Math.max(...exhausted.map((r) => r.reset * 1_000)) + 5_000;
   } catch {}
   console.error(
-    `rate limited, waiting ${Math.round((until - Date.now()) / 1_000)}s`,
+    `rate limited, waiting ${Math.round((until - Date.now()) / 1_000)}s: ${msg.trim().split('\n')[0]}`,
   );
   await sleep(Math.max(until - Date.now(), 5_000));
 }
@@ -115,7 +118,7 @@ async function gh(args, { raw = false } = {}) {
       // Only rate limits and server errors are worth waiting out. Any other
       // 403, such as a token that may not search code, fails at once.
       if (/rate limit|HTTP 429/i.test(msg)) {
-        await waitForRateLimit(attempt);
+        await waitForRateLimit(attempt, msg);
         continue;
       }
       if (/HTTP 5\d\d/.test(msg)) {
@@ -235,8 +238,11 @@ async function usesWebref(repo) {
 async function main() {
   const state = JSON.parse(await readFile(STATE, 'utf8').catch(() => '{}'));
   state.seen ??= [];
-  state.files ??= {};
-  state.webref ??= {};
+  if (state.version !== CACHE_VERSION) {
+    state.files = {};
+    state.webref = {};
+    state.version = CACHE_VERSION;
+  }
 
   // 1. Search.
   const files = new Map();

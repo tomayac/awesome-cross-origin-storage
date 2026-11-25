@@ -22,10 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: 22
+          node-version: 24
       - name: Scan GitHub for Cross-Origin Storage usage
         # Code search across all of GitHub may need a personal access token;
         # set the `COS_SEARCH_TOKEN` secret if the built-in token is refused.
