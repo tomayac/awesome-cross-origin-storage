@@ -1,0 +1,42 @@
+# SPDX-FileCopyrightText: 2026 Thomas Steiner
+# SPDX-License-Identifier: Apache-2.0
+
+name: Usage report
+
+on:
+  schedule:
+    # Mondays at 05:17 UTC.
+    - cron: '17 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: usage-report
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Scan GitHub for Cross-Origin Storage usage
+        # Code search across all of GitHub may need a personal access token;
+        # set the `COS_SEARCH_TOKEN` secret if the built-in token is refused.
+        env:
+          GH_TOKEN: ${{ secrets.COS_SEARCH_TOKEN || github.token }}
+        run: node scripts/cos-usage-scan.mjs --out usage-report.md
+      - name: Commit the report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add usage-report.md scripts/.cos-usage-state.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Update usage report'
+          git pull --rebase
+          git push
