@@ -3,18 +3,21 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Searches GitHub code for usage of the Cross-Origin Storage API and writes a
-// Markdown report that flags repositories new since the previous run.
+// Markdown report that flags repositories new since the previous run, plus an
+// RSS feed with one item per new repository.
 // Repositories on the new API (`navigator.crossOriginStorage.getFileHandle()`)
 // and those still only on the old one (`requestFileHandle()`) are reported in
 // separate sections.
 //
-// Dropped along the way: forks, copies of another matching repository,
+// Dropped along the way: first-party projects (see `EXCLUDED`), forks, copies
+// of another matching repository,
 // vendored libraries and bundles, agent skills (`.agents/**`, `skills/**`),
 // copies of the modern-web-guidance content, and files generated from
 // `@webref/idl`. Files that only link to the specification or its repository
 // are reported in a section of their own.
 //
 // Usage: node scripts/cos-usage-scan.mjs [--out usage-report.md] [--state file]
+//   [--feed usage-report.xml] [--site https://example.github.io/repo/]
 // The GitHub Actions workflow in `.github/workflows/usage-report.yml` runs it
 // weekly and commits the report, which GitHub Pages publishes.
 // Requires an authenticated `gh` CLI. The first run takes a while because
@@ -35,9 +38,25 @@ const arg = (name, fallback) => {
 };
 const OUT = arg('out', join(here, 'cos-usage-report.md'));
 const STATE = arg('state', join(here, '.cos-usage-state.json'));
+const FEED = arg('feed', OUT.replace(/\.md$/, '') + '.xml');
+// Where the report and the feed are published, for the feed's links.
+const SITE = arg(
+  'site',
+  'https://tomayac.github.io/awesome-cross-origin-storage/',
+);
+const FEED_ITEMS = 100;
+
+// First-party projects around the API, which are left out entirely.
+const EXCLUDED = [
+  /^GoogleChrome\//i,
+  /^GoogleChromeLabs\//i,
+  /^web-ai-community\//i,
+  /^tomayac\//i,
+  /^WICG\/cross-origin-storage$/i,
+];
 // Bump whenever matching or classification changes, so that per-file results
 // cached under the old rules are computed again.
-const CACHE_VERSION = 2;
+const CACHE_VERSION = 3;
 
 // GitHub code search caps every query at 1,000 results and often far fewer,
 // so the broad term is split by language to see more files.
@@ -82,7 +101,7 @@ const GUIDANCE =
   /modern-web-guidance|avoid-redundant-large-asset-downloads|load-shared-resources-declaratively|tmp-cross-origin-storage|pending-web-features/i;
 
 const API_LABELS = {
-  new: 'New API (`getFileHandle()`)',
+  new: '`getFileHandle()`',
   old: 'Old API (`requestFileHandle()`)',
   link: 'Links to the specification only',
 };
@@ -195,10 +214,14 @@ function classify(path, text) {
   // web-platform-tests and the like. Paths naming webref hold its data.
   if (/\.idl$/.test(name) || /(^|\/)webref\//.test(p)) return null;
   if (GUIDANCE.test(p) || GUIDANCE.test(text.slice(0, 5_000))) return null;
+  // Vendored code: the usual folders, Apache TVM's sources (`tvm/`), wllama's
+  // built storage backend (`esm/storage/cos.*`), and scraped copies of
+  // GoogleChrome/samples (`chrome-samples/`).
   if (
-    /(^|\/)(vendor|vendored|third_party|node_modules|libs?|dist|runtimes?)\//.test(
+    /(^|\/)(vendor|vendored|third_party|node_modules|libs?|dist|runtimes?|tvm|tvmjs|chrome-samples)\//.test(
       p,
     ) ||
+    /(^|\/)esm\/storage\/cos\.(d\.ts|[cm]?js)$/.test(p) ||
     /\.(bundle|min)\.[cm]?js$/.test(name) ||
     /wllama|tvmjs/.test(name)
   )
@@ -261,6 +284,7 @@ async function main() {
   let fetched = 0;
   for (const [key, { repository, path, url, sha }] of files) {
     const repo = repository.nameWithOwner;
+    if (EXCLUDED.some((re) => re.test(repo))) continue;
     const cacheKey = `${key}@${sha}`;
     let info = state.files[cacheKey];
     if (!info) {
@@ -363,10 +387,24 @@ async function main() {
   const best = (r) => Math.min(...r.files.map((f) => KINDS.indexOf(f.kind)));
   external.sort((a, b) => best(a) - best(b) || stars(b) - stars(a));
   const count = (api) => external.filter((r) => r.api === api).length;
+  // Counts of zero are left out of the summary.
+  const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+  const parts = [
+    'vendored libraries',
+    'agent skills',
+    forks && plural(forks, 'fork', 'forks'),
+    copies.length && plural(copies.length, 'copy', 'copies'),
+    webref &&
+      `${plural(webref, 'repository', 'repositories')} that only carry IDL generated from [webref](https://github.com/w3c/webref)`,
+  ].filter(Boolean);
+  const dropped =
+    parts.length > 2
+      ? `${parts.slice(0, -1).join(', ')}, and ${parts.at(-1)}`
+      : parts.join(' and ');
   const lines = [
     `# Cross-Origin Storage usage on GitHub`,
     '',
-    `Scanned ${new Date().toISOString().slice(0, 10)}. ${files.size} files matched the search. After dropping vendored libraries, agent skills, ${forks} forks, ${copies.length} copies, and ${webref} repositories that only carry IDL generated from webref, ${count('new')} repositories use the new API, ${count('old')} only the old one, and ${count('link')} only link to the specification. 🆕 marks repositories not seen in the previous run.`,
+    `Scanned ${new Date().toISOString().slice(0, 10)}. ${files.size} files matched the search. After dropping ${dropped}, ${count('new')} repositories use the new API, ${count('old')} only the old one, and ${count('link')} only link to the specification. 🆕 marks repositories not seen in the previous run, which also appear in the [RSS feed](${FEED.split('/').pop()}).`,
     '',
   ];
   for (const api of Object.keys(API_LABELS)) {
@@ -392,28 +430,88 @@ async function main() {
       lines.push('');
     }
   }
-  // Listed so the copy heuristic can be checked by eye.
-  if (copies.length) {
-    lines.push(
-      '## Dropped as copies',
-      '',
-      ...copies.map(
-        ({ r, of }) =>
-          `- [${r.repo}](https://github.com/${r.repo}), copy of [${of.repo}](https://github.com/${of.repo})`,
-      ),
-      '',
-    );
-  }
   await mkdir(dirname(OUT), { recursive: true });
   // Repository descriptions are third-party text. GitHub Pages runs the report
   // through Jekyll, so Liquid's `{{` and `{%` are escaped.
   await writeFile(OUT, lines.join('\n').replace(/\{([{%])/g, '&#123;$1'));
+  // 5. Feed. Every repository new to a section becomes an item, so a feed
+  // reader shows what changed since the previous run.
+  const now = new Date();
+  const fresh = external.filter((r) => !seen.has(`${r.api}:${r.repo}`));
+  const migrated = (r) => r.api === 'new' && seen.has(`old:${r.repo}`);
+  state.feed = [
+    ...fresh.map((r) => ({
+      id: `${r.api}:${r.repo}`,
+      title: `${r.repo}${migrated(r) ? ' moved to' : ':'} ${API_LABELS[r.api].replaceAll('`', '')}`,
+      link: `https://github.com/${r.repo}`,
+      date: now.toUTCString(),
+      html: [
+        r.meta.description ? `<p>${escapeXml(r.meta.description)}</p>` : '',
+        `<p>${escapeXml(KINDS[best(r)])}, ★${stars(r)}</p>`,
+        '<ul>',
+        ...r.files
+          .slice(0, 3)
+          .map(
+            (f) =>
+              `<li><a href="${escapeXml(f.url)}">${escapeXml(f.path)}</a></li>`,
+          ),
+        '</ul>',
+      ].join(''),
+    })),
+    ...(state.feed || []),
+  ].slice(0, FEED_ITEMS);
+  await writeFile(FEED, rss(state.feed, now));
+  console.error(`Wrote ${FEED} with ${fresh.length} new items`);
+
   state.seen = [
     ...new Set([...seen, ...external.map((r) => `${r.api}:${r.repo}`)]),
   ];
   delete state.contrib;
   await writeFile(STATE, JSON.stringify(state, null, 2));
   console.error(`Wrote ${OUT}`);
+}
+
+function escapeXml(s) {
+  return String(s).replace(
+    /[<>&"']/g,
+    (c) =>
+      ({
+        '<': '&lt;',
+        '>': '&gt;',
+        '&': '&amp;',
+        '"': '&quot;',
+        "'": '&apos;',
+      })[c],
+  );
+}
+
+function rss(items, now) {
+  const report = new URL(OUT.split('/').pop().replace(/\.md$/, '.html'), SITE);
+  const self = new URL(FEED.split('/').pop(), SITE);
+  return [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+    '<channel>',
+    '<title>Cross-Origin Storage usage on GitHub</title>',
+    `<link>${report}</link>`,
+    `<atom:link href="${self}" rel="self" type="application/rss+xml"/>`,
+    '<description>Repositories newly found using the Cross-Origin Storage API</description>',
+    `<lastBuildDate>${now.toUTCString()}</lastBuildDate>`,
+    ...items.map((i) =>
+      [
+        '<item>',
+        `<title>${escapeXml(i.title)}</title>`,
+        `<link>${escapeXml(i.link)}</link>`,
+        `<guid isPermaLink="false">${escapeXml(i.id)}</guid>`,
+        `<pubDate>${i.date}</pubDate>`,
+        `<description>${escapeXml(i.html)}</description>`,
+        '</item>',
+      ].join(''),
+    ),
+    '</channel>',
+    '</rss>',
+    '',
+  ].join('\n');
 }
 
 main().catch((e) => {

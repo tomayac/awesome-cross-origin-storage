@@ -138,8 +138,7 @@
     "new:tomayac/Chromium",
     "link:tomayac/three-starter",
     "new:tomayac/webnn-graph-key",
-    "link:xiaoqianran/huggingface-docs",
-    "new:eqrion/webidl-index"
+    "link:xiaoqianran/huggingface-docs"
   ],
   "files": {
     "flutter/flutter/engine/src/flutter/lib/web_ui/flutter_js/src/instantiate_wasm.js@9dc02276209832ebc2186b7bfba338b80c0525fb": {
@@ -1458,14 +1457,14 @@
       "webrefHeader": false,
       "generated": false
     },
-    "leemiracle/work4ai/讲透宇宙/05-侦/讲透huggingface/transformers.js/deepwiki/16.3-advanced-usage-patterns.md@03aba60db327a8b023becc025c84be2a8be7666c": {
+    "leemiracle/work4ai/\u8bb2\u900f\u5b87\u5b99/05-\u4fa6/\u8bb2\u900fhuggingface/transformers.js/deepwiki/16.3-advanced-usage-patterns.md@03aba60db327a8b023becc025c84be2a8be7666c": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
-    "aitobox/ATBInsight/docs/blog/posts/2026-08-07-在 Transformers.js 中体验提议中的跨域存储 API.md@4228371a215de322f85a2a521cab0c51cf9df3ea": {
+    "aitobox/ATBInsight/docs/blog/posts/2026-08-07-\u5728 Transformers.js \u4e2d\u4f53\u9a8c\u63d0\u8bae\u4e2d\u7684\u8de8\u57df\u5b58\u50a8 API.md@4228371a215de322f85a2a521cab0c51cf9df3ea": {
       "api": "old",
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -1514,7 +1513,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "leemiracle/work4ai/讲透宇宙/05-侦/讲透huggingface/transformers.js/deepwiki/7.2-caching-architecture.md@5063d349e450a8d4570867db81b51c326a32ebc3": {
+    "leemiracle/work4ai/\u8bb2\u900f\u5b87\u5b99/05-\u4fa6/\u8bb2\u900fhuggingface/transformers.js/deepwiki/7.2-caching-architecture.md@5063d349e450a8d4570867db81b51c326a32ebc3": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -10439,7 +10438,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "leemiracle/work4ai/讲透宇宙/03-查/讲透TVM/deepwiki/7.2-webassembly-runtime.md@653ddfe618ff257cb61d943d3f54952fc90aec36": {
+    "leemiracle/work4ai/\u8bb2\u900f\u5b87\u5b99/03-\u67e5/\u8bb2\u900fTVM/deepwiki/7.2-webassembly-runtime.md@653ddfe618ff257cb61d943d3f54952fc90aec36": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
