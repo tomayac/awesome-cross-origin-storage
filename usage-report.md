@@ -1,8 +1,8 @@
 # Cross-Origin Storage usage on GitHub
 
-Scanned 2026-11-25. 1474 files matched the search. After dropping vendored libraries, agent skills, 0 forks, 12 copies, and 4 repositories that only carry IDL generated from webref, 37 repositories use the new API, 12 only the old one, and 33 only link to the specification. 🆕 marks repositories not seen in the previous run.
+Scanned 2026-11-25. 1476 files matched the search. After dropping vendored libraries, agent skills, 10 copies, and 4 repositories that only carry IDL generated from [webref](https://github.com/w3c/webref), 21 repositories use the new API, 8 only the old one, and 32 only link to the specification. 🆕 marks repositories not seen in the previous run, which also appear in the [RSS feed](usage-report.xml).
 
-## New API (`getFileHandle()`)
+## `getFileHandle()`
 
 ### Code
 
@@ -12,27 +12,16 @@ Scanned 2026-11-25. 1474 files matched the search. After dropping vendored libra
 - [emscripten-core/emscripten](https://github.com/emscripten-core/emscripten) (★27794, pushed 2026-11-25): Emscripten: An LLVM-to-WebAssembly Compiler
   - [src/preamble.js](https://github.com/emscripten-core/emscripten/blob/26fa03e2ad5aba9a2be222c83cc980824fa3c0b1/src/preamble.js) (code)
   - [site/source/docs/compiling/CrossOriginStorage.rst](https://github.com/emscripten-core/emscripten/blob/26fa03e2ad5aba9a2be222c83cc980824fa3c0b1/site/source/docs/compiling/CrossOriginStorage.rst) (docs or mention)
-- [chromium/chromium](https://github.com/chromium/chromium) (★25430, pushed 2026-11-25): The official GitHub mirror of the Chromium source
-  - [content/browser/cross_origin_storage/cross_origin_storage_browsertest.cc](https://github.com/chromium/chromium/blob/9bd9bb0bf5bb73d757d29c388ac550f548f9bcd0/content/browser/cross_origin_storage/cross_origin_storage_browsertest.cc) (code, also old API)
-  - [content/browser/cross_origin_storage/cross_origin_storage_manager_impl.h](https://github.com/chromium/chromium/blob/9bd9bb0bf5bb73d757d29c388ac550f548f9bcd0/content/browser/cross_origin_storage/cross_origin_storage_manager_impl.h) (code)
+- [chromium/chromium](https://github.com/chromium/chromium) (★25431, pushed 2026-11-25): The official GitHub mirror of the Chromium source
+  - [content/browser/cross_origin_storage/cross_origin_storage_browsertest.cc](https://github.com/chromium/chromium/blob/ded55eab6ec8a7c3a4c2fc3fee434835a5451668/content/browser/cross_origin_storage/cross_origin_storage_browsertest.cc) (code, also old API)
+  - [content/browser/cross_origin_storage/cross_origin_storage_manager_impl.h](https://github.com/chromium/chromium/blob/ded55eab6ec8a7c3a4c2fc3fee434835a5451668/content/browser/cross_origin_storage/cross_origin_storage_manager_impl.h) (code)
 - [apache/tvm](https://github.com/apache/tvm) (★13924, pushed 2026-11-24): Open Machine Learning Compiler Framework
   - [web/src/artifact_cache.ts](https://github.com/apache/tvm/blob/1091f2fc97187bdef99272cb2c598dc3dd572d7c/web/src/artifact_cache.ts) (code)
-- [GoogleChrome/samples](https://github.com/GoogleChrome/samples) (★5895, pushed 2026-11-16): A repo containing samples tied to new functionality in each release of Google Chrome.
-  - [cos-demo/huggingface.js](https://github.com/GoogleChrome/samples/blob/228e6e56581105bb55cab0d9ff6212d408ccc7dd/cos-demo/huggingface.js) (code)
-  - [cos-demo/index.html](https://github.com/GoogleChrome/samples/blob/228e6e56581105bb55cab0d9ff6212d408ccc7dd/cos-demo/index.html) (code)
-  - [sqlite-wasm-cos/index.html](https://github.com/GoogleChrome/samples/blob/228e6e56581105bb55cab0d9ff6212d408ccc7dd/sqlite-wasm-cos/index.html) (code)
-- [ngxson/wllama](https://github.com/ngxson/wllama) (★1411, pushed 2026-11-23): WebAssembly binding for llama.cpp - Enabling on-browser LLM inference
+- [ngxson/wllama](https://github.com/ngxson/wllama) (★1412, pushed 2026-11-23): WebAssembly binding for llama.cpp - Enabling on-browser LLM inference
   - [src/storage/cos.ts](https://github.com/ngxson/wllama/blob/c87585843be05973f1fd82b53d28659c45e1c41a/src/storage/cos.ts) (code)
 - [software-mansion/popcorn](https://github.com/software-mansion/popcorn) (★788, pushed 2026-11-25): Running Elixir in the browser
   - [popcorn/js/src/assets.ts](https://github.com/software-mansion/popcorn/blob/7be8a130cc592ba2996b330ad09a5ba2ed94d310/popcorn/js/src/assets.ts) (code)
   - [popcorn/js/e2e/runtime.spec.ts](https://github.com/software-mansion/popcorn/blob/7be8a130cc592ba2996b330ad09a5ba2ed94d310/popcorn/js/e2e/runtime.spec.ts) (test)
-- [GoogleChromeLabs/web-ai-demos](https://github.com/GoogleChromeLabs/web-ai-demos) (★404, pushed 2026-11-13)
-  - [cos-resource-fetcher/README.md](https://github.com/GoogleChromeLabs/web-ai-demos/blob/2edcaedca4a13913598b6365d3c41b0f96e8d09d/cos-resource-fetcher/README.md) (docs or mention)
-  - [cos-resource-fetcher/src/index.js](https://github.com/GoogleChromeLabs/web-ai-demos/blob/2edcaedca4a13913598b6365d3c41b0f96e8d09d/cos-resource-fetcher/src/index.js) (code)
-- [WICG/cross-origin-storage](https://github.com/WICG/cross-origin-storage) (★122, pushed 2026-11-24): Cross-Origin Storage (COS), a content-addressable browser cache that shares files across origins by hash, with k-anonymity-based availability gating to prevent cross-site tracking
-  - [README.md](https://github.com/WICG/cross-origin-storage/blob/cd6ba5f3c41ba0ed43577b112aa6ce19b129b52a/README.md) (docs or mention)
-  - [index.bs](https://github.com/WICG/cross-origin-storage/blob/cd6ba5f3c41ba0ed43577b112aa6ce19b129b52a/index.bs) (code)
-  - [browsers/cross-origin-storage-ladybird-plan.md](https://github.com/WICG/cross-origin-storage/blob/cd6ba5f3c41ba0ed43577b112aa6ce19b129b52a/browsers/cross-origin-storage-ladybird-plan.md) (docs or mention)
 - [danielroe/cross-origin-storage](https://github.com/danielroe/cross-origin-storage) (★35, pushed 2026-11-25): Load shared dependencies from Cross-Origin Storage (COS).
   - [packages/vite-plugin-cross-origin-storage/src/loader.ts](https://github.com/danielroe/cross-origin-storage/blob/3ae4b1d2c0a6fb9ccd3ecf70143c31b4300b75b3/packages/vite-plugin-cross-origin-storage/src/loader.ts) (code)
   - [packages/vite-plugin-cross-origin-storage/test/browser.test.ts](https://github.com/danielroe/cross-origin-storage/blob/3ae4b1d2c0a6fb9ccd3ecf70143c31b4300b75b3/packages/vite-plugin-cross-origin-storage/test/browser.test.ts) (test)
@@ -40,48 +29,18 @@ Scanned 2026-11-25. 1474 files matched the search. After dropping vendored libra
   - [src/model-cache.ts](https://github.com/narcotic-sh/parakeet.wgsl/blob/3e1844ff18a3216bc29ad7077b759de9705559e6/src/model-cache.ts) (code)
   - [test/model-cache.test.ts](https://github.com/narcotic-sh/parakeet.wgsl/blob/3e1844ff18a3216bc29ad7077b759de9705559e6/test/model-cache.test.ts) (test)
   - [test/model-cache-invariants.test.ts](https://github.com/narcotic-sh/parakeet.wgsl/blob/3e1844ff18a3216bc29ad7077b759de9705559e6/test/model-cache-invariants.test.ts) (test)
-- [web-ai-community/cross-origin-storage-extension](https://github.com/web-ai-community/cross-origin-storage-extension) (★17, pushed 2026-11-06): Cross-Origin Storage extension
-  - [relay-extension.js](https://github.com/web-ai-community/cross-origin-storage-extension/blob/f0d69ff465a9df6ec28676486c2e9af841b98863/relay-extension.js) (code)
-  - [docs/huggingface.js](https://github.com/web-ai-community/cross-origin-storage-extension/blob/f0d69ff465a9df6ec28676486c2e9af841b98863/docs/huggingface.js) (code)
-  - [docs/relay.html](https://github.com/web-ai-community/cross-origin-storage-extension/blob/f0d69ff465a9df6ec28676486c2e9af841b98863/docs/relay.html) (docs or mention)
-- [FireTable/project-xiaochun](https://github.com/FireTable/project-xiaochun) (★6, pushed 2026-11-22): 100% browser-native anime VTuber — local LLM (WebLLM Qwen3) + EMAGE full-body motion + Edge-TTS. Real-time chat with VRM characters, no backend.
+- [FireTable/project-xiaochun](https://github.com/FireTable/project-xiaochun) (★7, pushed 2026-11-22): 100% browser-native anime VTuber — local LLM (WebLLM Qwen3) + EMAGE full-body motion + Edge-TTS. Real-time chat with VRM characters, no backend.
   - [packages/web-runtime/src/artifact_cache.ts](https://github.com/FireTable/project-xiaochun/blob/0cabca463744f3833c59c70fe6febdbf9906fba3/packages/web-runtime/src/artifact_cache.ts) (code)
 - [adelpro/quranlm](https://github.com/adelpro/quranlm) (★1, pushed 2026-11-18): QuranLM is a browser-side AI companion for the Quran, built on top of LiteRT-LM — Google's in-browser LLM runtime powered by WebGPU. A Gemma model runs entirely on your device: every prompt, every response, every Quran search happens locally. Nothing leaves your machine, nothing is logged.
   - [src/services/cross-origin-storage.ts](https://github.com/adelpro/quranlm/blob/961821772b047ef9511323463016ce1ad41c606e/src/services/cross-origin-storage.ts) (code, also old API)
   - [src/vite-env.d.ts](https://github.com/adelpro/quranlm/blob/961821772b047ef9511323463016ce1ad41c606e/src/vite-env.d.ts) (code, also old API)
-- [tomayac/cos-ad-blocking-demo](https://github.com/tomayac/cos-ad-blocking-demo) (★1, pushed 2026-11-03): How a content blocker catches an ad script served from Cross-Origin Storage, by its URL and by its hash
-  - [docs/index.html](https://github.com/tomayac/cos-ad-blocking-demo/blob/305aabaa1ff4347565db576e594723c18502d651/docs/index.html) (docs or mention)
-  - [docs/demo.js](https://github.com/tomayac/cos-ad-blocking-demo/blob/305aabaa1ff4347565db576e594723c18502d651/docs/demo.js) (code)
-  - [README.md](https://github.com/tomayac/cos-ad-blocking-demo/blob/305aabaa1ff4347565db576e594723c18502d651/README.md) (docs or mention)
-- [tomayac/just-mute](https://github.com/tomayac/just-mute) (★1, pushed 2026-10-17): Passive-aggressive audio policing for public transport
-  - [src/cos.js](https://github.com/tomayac/just-mute/blob/5f2660e7c886bea035888eaee720d6b76d3db9ab/src/cos.js) (code, also old API)
-  - [patches/vite-plugin-cross-origin-storage@2.0.3.patch](https://github.com/tomayac/just-mute/blob/5f2660e7c886bea035888eaee720d6b76d3db9ab/patches/vite-plugin-cross-origin-storage@2.0.3.patch) (code, also old API)
-- [tomayac/throw-aways](https://github.com/tomayac/throw-aways) (★1, pushed 2026-10-08)
-  - [prebid-cos-demo/index.html](https://github.com/tomayac/throw-aways/blob/47b4f4de36602601c90ac913ede9f22c13ed9332/prebid-cos-demo/index.html) (code)
-- [tomayac/cos-wpt](https://github.com/tomayac/cos-wpt) (★0, pushed 2026-10-19): Run the Cross-Origin Storage web platform tests straight from their pull request, on GitHub Pages
-  - [assets/runner.js](https://github.com/tomayac/cos-wpt/blob/b2a0648ed33c99925a8b14a9e2b86c7a6a6ae2ec/assets/runner.js) (code)
-- [tomayac/google-fonts-cos](https://github.com/tomayac/google-fonts-cos) (★0, pushed 2026-10-07): Progressive enhancement loading Google Fonts via Cross-Origin Storage (COS), with SHA-256 content hashing and fallback to standard <link> injection
-  - [index-dynamic.html](https://github.com/tomayac/google-fonts-cos/blob/2de167fea1464eb033da8d8d633aa2c1186fc0bc/index-dynamic.html) (code)
-  - [cos-loader-static.js](https://github.com/tomayac/google-fonts-cos/blob/2de167fea1464eb033da8d8d633aa2c1186fc0bc/cos-loader-static.js) (code)
-  - [cos-loader-dynamic.js](https://github.com/tomayac/google-fonts-cos/blob/2de167fea1464eb033da8d8d633aa2c1186fc0bc/cos-loader-dynamic.js) (code)
-- [tomayac/voice-transcriber-for-whatsapp](https://github.com/tomayac/voice-transcriber-for-whatsapp) (★0, pushed 2026-10-29): Transcribes WhatsApp Web voice messages on device with Whisper or Voxtral Realtime, in Chrome and Safari. Not affiliated with WhatsApp.
-  - [extension/src/worker.js](https://github.com/tomayac/voice-transcriber-for-whatsapp/blob/18f2baba687a8605ce2731535f9fdf291f582123/extension/src/worker.js) (code, also old API)
 - [ykoh42/web-llm-adapters](https://github.com/ykoh42/web-llm-adapters) (★0, pushed 2026-11-13): WebLLM adapters for AI agent frameworks.
   - [examples/strands-web-llm/browser/src/engine/load.ts](https://github.com/ykoh42/web-llm-adapters/blob/a98dc93ab8c158a3dc632461c890e958ce313e91/examples/strands-web-llm/browser/src/engine/load.ts) (code)
-
-### Test
-
-- [NotAisu/Accessibility_Extension](https://github.com/NotAisu/Accessibility_Extension) (★1, pushed 2026-11-25)
-  - [test/ground-truth/injection/empty-title/chrome-samples/cos-demo__index.html--6.html](https://github.com/NotAisu/Accessibility_Extension/blob/b06759f1819c65518ddbbf7ab976ce09b55cfac8/test/ground-truth/injection/empty-title/chrome-samples/cos-demo__index.html--6.html) (test)
-  - [test/ground-truth/injection/empty-button/chrome-samples/cos-demo__index.html--92.html](https://github.com/NotAisu/Accessibility_Extension/blob/b06759f1819c65518ddbbf7ab976ce09b55cfac8/test/ground-truth/injection/empty-button/chrome-samples/cos-demo__index.html--92.html) (test)
-  - [test/ground-truth/injection/html-without-lang/chrome-samples/cos-demo__index.html--6.html](https://github.com/NotAisu/Accessibility_Extension/blob/b06759f1819c65518ddbbf7ab976ce09b55cfac8/test/ground-truth/injection/html-without-lang/chrome-samples/cos-demo__index.html--6.html) (test)
 
 ### Docs or mention
 
 - [huggingface/blog](https://github.com/huggingface/blog) (★3575, pushed 2026-11-25): Public repo for HF blog posts
   - [cross-origin-storage.md](https://github.com/huggingface/blog/blob/b8fb20d7f84d2470779f40a53fea5015d85b22bc/cross-origin-storage.md) (docs or mention)
-- [tomayac/awesome-cross-origin-storage](https://github.com/tomayac/awesome-cross-origin-storage) (★23, pushed 2026-11-25): A curated list of resources for the Cross-Origin Storage (COS) API
-  - [readme.md](https://github.com/tomayac/awesome-cross-origin-storage/blob/a76b6086026c9582c7429d2b01364f0f648fec98/readme.md) (docs or mention)
 - [cybozu/frontend-monthly](https://github.com/cybozu/frontend-monthly) (★15, pushed 2026-11-20)
   - [src/content/posts/2026/11.md](https://github.com/cybozu/frontend-monthly/blob/062509a7a4c52763ddd227bfce0508b9cdc7885d/src/content/posts/2026/11.md) (docs or mention)
 - [kripken/emscripten-site](https://github.com/kripken/emscripten-site) (★14, pushed 2026-11-21): Emscripten website
@@ -91,8 +50,6 @@ Scanned 2026-11-25. 1474 files matched the search. After dropping vendored libra
   - [data/anchors/anchors-cr.data](https://github.com/speced/bikeshed-data/blob/7b16eb36243bf7c91eeb6b17f0848fbe269c2134/data/anchors/anchors-cr.data) (docs or mention)
   - [data/anchors/anchors-ha.data](https://github.com/speced/bikeshed-data/blob/7b16eb36243bf7c91eeb6b17f0848fbe269c2134/data/anchors/anchors-ha.data) (docs or mention)
   - [data/anchors/anchors-ge.data](https://github.com/speced/bikeshed-data/blob/7b16eb36243bf7c91eeb6b17f0848fbe269c2134/data/anchors/anchors-ge.data) (docs or mention)
-- [tomayac/blogccasion](https://github.com/tomayac/blogccasion) (★11, pushed 2026-11-15): The new Blogccasion
-  - [posts/2026/06/guest-blog-post-on-cross-origin-storage-in-transformersjs.md](https://github.com/tomayac/blogccasion/blob/aba599aa434f85eb1d51e55b9ac93aa76eb54c45/posts/2026/06/guest-blog-post-on-cross-origin-storage-in-transformersjs.md) (docs or mention)
 - [ahmadalfy/blog](https://github.com/ahmadalfy/blog) (★4, pushed 2026-11-17): Source code for alfy.me
   - [_posts/2026-08-31-cross-origin-storage.md](https://github.com/ahmadalfy/blog/blob/14cd0e1f92a5ddb0cc1b798e8889eda01cc28ded/_posts/2026-08-31-cross-origin-storage.md) (docs or mention)
 - 🆕 [eqrion/webidl-index](https://github.com/eqrion/webidl-index) (★1, pushed 2026-11-23)
@@ -107,12 +64,6 @@ Scanned 2026-11-25. 1474 files matched the search. After dropping vendored libra
   - [outputs/2026-11-18_javascriptweekly_JavaScript_Weekly_Issue_811_summary.md](https://github.com/klaaay/weekly-gen/blob/671b178d9ae45431bd26742b4f89ccae5cc5ce4e/outputs/2026-11-18_javascriptweekly_JavaScript_Weekly_Issue_811_summary.md) (docs or mention)
 - [sakupi01/csswg-llm-wiki-raw](https://github.com/sakupi01/csswg-llm-wiki-raw) (★0, pushed 2026-11-24): Raw-data mirror layer for csswg-llm-wiki (CSSWG primary sources)
   - [github/csswg-drafts/issues/14xxx/14056.md](https://github.com/sakupi01/csswg-llm-wiki-raw/blob/19e7b887778f35dbb71120c0e11ff5e14a0b1b85/github/csswg-drafts/issues/14xxx/14056.md) (docs or mention)
-- [tomayac/awesome-browser-specs](https://github.com/tomayac/awesome-browser-specs) (★0, pushed 2026-10-27): Awesome Browser Specs
-  - [docs/index.html](https://github.com/tomayac/awesome-browser-specs/blob/cae33d61b46ada5c63dca36159ffeefa25f93192/docs/index.html) (docs or mention)
-- [tomayac/Chromium](https://github.com/tomayac/Chromium) (★0, pushed 2026-11-13): Cross-Origin Storage Public Hash List, as shipped in Chromium
-  - [README.md](https://github.com/tomayac/Chromium/blob/d368bcbfcf3afa6aad1d3040e48f1a1413152104/README.md) (docs or mention)
-- [tomayac/webnn-graph-key](https://github.com/tomayac/webnn-graph-key) (★0, pushed 2026-11-24): Content-derived cache keys for WebNN graphs, a prototype for webmachinelearning/webnn#971
-  - [README.md](https://github.com/tomayac/webnn-graph-key/blob/e7242aa259b6cd0d34adf8e09b9ff7dd4f36de69/README.md) (docs or mention)
 - [wuhy80/llm-news-tracker](https://github.com/wuhy80/llm-news-tracker) (★0, pushed 2026-11-25): 大模型行业落地、Agent 技术、模型发布与评测的日/周/月静态情报站
   - [data/articles/2026/06/23/2fa0e37477dd.json](https://github.com/wuhy80/llm-news-tracker/blob/ab26e62875adc432908b264d0efbb922e67e49e5/data/articles/2026/06/23/2fa0e37477dd.json) (docs or mention)
 
@@ -126,22 +77,14 @@ Scanned 2026-11-25. 1474 files matched the search. After dropping vendored libra
 - [koneb71/vikado](https://github.com/koneb71/vikado) (★2, pushed 2026-11-09): Free, open-source, local-first web video editor with server-side MP4 export
   - [web/.pnpm-store/v11/files/1c/f6500752f827735d8f7ebb1372df9d1ecf84c9ab8527e9ce94235d1d8668973261c07392d3dbfd7482c771150657706dbd5c6ec98b39e09cca18896a8f6b6d](https://github.com/koneb71/vikado/blob/d339f6aea6adf7b0a85dd731f4c8b55d2585915e/web/.pnpm-store/v11/files/1c/f6500752f827735d8f7ebb1372df9d1ecf84c9ab8527e9ce94235d1d8668973261c07392d3dbfd7482c771150657706dbd5c6ec98b39e09cca18896a8f6b6d) (code)
   - [web/.pnpm-store/v11/files/94/874140900f4bc9e2a1182e5a8ece440fb6985623c133ea73f4958fdcc76e5a8b9f9891b5fa517151fb814e19cb74621635366342e47e23995d0aea1e34781c](https://github.com/koneb71/vikado/blob/d339f6aea6adf7b0a85dd731f4c8b55d2585915e/web/.pnpm-store/v11/files/94/874140900f4bc9e2a1182e5a8ece440fb6985623c133ea73f4958fdcc76e5a8b9f9891b5fa517151fb814e19cb74621635366342e47e23995d0aea1e34781c) (code)
-- [Priyatham-sai-chand/NinjaVerse](https://github.com/Priyatham-sai-chand/NinjaVerse) (★0, pushed 2026-10-30)
-  - [src/mlc/tvm/artifact_cache.ts](https://github.com/Priyatham-sai-chand/NinjaVerse/blob/2affd4c6533109f1bb6632dd0bcbcb01914278a0/src/mlc/tvm/artifact_cache.ts) (code)
-- [trunksio/engram-md](https://github.com/trunksio/engram-md) (★0, pushed 2026-09-22): engram.md — pluggable fact cartridges for a frozen model, running in the browser
-  - [esm/storage/cos.d.ts](https://github.com/trunksio/engram-md/blob/3e52f128c721f47d986b27dc82f1cae7114665f1/esm/storage/cos.d.ts) (code)
 
 ### Docs or mention
 
-- [tomayac/SVGcode](https://github.com/tomayac/SVGcode) (★1106, pushed 2026-11-17): Convert color bitmap images to color SVG vector images.
-  - [docs/index.html](https://github.com/tomayac/SVGcode/blob/f1fa8ad24f5701d1daf5f3ca4edcf93a9425ee37/docs/index.html) (docs or mention)
 - [rockbenben/free-llm-intel](https://github.com/rockbenben/free-llm-intel) (★67, pushed 2026-11-25): AI 厂商动态别挨家追：每天巡检 OpenAI、Claude、Gemini、DeepSeek、通义、Kimi 等的官方博客与更新页，生成可订阅的 RSS，英文原文逐段精译为中文，并附 70 家免费额度 / 限时活动总表（实时抓自官方页、带官方链接可复核）
   - [docs/articles/huggingface/2e297cf400e7.md](https://github.com/rockbenben/free-llm-intel/blob/8c40a361b6418e1883075edb728a9b71948af17c/docs/articles/huggingface/2e297cf400e7.md) (docs or mention)
   - [docs/articles/huggingface/2e297cf400e7.en.md](https://github.com/rockbenben/free-llm-intel/blob/8c40a361b6418e1883075edb728a9b71948af17c/docs/articles/huggingface/2e297cf400e7.en.md) (docs or mention)
 - [Hugging-Face-KREW/hugging-face-krew.github.io](https://github.com/Hugging-Face-KREW/hugging-face-krew.github.io) (★6, pushed 2026-11-25): Hugging Face KREW Blog
   - [_posts/2026-06-23-cross-origin-storage.md](https://github.com/Hugging-Face-KREW/hugging-face-krew.github.io/blob/b7e15bb830a5e99db1045e0682d196c5a2e0d6b4/_posts/2026-06-23-cross-origin-storage.md) (docs or mention)
-- [tomayac/react-app-cos](https://github.com/tomayac/react-app-cos) (★1, pushed 2026-06-15): React demo app using Cross-Origin Storage
-  - [docs/index.html](https://github.com/tomayac/react-app-cos/blob/ff2aba534392b0da61163e93547cf24ac2757dce/docs/index.html) (docs or mention)
 - [aitobox/ATBInsight](https://github.com/aitobox/ATBInsight) (★0, pushed 2026-11-25): Decoding the future of AI, line by line.
   - [docs/blog/posts/2026-08-07-在 Transformers.js 中体验提议中的跨域存储 API.md](https://github.com/aitobox/ATBInsight/blob/506a6d7a2c270a7fbec6a95b99b2f4b3e6b3ac4d/docs/blog/posts/2026-08-07-在 Transformers.js 中体验提议中的跨域存储 API.md) (docs or mention)
 - [flutter-zl/web-triage](https://github.com/flutter-zl/web-triage) (★0, pushed 2026-11-18): weekly web-triage
@@ -207,9 +150,9 @@ Scanned 2026-11-25. 1474 files matched the search. After dropping vendored libra
 - [w3c-cg/pm-kr](https://github.com/w3c-cg/pm-kr) (★5, pushed 2026-11-25): The same knowledge (a character, a formula, a concept) is duplicated dozens of times across the web — in fonts, embeddings, accessibility metadata, visual assets — maintained separately, drifting apart. PM-KR standardizes storing knowledge once as executable procedures, consumable by both humans and AI from a single source.
   - [glossary/README.md](https://github.com/w3c-cg/pm-kr/blob/e47269c346218bce47463fa5116ce7abfa7fd947/glossary/README.md) (docs or mention)
 - [bakkot/matrix-logs](https://github.com/bakkot/matrix-logs) (★4, pushed 2026-11-25): logs for tc39's matrix channels
-  - [docs/WHATWG/2026-08-26.html](https://github.com/bakkot/matrix-logs/blob/db9626a18f5c1e3bdb2179f568cfce6988622f8b/docs/WHATWG/2026-08-26.html) (docs or mention)
-  - [docs/WHATWG/plaintext/2026-08.txt](https://github.com/bakkot/matrix-logs/blob/db9626a18f5c1e3bdb2179f568cfce6988622f8b/docs/WHATWG/plaintext/2026-08.txt) (docs or mention)
-  - [json/WHATWG/2026-08-26.json](https://github.com/bakkot/matrix-logs/blob/db9626a18f5c1e3bdb2179f568cfce6988622f8b/json/WHATWG/2026-08-26.json) (docs or mention)
+  - [docs/WHATWG/2026-08-26.html](https://github.com/bakkot/matrix-logs/blob/5286b5cf9ca4a5741a429dc7211d9f9cd0a895f4/docs/WHATWG/2026-08-26.html) (docs or mention)
+  - [docs/WHATWG/plaintext/2026-08.txt](https://github.com/bakkot/matrix-logs/blob/5286b5cf9ca4a5741a429dc7211d9f9cd0a895f4/docs/WHATWG/plaintext/2026-08.txt) (docs or mention)
+  - [json/WHATWG/2026-08-26.json](https://github.com/bakkot/matrix-logs/blob/5286b5cf9ca4a5741a429dc7211d9f9cd0a895f4/json/WHATWG/2026-08-26.json) (docs or mention)
 - [edtechdev/notes](https://github.com/edtechdev/notes) (★3, pushed 2026-11-23): Logseq tagged links
   - [journals/2026_06_25.md](https://github.com/edtechdev/notes/blob/eed1ce7ec7c712bee70c30cb5fb2c8efd2cf2d9c/journals/2026_06_25.md) (docs or mention)
   - [journals/2026_07_03.md](https://github.com/edtechdev/notes/blob/eed1ce7ec7c712bee70c30cb5fb2c8efd2cf2d9c/journals/2026_07_03.md) (docs or mention)
@@ -239,22 +182,5 @@ Scanned 2026-11-25. 1474 files matched the search. After dropping vendored libra
   - [docs/reviews/decisions-api-explainer.md](https://github.com/Puppo/guess-who/blob/c2b5d1ad2f695b969ea8d8fac2a851d5be6e521f/docs/reviews/decisions-api-explainer.md) (docs or mention)
 - [srivtx/deepforge](https://github.com/srivtx/deepforge) (★0, pushed 2026-09-27): build ml from scratch  and beyond 
   - [docs/research/wave-46-candidates-e-systems.md](https://github.com/srivtx/deepforge/blob/e2c067cea9ec7f46b92e741732a12d2b4e5ee035/docs/research/wave-46-candidates-e-systems.md) (docs or mention)
-- [tomayac/three-starter](https://github.com/tomayac/three-starter) (★0, pushed 2026-10-21)
-  - [README.md](https://github.com/tomayac/three-starter/blob/7ebc5565b3a42758bb7cde574c4a2f4a61d3d36b/README.md) (docs or mention)
 - [xiaoqianran/huggingface-docs](https://github.com/xiaoqianran/huggingface-docs) (★0, pushed 2026-11-25): Hugging Face documentation mirror (Hub, Transformers, Diffusers, Datasets…)
-  - [docs/pages/transformers.js/api/env.md](https://github.com/xiaoqianran/huggingface-docs/blob/6d824817e9ba74aaece76f886d7d0d359198a153/docs/pages/transformers.js/api/env.md) (docs or mention)
-
-## Dropped as copies
-
-- [918822019/918822019.github.io](https://github.com/918822019/918822019.github.io), copy of [apache/tvm](https://github.com/apache/tvm)
-- [ad7c/tvm](https://github.com/ad7c/tvm), copy of [apache/tvm](https://github.com/apache/tvm)
-- [DatasunriseOU/tvm](https://github.com/DatasunriseOU/tvm), copy of [apache/tvm](https://github.com/apache/tvm)
-- [ECOSYSTEMAX/TRANSFORMER.JS-V4](https://github.com/ECOSYSTEMAX/TRANSFORMER.JS-V4), copy of [huggingface/transformers.js](https://github.com/huggingface/transformers.js)
-- [francisreubenr-rvu/sih-2026](https://github.com/francisreubenr-rvu/sih-2026), copy of [francisreubenr-rvu/sih26171-dhristi](https://github.com/francisreubenr-rvu/sih26171-dhristi)
-- [GlassyFoozle/mosh-tvm](https://github.com/GlassyFoozle/mosh-tvm), copy of [apache/tvm](https://github.com/apache/tvm)
-- [im-va-3/tvm-main](https://github.com/im-va-3/tvm-main), copy of [apache/tvm](https://github.com/apache/tvm)
-- [ksahib/co-execution-scheduler](https://github.com/ksahib/co-execution-scheduler), copy of [apache/tvm](https://github.com/apache/tvm)
-- [mlc-ai/relax](https://github.com/mlc-ai/relax), copy of [apache/tvm](https://github.com/apache/tvm)
-- [muccci/tvm-writeback](https://github.com/muccci/tvm-writeback), copy of [apache/tvm](https://github.com/apache/tvm)
-- [ShaneLiu04/quadro-rtx-5000-ai-infra](https://github.com/ShaneLiu04/quadro-rtx-5000-ai-infra), copy of [apache/tvm](https://github.com/apache/tvm)
-- [TexasInstruments-Sandbox/tvm](https://github.com/TexasInstruments-Sandbox/tvm), copy of [apache/tvm](https://github.com/apache/tvm)
+  - [docs/pages/transformers.js/api/env.md](https://github.com/xiaoqianran/huggingface-docs/blob/1af6fb2ff8a240d954f42a14c13c9a34ace9ecd9/docs/pages/transformers.js/api/env.md) (docs or mention)

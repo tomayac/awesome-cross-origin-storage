@@ -138,19 +138,13 @@
     "new:tomayac/Chromium",
     "link:tomayac/three-starter",
     "new:tomayac/webnn-graph-key",
-    "link:xiaoqianran/huggingface-docs"
+    "link:xiaoqianran/huggingface-docs",
+    "new:eqrion/webidl-index"
   ],
   "files": {
     "flutter/flutter/engine/src/flutter/lib/web_ui/flutter_js/src/instantiate_wasm.js@9dc02276209832ebc2186b7bfba338b80c0525fb": {
       "api": "new",
       "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "GoogleChrome/samples/cos-demo/huggingface.js@9cc8552958e9c7c53d6dd4ed89716551a0aa8b14": {
-      "api": "new",
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -169,20 +163,6 @@
       "webrefHeader": false,
       "generated": true
     },
-    "GoogleChrome/samples/cos-demo/index.html@a97e0de65314f40863dcdf576a6dc75f0b938a30": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "GoogleChrome/samples/sqlite-wasm-cos/index.html@15a2e13ce3570d0f115c7a6371eeb5b3b7c89993": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "chromium/chromium/content/browser/cross_origin_storage/cross_origin_storage_browsertest.cc@a35db694c57589b356a3cc13c55abbeb4df77b71": {
       "api": "new",
       "kind": "code",
@@ -190,119 +170,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "GoogleChrome/modern-web-guidance-src/guides/performance/avoid-redundant-large-asset-downloads/expectations.md@e62947f0fe444b986e406e0524c3a7079bbbf71e": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "huggingface/blog/cross-origin-storage.md@416d7720366502d7c7791d81597e91fc386ec5b6": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "GoogleChrome/modern-web-guidance-src/guides/performance/avoid-redundant-large-asset-downloads/guide.md@a43e42bc3b9259c0ce93cfebff2d48fa8f9f5652": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "GoogleChrome/samples/io2026-chrome-built-in-ai-demos/index.html@9063eb58e51bf54ca1b21f23a32e1b00a481f574": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "GoogleChrome/modern-web-guidance-src/guides/performance/avoid-redundant-large-asset-downloads/demo.html@2aeadd7d4e5a4ed008e9eb01c071577fbe29fb2c": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "GoogleChromeLabs/web-ai-demos/cos-resource-fetcher/README.md@a990e9a33b7731294969036059ce23c713d71524": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "GoogleChromeLabs/web-ai-demos/cos-resource-fetcher/src/index.js@014734992c4876cc9cddd9af6e94c411b2a9c61a": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/README.md@dbfb9113d0642d03e059c53460afdb696a3c3759": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/index.bs@ef2f6f1529ca01213d70e9ff548cb31f115b77ed": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/relay-extension.js@22de008727b580b45dfe68156edd56fd8850d59b": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/awesome-cross-origin-storage/readme.md@30697539817ea268052df7afcc3f3f626ac4e3be": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/huggingface.js@9cc8552958e9c7c53d6dd4ed89716551a0aa8b14": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/browsers/cross-origin-storage-ladybird-plan.md@f4ffe5703fefa4940000c72698015fa3aaf49623": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/browsers/cross-origin-storage-webkit-plan.md@a630a3291f921e8626cfceba92aa785a604ba211": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/browsers/cross-origin-storage-firefox-plan.md@777439041b404eacdb332e0c5833f7084e1496d4": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/browsers/cross-origin-storage-chromium-plan.md@ae2182231a379f4498f6884c031389fd9806afbd": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/relay.html@3dc2f30628a80c52d355e7e039285f949e3af734": {
       "api": "new",
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -316,75 +184,12 @@
       "webrefHeader": false,
       "generated": false
     },
-    "web-ai-community/cross-origin-storage-extension/README.md@45b8323a069fedf91bfd28750938d8adb7c315ad": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/index.html@b3d853961aafe979d1d78f1cf85e6be0217d46ca": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/Chromium/README.md@3e3444bcb711dca8e8d604c22dede5a20d4728ac": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/awesome-cross-origin-storage/scripts/cos-usage-scan.mjs@3f2691a27b1ef4b9004161da2b5903dd8feb61c4": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": true,
-      "webrefHeader": true,
-      "generated": true
-    },
     "kripken/emscripten-site/_sources/docs/compiling/CrossOriginStorage.rst.txt@4640773a171269eb65d82ded34b51626803826d7": {
       "api": "new",
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": true
-    },
-    "tomayac/blogccasion/posts/2026/06/guest-blog-post-on-cross-origin-storage-in-transformersjs.md@432453af1b8394e810ca4167eb0012ffe269edaa": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-ad-blocking-demo/docs/index.html@025144bd01f39f206c3e065984cfb5734a5ccb3f": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-ad-blocking-demo/docs/demo.js@964aa084e3061ad15850c7e220977d137ebd2279": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/webnn-graph-key/README.md@8ac3774fc1407528015acc324b2625e4bfc9bde7": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-ad-blocking-demo/README.md@0dec946fa82c69163bb58672e8f386cc5e35bcbf": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
     },
     "kripken/emscripten-site/docs/compiling/CrossOriginStorage.html@751edf2583ca1374d8465369f80cfd26af32aeec": {
       "api": "new",
@@ -410,34 +215,6 @@
     "runvnc/tablefolk/libs/brain/engines/wllama-fast/index.js@919c359ec9e98b7dfd4d6d680671d162c09da3a3": {
       "api": "new",
       "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/google-fonts-cos/index-dynamic.html@2103256d02b4cc1b6c7ca55538a119303638777f": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/google-fonts-cos/cos-loader-static.js@e29cdd4d50e4d410bfce1333c5c06ebe81dd0f29": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-wpt/assets/runner.js@7853730ecc05bb52a15ccde46f9f25b1dea6f81a": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/google-fonts-cos/cos-loader-dynamic.js@ebe800e54ef26ef6218ec7322ef7472fd121a1b4": {
-      "api": "new",
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -554,93 +331,58 @@
       "webrefHeader": false,
       "generated": false
     },
-    "web-ai-community/cross-origin-storage-extension/docs/test-worker-shared.js@bf1ce396794bdc3126bf1e78ea6fe72109e71603": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/test-worker-module.js@24403f2220fdf15f9a4725da629a8e4c7b218ceb": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/test-worker-classic.js@aa9f3e5d1b1d77b9750d5a35a61b4cf4fc9b7e1e": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/e2e-test.chrome.mjs@af1cb01fc2ff2649d70b9647b2cc5800241ff69b": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/test.html@bfa221ec157d8ae3181bcb6e7bfd6864ccbb5736": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/test-legacy.html@9f3bcc8903f51f2ee743e30ff7ff39163bd813dc": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
     "NotAisu/Accessibility_Extension/test/ground-truth/injection/empty-title/chrome-samples/cos-demo__index.html--6.html@2229c1d7082d6b3575abdf649906a39e3b26ded2": {
       "api": "new",
-      "kind": "test",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "NotAisu/Accessibility_Extension/test/ground-truth/injection/empty-button/chrome-samples/cos-demo__index.html--92.html@c829b32b82232ee4320a87f9c4466b10e54d55ba": {
       "api": "new",
-      "kind": "test",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "NotAisu/Accessibility_Extension/test/ground-truth/injection/html-without-lang/chrome-samples/cos-demo__index.html--6.html@a403c77c273e086f85570778bbd0de8b118bc96f": {
       "api": "new",
-      "kind": "test",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "NotAisu/Accessibility_Extension/test/ground-truth/injection/invalid-html-lang/chrome-samples/cos-demo__index.html--6.html@9e3761156364294392889a9f4c534abd68b282f4": {
       "api": "new",
-      "kind": "test",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "NotAisu/Accessibility_Extension/test/ground-truth/injection/invalid-autocomplete/chrome-samples/cos-demo__index.html--87.html@7588f72537d554904f7be3821de5cf404f378459": {
       "api": "new",
-      "kind": "test",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "NotAisu/Accessibility_Extension/test/ground-truth/injection/img-without-alt/chrome-samples/io2026-chrome-built-in-ai-demos__index.html--1323.html@2f00f8c73c0c07f1741a60fb9f1484fd51d996dd": {
       "api": "new",
-      "kind": "test",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "NotAisu/Accessibility_Extension/test/ground-truth/injection/invalid-aria-prop/chrome-samples/io2026-chrome-built-in-ai-demos__index.html--1324.html@fb07b2a89f05e55eef5c19871038ed39d2136ce4": {
+      "api": "new",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "NotAisu/Accessibility_Extension/test/ground-truth/injection/unsupported-aria-prop/chrome-samples/io2026-chrome-built-in-ai-demos__index.html--1023.html@6dbcb44f2e1002cfbd40403f94fcb579835ac624": {
       "api": "new",
-      "kind": "test",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -799,20 +541,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "GoogleChrome/modern-web-guidance-src/features/tmp-cross-origin-storage.md@07f4b0650f034f1f33bdd483c2646dfbff31c9d6": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "GoogleChrome/modern-web-guidance-src/guides/performance/load-shared-resources-declaratively/guide.md@92cf4050967a6975b409c49ebac10e19ce052fe2": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "huggingface/transformers.js/packages/transformers/src/utils/cache/CrossOriginStorageCache.js@280f0600ca8d11657ef9990707a5a40131b7f321": {
       "api": "old",
       "kind": "code",
@@ -827,35 +555,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "GoogleChrome/modern-web-guidance-src/guides/performance/load-shared-resources-declaratively/demo.html@0886912f1769f8e5cba189df7d596d3aef236c3e": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "GoogleChrome/modern-web-guidance-src/features/pending-web-features.json@a785eca473a55149521cd040312b8c718309d3d1": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/SVGcode/docs/index.html@96b654d4c753eb95d1a51be67ad299505e7c6e61": {
-      "api": "old",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "software-mansion/popcorn/popcorn/js/src/popcorn.ts@68eab0c7b44f23b3ba85bf1b46f41fb49f82c3f9": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/options.js@962a2de3e21df390c458ebd4d8576d04c3f73161": {
       "api": null,
       "kind": "code",
       "oldApiToo": false,
@@ -883,57 +583,8 @@
       "webrefHeader": false,
       "generated": false
     },
-    "WICG/cross-origin-storage/browsers/cross-origin-storage-implementation-notes.md@e687eba7a09f0b6d6f6943fa0ea3dc68d2a40cb4": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "narcotic-sh/parakeet.wgsl/DOCS.md@e213daac8234dd104cd75643b2b29f1c0a15097b": {
       "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/migration.js@f536c654d6a84b8f80ed225d055b721adc815b4a": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/content.js@3bb7f4cae9f46ac7892771234fb0ab245e313166": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/options.html@77551dbe8b788813a7c92843483c1fd19e1567b3": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/native-migration.js@9eb675b5f42efea5d02fb98c87a5a6744c2f2f7c": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/main-world.js@98849120fbcbaf03337598547e621b88a447e9d9": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/progressive-enhancement-demo.html@343472e72c64090de81ff16c7b8533c241f850d8": {
-      "api": "new",
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
@@ -953,6 +604,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "snowlark-browser/snowlark/crates/snowlark-bindings/src/generated/OMITTED.txt@57d0b8eb8ea855bea081f192e7320e64328ebe92": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
     "rebots-online/EnZIME-v4/VENDOR/wllama3/src/storage/cos.ts@1214eaa7a77dcf9547fe95be83f8c138599c1a26": {
       "api": "old",
       "kind": null,
@@ -961,27 +619,6 @@
       "generated": false
     },
     "Hugging-Face-KREW/hugging-face-krew.github.io/_posts/2026-06-23-cross-origin-storage.md@b08d09d01d59a09691241f55a21b870afd54a5ae": {
-      "api": "old",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "snowlark-browser/snowlark/crates/snowlark-bindings/src/generated/OMITTED.txt@57d0b8eb8ea855bea081f192e7320e64328ebe92": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": true
-    },
-    "tomayac/react-app-cos/docs/index.html@2542ba8b03affa8bf269e51c316ca0a0bb04bbae": {
-      "api": "old",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/voice-transcriber-for-whatsapp/README.md@83aee4ee385f3c2d43b8d5ae8e8b0673def89efa": {
       "api": "old",
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -1016,20 +653,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/awesome-browser-specs/docs/index.html@16ca0c700bb81949445871129ec97dc087d44c22": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/just-mute/src/cos.js@eca2b47c9c417a251a259d236c025e1c3565a2c2": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
     "andreibesleaga/webaiassist/docs/THREAT-MODEL.md@ae0f5ed574d0d4081f20e62f05890f1a26c5824f": {
       "api": null,
       "kind": "docs or mention",
@@ -1051,23 +674,9 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/voice-transcriber-for-whatsapp/extension/src/main-world.js@ad0b46f3010ddc0755c61d8cc40cb6b6909d4a70": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "LevyBytes/AI-SKILL-modern-web-development/references/feature-support/tmp-cross-origin-storage.md@568235a1ea7a7b0784483ceecebac9556ec91b06": {
       "api": null,
       "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/google-fonts-cos/index-static.html@82cb8682dbc78b430ccc686e63601a11793c9950": {
-      "api": "new",
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -1114,13 +723,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/voice-transcriber-for-whatsapp/extension/src/worker.js@f9e2592d48e81672574bc728706f4310fb2e5721": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
     "LevyBytes/AI-SKILL-modern-web-development/references/rendering-performance/avoid-redundant-large-asset-downloads/overview.md@193aab30dd2bd318a140849f9ec85adcf21d9557": {
       "api": "new",
       "kind": null,
@@ -1156,16 +758,9 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/google-fonts-cos/README.md@99fed94341bf10f057e5f6bc0a1a9bcf220fbc28": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "Priyatham-sai-chand/NinjaVerse/src/mlc/tvm/artifact_cache.ts@4c2932739e9f291b2dc2c12fe2318277625ab0a9": {
       "api": "old",
-      "kind": "code",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -1319,7 +914,7 @@
     },
     "ShaneLiu04/quadro-rtx-5000-ai-infra/04-kernel-dsl/tvm/web/src/artifact_cache.ts@1fd5c435475499e1236d5af6a7c737ef7e1e7c38": {
       "api": "old",
-      "kind": "code",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -1387,13 +982,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/throw-aways/prebid-cos-demo/index.html@6d8b9e54850f60c03226be94e2268dbae83244b3": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "dariofenoglio98/WebAgents/chrome-agent-browser/src/extension/execution/engine-protocol.ts@342d2dd31c3324e5178dccaeba6493bda591f0ae": {
       "api": null,
       "kind": "code",
@@ -1403,7 +991,7 @@
     },
     "918822019/918822019.github.io/project/tvm/web/src/artifact_cache.ts@9b4494805b3d7066dd00a155c252422fcf6be5b6": {
       "api": "old",
-      "kind": "code",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -1457,14 +1045,14 @@
       "webrefHeader": false,
       "generated": false
     },
-    "leemiracle/work4ai/\u8bb2\u900f\u5b87\u5b99/05-\u4fa6/\u8bb2\u900fhuggingface/transformers.js/deepwiki/16.3-advanced-usage-patterns.md@03aba60db327a8b023becc025c84be2a8be7666c": {
+    "leemiracle/work4ai/讲透宇宙/05-侦/讲透huggingface/transformers.js/deepwiki/16.3-advanced-usage-patterns.md@03aba60db327a8b023becc025c84be2a8be7666c": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
-    "aitobox/ATBInsight/docs/blog/posts/2026-08-07-\u5728 Transformers.js \u4e2d\u4f53\u9a8c\u63d0\u8bae\u4e2d\u7684\u8de8\u57df\u5b58\u50a8 API.md@4228371a215de322f85a2a521cab0c51cf9df3ea": {
+    "aitobox/ATBInsight/docs/blog/posts/2026-08-07-在 Transformers.js 中体验提议中的跨域存储 API.md@4228371a215de322f85a2a521cab0c51cf9df3ea": {
       "api": "old",
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -1513,7 +1101,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "leemiracle/work4ai/\u8bb2\u900f\u5b87\u5b99/05-\u4fa6/\u8bb2\u900fhuggingface/transformers.js/deepwiki/7.2-caching-architecture.md@5063d349e450a8d4570867db81b51c326a32ebc3": {
+    "leemiracle/work4ai/讲透宇宙/05-侦/讲透huggingface/transformers.js/deepwiki/7.2-caching-architecture.md@5063d349e450a8d4570867db81b51c326a32ebc3": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -1583,6 +1171,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "miksula/supa-app/.agents/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@2e6fd3e71b91280cc3dbf7c34b00e576a0324611": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "manthedan/0x88/public/runtimes/centipawn-tvmjs-webgpu/bt4-soap-rem-c19000-final/f32/v1-baseline/tvmjs.bundle.js@0376f2e36e6950f9d694e07a822169d4fe46ccbd": {
       "api": null,
       "kind": null,
@@ -1625,20 +1220,6 @@
       "webrefHeader": false,
       "generated": true
     },
-    "web-ai-community/cross-origin-storage-extension/docs/test-worker-nested.js@16124a2dbe5dc851dd554ca7385e3aa172ef4b54": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/test-import-attribute-module.js@523f02edaf17657703a2647324c68babc85b9c2e": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "narcotic-sh/parakeet.wgsl/test/model-cache.test.ts@0310915ba8d909a64111b1782f94a8749b759781": {
       "api": "new",
       "kind": "test",
@@ -1649,13 +1230,6 @@
     "CD-LC/vegaduta/web/app/lib/edge/tier1.weights.test.ts@714df8ef9064c02c82de2ef81bde92d6d130cd7c": {
       "api": null,
       "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "NotAisu/Accessibility_Extension/test/ground-truth/injection/invalid-aria-prop/chrome-samples/io2026-chrome-built-in-ai-demos__index.html--1324.html@fb07b2a89f05e55eef5c19871038ed39d2136ce4": {
-      "api": "new",
-      "kind": "test",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -1758,20 +1332,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "miksula/supa-app/.agents/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@2e6fd3e71b91280cc3dbf7c34b00e576a0324611": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/just-mute/patches/vite-plugin-cross-origin-storage@2.0.3.patch@cb6fd830c3237748dd3345f06e72a809480762e1": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
     "Nzettodess/Awesome-Agent-Skills/Skills/Frontend/modern-web-guidance-main/modern-web-guidance-main/guides/performance/load-shared-resources-declaratively/demo.html@0886912f1769f8e5cba189df7d596d3aef236c3e": {
       "api": null,
       "kind": null,
@@ -1789,13 +1349,6 @@
     "emscripten-core/emscripten/test/setup_cos_extension.py@970ffdf40b7c17d1db11b011e23c7a01206672cf": {
       "api": null,
       "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/test-fetch-worker.js@ca41bf015d13b505aef35ca3aa2f82f59d07ed3b": {
-      "api": null,
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -2017,13 +1570,6 @@
       "webrefHeader": true,
       "generated": true
     },
-    "GoogleChromeLabs/web-ai-demos/built-in-ai-task-apis-polyfills/decision-model-api-polyfill.js@9d6dfa007886953a78b9c0267ce05135cfa2d825": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "tinybrowser-dev/tinybrowser/crates/renderer/src/js/scripts/web/navigator.js@e07805bd4689cc9e839b8f496e1f371bde02d315": {
       "api": null,
       "kind": "code",
@@ -2156,13 +1702,6 @@
       "oldApiToo": false,
       "webrefHeader": true,
       "generated": true
-    },
-    "tomayac/just-mute/src/kokoro.js@827f77350e3f60eda08e33736a07c4704b11b3ac": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
     },
     "dontcallmedom/webidlpedia/globals/DedicatedWorker.html@df88c205b466a31b1dbd4761550b194f3c5f457b": {
       "api": null,
@@ -2299,7 +1838,7 @@
     },
     "trunksio/engram-md/esm/storage/cos.d.ts@ea6e9be54c9b59302268f04946342fc19865d8cf": {
       "api": "old",
-      "kind": "code",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -2395,13 +1934,6 @@
       "webrefHeader": false,
       "generated": true
     },
-    "tomayac/voice-transcriber-for-whatsapp/extension/src/options.js@7f96e270bbe48f416090f4fffacb691d14f0a5c5": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "dontcallmedom/webidlpedia/globals/ServiceWorker.html@6a946ca23beaa50e6680e51e59612c357d9a4b84": {
       "api": null,
       "kind": "docs or mention",
@@ -2410,6 +1942,13 @@
       "generated": false
     },
     "Zolmid/Weld/tools/cr/M157_codehealth.md@613ed083e1c879e0a8e7f252700351c7f85e75d9": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "dontcallmedom/webidlpedia/globals/RTCIdentityProvider.html@1038d0099d19b0add920862eb0f11d693ca5b8e2": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -2542,13 +2081,6 @@
       "webrefHeader": true,
       "generated": true
     },
-    "tomayac/cos-ad-blocking-demo/extension/manager.js@671f59fdcb60cd5d76b09d27152121baf5ac71ec": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "miroljub1995/iskra/src/Iskra.StdWeb/AutoGen/WorkerNavigator.cs@96deccf2c34170af51b4d09f558830eee3d5b8fb": {
       "api": null,
       "kind": "code",
@@ -2563,21 +2095,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "web-ai-community/cross-origin-storage-extension/background.js@b3f3e2c087d7b893d4c8bcd855b242d1bde5341a": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "kripken/emscripten-site/docs/compiling/Deploying-Pages.html@ae4da9a7763a779f32760ace56f42dd50da5ef30": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "dontcallmedom/webidlpedia/globals/RTCIdentityProvider.html@1038d0099d19b0add920862eb0f11d693ca5b8e2": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -2787,13 +2305,6 @@
       "webrefHeader": true,
       "generated": false
     },
-    "WICG/cross-origin-storage/cross-origin-storage.d.ts@cfc5ccbeb11cf99d10b1d0810bdd9150a9cefde0": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
     "ECOSYSTEMAX/TRANSFORMER.JS-V4/packages/transformers/src/utils/cache/cross-origin-storage.d.ts@a66ec31d72acf6f24ac15fb4326fd3709f3715a9": {
       "api": "old",
       "kind": "code",
@@ -2808,13 +2319,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "WICG/cross-origin-storage/browsers/cross-origin-storage-servo-plan.md@8d9a6bd42f2ab6f74567f99d1d5903cb01e611ea": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "BrowserWorks/waterfox/mobile/android/fenix/app/src/main/res/values-sq/strings.xml@8f1516d660d40fe358a30db0e3346278786e167f": {
       "api": null,
       "kind": "docs or mention",
@@ -2824,13 +2328,6 @@
     },
     "BrowserWorks/waterfox/mobile/android/fenix/app/src/main/res/layout/quicksettings_permissions.xml@7d1d92fce418da241ce282d737db3ad1c9f355a2": {
       "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/extensions/extensions-explainer.md@78fe894c1444b959e4bd324bec912b7afcd4bdaa": {
-      "api": "new",
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
@@ -8226,20 +7723,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "WICG/cross-origin-storage/CONTRIBUTING.md@6024d7f89caa189840bf26aefca232d4bbec69b2": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/browsers/default-prompt.txt@8a4edd7b2f4f7db95b643934436ab9155f5d04be": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "webmachinelearning/meetings/telcons/2026-08-27-wg-agenda.md@1904c659c70f8267d085f57ee9f33dfe0164f673": {
       "api": "link",
       "kind": "docs or mention",
@@ -8261,21 +7744,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "WICG/cross-origin-storage/public-hash-list/phl-explainer.md@8dfde712b9cae680ddda1a4fabdbf7bf4800f859": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "webmachinelearning/meetings/2026-10-26-dublin/README.md@d263486cadda937505585609eab6a2dffff4bb47": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/public-hash-list/implementation/README.md@dc752c576ced83ee9750f3221a995a0b941ccda9": {
       "api": "link",
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -8303,13 +7772,6 @@
       "webrefHeader": true,
       "generated": true
     },
-    "WICG/cross-origin-storage/public-hash-list/implementation/shared.js@35c068efec30fcb9ac322970c20f796dcf416338": {
-      "api": "link",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "join-the-flock/flock/packages/flutter_tools/lib/src/build_system/targets/web.dart@9a9ddf621b4220c69cafa68b7326b15982e4cb0c": {
       "api": "link",
       "kind": null,
@@ -8319,13 +7781,6 @@
     },
     "w3c/webref/ed/algorithms/cross-origin-storage.json@bacd656966f7e903236865a44faf75fef0f9928c": {
       "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/public-hash-list/implementation/index.html@9c663e0ff4ae52ebb7edefb6e7af45193887a041": {
-      "api": "link",
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
@@ -8355,13 +7810,6 @@
     "JinDX/jp.htmlspecs.com/README.md@da227f17b864af451922984ce3b1bdc64ee3b7db": {
       "api": "link",
       "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/resource-manager.js@8326c7dbf6f0faf9b29c2df7fb98364515eef3f2": {
-      "api": "link",
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -8548,21 +7996,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/cos-wpt/README.md@dd74f644ff9d8adf6d38953f4fe82ea9dc1e4740": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": true
-    },
     "w3c/groups/cg/wicg/repositories.json@4cec0bcd3391ac31dcf9eb8147f4c5f38114c28b": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-wpt/index.html@6805c185dcd128465623f59d9c35ab2710e06f3c": {
       "api": "link",
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -8702,23 +8136,9 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/awesome-cross-origin-storage/contributing.md@0de4016d0a8d9b2521ebfdc6dbc73783827d29e6": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "danielroe/cross-origin-storage/packages/nuxt-cos/README.md@46b2497391cd63b0459d3f11f8e8d7be80046192": {
       "api": "link",
       "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/public-hash-list/implementation/jsdelivr.js@598abaf3dbee18b1d71b80c87f2b7cdf159490b0": {
-      "api": "link",
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -8737,20 +8157,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "web-ai-community/cross-origin-storage-extension/phl-details.html@9c0f2a0fdd3025605b41176e634834be8fe607d4": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/public-hash-list/implementation/huggingface.js@f13c526a797c0ff4c2a21ed7b31890d26472219e": {
-      "api": "link",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "danielroe/cross-origin-storage/demo/app.vue@a075ceac448a52772505813e65550403b6e689d4": {
       "api": "link",
       "kind": "code",
@@ -8758,37 +8164,9 @@
       "webrefHeader": false,
       "generated": false
     },
-    "web-ai-community/cross-origin-storage-extension/PRIVACY.md@5fb18a72ed31beccb8564bd4e2ea689975230dc2": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/three-starter/README.md@0d684b49b0ef0f722f0e799f2631db2645bf5a98": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "danielroe/cross-origin-storage/packages/vite-plugin-cross-origin-storage/README.md@4cccf05c3bc69cdcf3f3cd48ad54eb62fc3d55d3": {
       "api": "link",
       "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/telemetry-notice.html@f1c3e4ac3f2871bc27411bff9eb370ab5511f720": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/public-hash-list.js@452228471987d0e83229cdce5268cdbe449db79f": {
-      "api": "link",
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -8808,13 +8186,6 @@
       "generated": false
     },
     "edtechdev/notes/journals/2026_06_25.md@9ad9b7a18ead0da7699678a93273147ad1856542": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/awesome-browser-specs/README.md@3d48c0351d1cdeaeba46de394d55a262b5bb1a56": {
       "api": "link",
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -9045,42 +8416,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "web-ai-community/cross-origin-storage-extension/docs/pe-demo-script.js@66d9ff8d41d2d84a2ec1c4ea69b5ea299552aacb": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-ad-blocking-demo/extension/popup.js@0108c8b2a7441514567c374a78ec20d339fdaa68": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/voice-transcriber-for-whatsapp/extension/src/engine.js@b858764417d90d8527d8b25c44c582d9a68c8cff": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/publish-extension.mjs@e4e4926692f3cefe7ad202aeea457e05f1380c65": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "ECOSYSTEMAX/TRANSFORMER.JS-V4/packages/transformers/src/utils/cache.js@ca8e27971fc22e133ff3d88fd081842f8baba786": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "GoogleChromeLabs/web-ai-demos/prompt-api-polyfill/backends/transformers.js@35e4273d6ecf3da0a5f92535a6c586d012d879ec": {
       "api": null,
       "kind": "code",
       "oldApiToo": false,
@@ -9094,21 +8430,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "GoogleChromeLabs/web-ai-demos/built-in-ai-task-apis-polyfills/semantic-embedder-worker.js@3acb8e37b4bcfa093b0739c12843df164ea30782": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "pansong291/ashe/js/tampermonkey/thz-helper.js@d570819f993b0353ee1da2781d91130f47aceb48": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/voice-transcriber-for-whatsapp/extension/src/shared.js@11b4efd63b227129c9e3bc8082401124d1e5994d": {
       "api": null,
       "kind": "code",
       "oldApiToo": false,
@@ -9123,20 +8445,6 @@
       "generated": false
     },
     "otama-homelab/image-studio/tools/browser-library-adapter/transformers-prepare.mjs@39cfa4358b96cb795992caead7db7f2bb63bf834": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/test-declarative-script.js@0db5fc656e1d0ce72edc4e1914615c395b00b284": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cross-origin-storage-extension/docs/test-declarative-order-1.js@002610b55fdc5ace64e942c2607e69b156da24ab": {
       "api": null,
       "kind": "code",
       "oldApiToo": false,
@@ -9325,6 +8633,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "AlmazovAN/iScribe/src/ml/worker.ts@b3850e9d5557c0c9c42cf01c0cb8434740194e93": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "Cognitioau/hack5/src/adapters/inference/runtime.ts@d7f5ace25f6ec5db930d2702ee4b598570c25fe2": {
       "api": null,
       "kind": "code",
@@ -9446,14 +8761,14 @@
     },
     "Priyatham-sai-chand/NinjaVerse/src/mlc/tvm/index.ts@1f3a45407697337521b0c906b44a2ed2e0ad91d9": {
       "api": null,
-      "kind": "code",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "ShaneLiu04/quadro-rtx-5000-ai-infra/04-kernel-dsl/tvm/web/src/index.ts@af6df9d4a942dc265f926fdedb64a5b909c608ed": {
       "api": null,
-      "kind": "code",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -9474,7 +8789,7 @@
     },
     "918822019/918822019.github.io/project/tvm/web/src/index.ts@32450a7779ba87af0c1e4dcafa911eaf838f8b99": {
       "api": null,
-      "kind": "code",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -9633,13 +8948,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "GoogleChrome/samples/transformersjs-automatic-speech-recognition/index3.html@0aec510ac0c82747f98a315693bbeb5268ad3ebf": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "kripken/emscripten-site/docs/porting/index.html@2ac0dddb7ce585a41ef3f718f647033975b4e6f0": {
       "api": null,
       "kind": "docs or mention",
@@ -9711,13 +9019,6 @@
       "generated": false
     },
     "kripken/emscripten-site/docs/contributing/index.html@84c58454b1b7574fb08bff6223d4ca1e6084d42d": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-ad-blocking-demo/extension/manager.html@8181da58fa7e6e997dcfa5628c7cab955fffe108": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -10263,20 +9564,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/voice-transcriber-for-whatsapp/extension/src/options.html@69c31152d356cfbb2001d1d79b54eedf5d45006e": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/voice-transcriber-for-whatsapp/test/worker.html@d5b1edfa980a7315ce55fb42b4b25902235d2667": {
-      "api": null,
-      "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "kripken/emscripten-site/docs/getting_started/test-suite.html@e1a589ef711614466ef51d3d3fdb182c43351bd5": {
       "api": null,
       "kind": "docs or mention",
@@ -10294,20 +9581,6 @@
     "pansong291/js-lib/test/cross-origin-storage-client.html@ed92d847741d808e07da37bfe4dc199f9cd96744": {
       "api": null,
       "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "GoogleChrome/modern-web-guidance-src/guides/performance/load-shared-resources-declaratively/expectations.md@c1936d276260e143d7c35f097f59065cf39832fe": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/security-privacy-questionnaire.md@04a7f3e4a8ae0921f8eefd3bacb48218ff51c0a1": {
-      "api": "new",
-      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -10438,7 +9711,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "leemiracle/work4ai/\u8bb2\u900f\u5b87\u5b99/03-\u67e5/\u8bb2\u900fTVM/deepwiki/7.2-webassembly-runtime.md@653ddfe618ff257cb61d943d3f54952fc90aec36": {
+    "leemiracle/work4ai/讲透宇宙/03-查/讲透TVM/deepwiki/7.2-webassembly-runtime.md@653ddfe618ff257cb61d943d3f54952fc90aec36": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -10481,7 +9754,6 @@
     "francisreubenr-rvu/sih-2026": false,
     "francisreubenr-rvu/sih26171-dhristi": false,
     "frederico-kluser/som-webcore": false,
-    "GoogleChromeLabs/web-ai-demos": false,
     "gtcode-dot-com/l": false,
     "guileen/mioa-core": false,
     "hazadus/bluesky-reader": false,
@@ -10506,29 +9778,24 @@
     "speced/bikeshed-data": false,
     "specinfra/specref": false,
     "srivtx/deepforge": false,
-    "tomayac/awesome-browser-specs": false,
-    "tomayac/awesome-cross-origin-storage": false,
-    "tomayac/blogccasion": false,
-    "tomayac/Chromium": false,
-    "tomayac/cos-ad-blocking-demo": false,
-    "tomayac/cos-wpt": false,
-    "tomayac/google-fonts-cos": false,
-    "tomayac/react-app-cos": false,
-    "tomayac/SVGcode": false,
-    "tomayac/three-starter": false,
-    "tomayac/voice-transcriber-for-whatsapp": false,
-    "tomayac/webnn-graph-key": false,
     "w3c-cg/pm-kr": false,
     "w3c/browser-specs": false,
     "w3c/groups": false,
     "w3c/webref": true,
-    "web-ai-community/cross-origin-storage-extension": false,
     "webmachinelearning/meetings": false,
     "WebPerformanceReport/wpr-perf-links": false,
-    "WICG/cross-origin-storage": false,
     "WICG/wicg.github.io": false,
     "wuhy80/llm-news-tracker": false,
     "xiaoqianran/huggingface-docs": false
   },
-  "version": 2
+  "version": 3,
+  "feed": [
+    {
+      "id": "new:eqrion/webidl-index",
+      "title": "eqrion/webidl-index: getFileHandle()",
+      "link": "https://github.com/eqrion/webidl-index",
+      "date": "Wed, 25 Nov 2026 19:03:20 GMT",
+      "html": "<p>docs or mention, ★1</p><ul><li><a href=\"https://github.com/eqrion/webidl-index/blob/9380e19b14725988fef44cbeb5a972ecf095413f/data/snapshots/blink/157.json\">data/snapshots/blink/157.json</a></li><li><a href=\"https://github.com/eqrion/webidl-index/blob/9380e19b14725988fef44cbeb5a972ecf095413f/data/snapshots/blink/158.json\">data/snapshots/blink/158.json</a></li></ul>"
+    }
+  ]
 }
