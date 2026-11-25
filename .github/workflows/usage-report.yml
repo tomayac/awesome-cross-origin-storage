@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 concurrency:
   group: usage-report
@@ -40,3 +41,9 @@ jobs:
           git commit -m 'Update usage report'
           git pull --rebase
           git push
+      - name: Request a GitHub Pages build
+        continue-on-error: true
+        # Pushes made with the built-in token may not start a Pages build.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST repos/${{ github.repository }}/pages/builds

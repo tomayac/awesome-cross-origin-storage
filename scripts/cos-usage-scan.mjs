@@ -136,8 +136,8 @@ function classify(path, text) {
   const name = p.split('/').pop();
   if (/(^|\/)(\.agents|skills)\//.test(p)) return null;
   // WebIDL files are copies of the spec's IDL, as synced by webref into
-  // web-platform-tests and the like.
-  if (/\.idl$/.test(name)) return null;
+  // web-platform-tests and the like. Paths naming webref hold its data.
+  if (/\.idl$/.test(name) || /(^|\/)webref\//.test(p)) return null;
   if (GUIDANCE.test(p) || GUIDANCE.test(text.slice(0, 5_000))) return null;
   if (
     /(^|\/)(vendor|vendored|third_party|node_modules|libs?|dist|runtimes?)\//.test(
@@ -147,7 +147,7 @@ function classify(path, text) {
     /wllama|tvmjs/.test(name)
   )
     return null;
-  if (/\.(md|mdx|rst|txt|json|ya?ml|csv|xml)$/.test(name))
+  if (/\.(md|mdx|rst|txt|json|ya?ml|csv|xml|data)$/.test(name))
     return 'docs or mention';
   if (
     /\.html?$/.test(name) &&
@@ -294,9 +294,16 @@ async function main() {
             ),
         ),
     );
+  // A copy of a copy is reported against the original at the end of the chain.
+  // `copyOf()` only ever points at a repository ranked higher, so the chain
+  // ends.
+  const original = (r) => {
+    for (let o = copyOf(r); o; o = copyOf(o)) r = o;
+    return r;
+  };
   const copies = candidates
-    .map((r) => ({ r, of: copyOf(r) }))
-    .filter((c) => c.of);
+    .filter((r) => copyOf(r))
+    .map((r) => ({ r, of: original(r) }));
   const external = candidates.filter((r) => !copies.some((c) => c.r === r));
 
   // 4. Report. Seen entries are keyed by API, so a repository that migrates
