@@ -138,7 +138,8 @@
     "new:tomayac/Chromium",
     "link:tomayac/three-starter",
     "new:tomayac/webnn-graph-key",
-    "link:xiaoqianran/huggingface-docs"
+    "link:xiaoqianran/huggingface-docs",
+    "new:eqrion/webidl-index"
   ],
   "files": {
     "flutter/flutter/engine/src/flutter/lib/web_ui/flutter_js/src/instantiate_wasm.js@9dc02276209832ebc2186b7bfba338b80c0525fb": {
@@ -180,6 +181,13 @@
       "api": "new",
       "kind": "code",
       "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "chromium/chromium/content/browser/cross_origin_storage/cross_origin_storage_browsertest.cc@a35db694c57589b356a3cc13c55abbeb4df77b71": {
+      "api": "new",
+      "kind": "code",
+      "oldApiToo": true,
       "webrefHeader": false,
       "generated": false
     },
@@ -235,13 +243,6 @@
     "WICG/cross-origin-storage/README.md@dbfb9113d0642d03e059c53460afdb696a3c3759": {
       "api": "new",
       "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "join-the-flock/flock/engine/src/flutter/lib/web_ui/flutter_js/src/instantiate_wasm.js@9dc02276209832ebc2186b7bfba338b80c0525fb": {
-      "api": "new",
-      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -337,6 +338,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "tomayac/awesome-cross-origin-storage/scripts/cos-usage-scan.mjs@3f2691a27b1ef4b9004161da2b5903dd8feb61c4": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": true,
+      "webrefHeader": true,
+      "generated": true
+    },
     "kripken/emscripten-site/_sources/docs/compiling/CrossOriginStorage.rst.txt@4640773a171269eb65d82ded34b51626803826d7": {
       "api": "new",
       "kind": "docs or mention",
@@ -379,13 +387,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/cos-slides-lightning-talk/README.md@d398e3e600de27d83a00ed984d5f7a51a249eeeb": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "kripken/emscripten-site/docs/compiling/CrossOriginStorage.html@751edf2583ca1374d8465369f80cfd26af32aeec": {
       "api": "new",
       "kind": "docs or mention",
@@ -407,13 +408,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "paulirish/guidance/guides/performance/avoid-redundant-large-asset-downloads/expectations.md@e62947f0fe444b986e406e0524c3a7079bbbf71e": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "runvnc/tablefolk/libs/brain/engines/wllama-fast/index.js@919c359ec9e98b7dfd4d6d680671d162c09da3a3": {
       "api": "new",
       "kind": null,
@@ -424,27 +418,6 @@
     "tomayac/google-fonts-cos/index-dynamic.html@2103256d02b4cc1b6c7ca55538a119303638777f": {
       "api": "new",
       "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-slides-lightning-talk/assets/js/devtools.js@1b1757e978c8d9e143e0e976d383b7122b69c6cf": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cos-slides-lightning-talk/assets/js/devtools.js@1b1757e978c8d9e143e0e976d383b7122b69c6cf": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Boriken-Dev/flutter/engine/src/flutter/lib/web_ui/flutter_js/src/instantiate_wasm.js@9dc02276209832ebc2186b7bfba338b80c0525fb": {
-      "api": "new",
-      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -477,13 +450,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "paulirish/guidance/guides/performance/avoid-redundant-large-asset-downloads/guide.md@a43e42bc3b9259c0ce93cfebff2d48fa8f9f5652": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "LevyBytes/AI-SKILL-modern-web-development/references/rendering-performance/avoid-redundant-large-asset-downloads-criteria.md@9e69ffc0ed3da32f9ec5b32a0a2a31fbd5480235": {
       "api": "new",
       "kind": null,
@@ -491,42 +457,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "LevyBytes/AI-SKILL-chrome-extensions/references/rendering-performance/avoid-redundant-large-asset-downloads-criteria.md@9e69ffc0ed3da32f9ec5b32a0a2a31fbd5480235": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "LevyBytes/AI-SKILL-tauri-develop/references/rendering-performance/avoid-redundant-large-asset-downloads-criteria.md@9e69ffc0ed3da32f9ec5b32a0a2a31fbd5480235": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "LevyBytes/AI-SKILL-modern-web-development/references/rendering-performance/avoid-redundant-large-asset-downloads/example-code.md@c6fbf7f7cfcc0c9607fc18cb8ecee843c652af0a": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "LevyBytes/AI-SKILL-chrome-extensions/references/rendering-performance/avoid-redundant-large-asset-downloads/example-code.md@c6fbf7f7cfcc0c9607fc18cb8ecee843c652af0a": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "LevyBytes/AI-SKILL-tauri-develop/references/rendering-performance/avoid-redundant-large-asset-downloads/example-code.md@c6fbf7f7cfcc0c9607fc18cb8ecee843c652af0a": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "paulirish/guidance/guides/performance/avoid-redundant-large-asset-downloads/demo.html@2aeadd7d4e5a4ed008e9eb01c071577fbe29fb2c": {
       "api": "new",
       "kind": null,
       "oldApiToo": false,
@@ -708,13 +639,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "NotAisu/Accessibility_Extension/test/ground-truth/injection/invalid-aria-prop/chrome-samples/io2026-chrome-built-in-ai-demos__index.html--1324.html@fb07b2a89f05e55eef5c19871038ed39d2136ce4": {
-      "api": "new",
-      "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "NotAisu/Accessibility_Extension/test/ground-truth/injection/unsupported-aria-prop/chrome-samples/io2026-chrome-built-in-ai-demos__index.html--1023.html@6dbcb44f2e1002cfbd40403f94fcb579835ac624": {
       "api": "new",
       "kind": "test",
@@ -793,6 +717,69 @@
       "generated": false
     },
     "tm000/AINewsApp/src/main/resources/static/vendor/wllama/index.js@b4990495e38f1aaeaf2c3bd675e6d8439ab44b2d": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Boriken-Dev/flutter/engine/src/flutter/lib/web_ui/flutter_js/src/instantiate_wasm.js@9dc02276209832ebc2186b7bfba338b80c0525fb": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "join-the-flock/flock/engine/src/flutter/lib/web_ui/flutter_js/src/instantiate_wasm.js@9dc02276209832ebc2186b7bfba338b80c0525fb": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "paulirish/guidance/guides/performance/avoid-redundant-large-asset-downloads/expectations.md@e62947f0fe444b986e406e0524c3a7079bbbf71e": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "paulirish/guidance/guides/performance/avoid-redundant-large-asset-downloads/guide.md@a43e42bc3b9259c0ce93cfebff2d48fa8f9f5652": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "paulirish/guidance/guides/performance/avoid-redundant-large-asset-downloads/demo.html@2aeadd7d4e5a4ed008e9eb01c071577fbe29fb2c": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-tauri-develop/references/rendering-performance/avoid-redundant-large-asset-downloads-criteria.md@9e69ffc0ed3da32f9ec5b32a0a2a31fbd5480235": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-chrome-extensions/references/rendering-performance/avoid-redundant-large-asset-downloads-criteria.md@9e69ffc0ed3da32f9ec5b32a0a2a31fbd5480235": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-tauri-develop/references/rendering-performance/avoid-redundant-large-asset-downloads/example-code.md@c6fbf7f7cfcc0c9607fc18cb8ecee843c652af0a": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-chrome-extensions/references/rendering-performance/avoid-redundant-large-asset-downloads/example-code.md@c6fbf7f7cfcc0c9607fc18cb8ecee843c652af0a": {
       "api": "new",
       "kind": null,
       "oldApiToo": false,
@@ -1002,13 +989,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/cos-slides-lightning-talk/assets/js/cos.js@e44b4eb2a2973fda42f612eccdae20e34f6cf9f3": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "SysAdminDoc/BetterTTS/src/lib/runtime-readiness.ts@668958576e41325e6612085d1539753bc1b786b7": {
       "api": "old",
       "kind": null,
@@ -1019,13 +999,6 @@
     "adelpro/quranlm/README.md@ee16f63d9931213cff96deac2db3c7e39c0fb8dc": {
       "api": null,
       "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-slides-lightning-talk/offline/games/three-doom/index.html@f7f2473da8f602bfeb38511ab7507a56b2dd3f02": {
-      "api": "new",
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -1044,13 +1017,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/cos-slides-lightning-talk/offline/games/three-quake/index.html@f3dccb53f7e02fcb20f9b7c005bdacf089ac8fa3": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "tomayac/awesome-browser-specs/docs/index.html@16ca0c700bb81949445871129ec97dc087d44c22": {
       "api": "new",
       "kind": "docs or mention",
@@ -1062,27 +1028,6 @@
       "api": "new",
       "kind": "code",
       "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "christianliebel/cos-polyfill/origin/index.html@8cf7b62572f1a60c9e11e46ccbfb7eed2df92da5": {
-      "api": "old",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-slides-lightning-talk/demos/whisper/whisper.js@9112d252a2b73cc6e673b26230b56fe804e6f24b": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-slides-lightning-talk/assets/js/demo.js@4f98a93fab78c6a5ace7c4b4a560cf1a82b0aeb9": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
@@ -1103,13 +1048,6 @@
     "LevyBytes/AI-SKILL-modern-web-development/references/rendering-performance/load-shared-resources-declaratively.md@713a1fa7deb0e60cb8d7b75ad82a4f08e11ba877": {
       "api": null,
       "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-slides-lightning-talk/assets/js/deck.js@34b05fe7e033a18a2d934041fbbc3cb1739ade46": {
-      "api": "new",
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -1149,20 +1087,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "christianliebel/cos-polyfill/origin/polyfill.js@7ad3a9155ec9786326712a823532c296054f1025": {
-      "api": "old",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-slides-lightning-talk/index.html@0d53ade30eedec31f5c1797de87c79901c4cd726": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "muccci/tvm-writeback/web/src/artifact_cache.ts@9b4494805b3d7066dd00a155c252422fcf6be5b6": {
       "api": "old",
       "kind": "code",
@@ -1185,132 +1109,6 @@
       "generated": false
     },
     "im-va-3/tvm-main/web/src/artifact_cache.ts@4c2932739e9f291b2dc2c12fe2318277625ab0a9": {
-      "api": "old",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "mlc-ai/relax/web/src/artifact_cache.ts@087cd3d1e74c4f4bdb61b5e663b2ffaedf7a7cb8": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "paulirish/guidance/features/tmp-cross-origin-storage.md@07f4b0650f034f1f33bdd483c2646dfbff31c9d6": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cos-slides-lightning-talk/assets/js/cos.js@e44b4eb2a2973fda42f612eccdae20e34f6cf9f3": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "LevyBytes/AI-SKILL-chrome-extensions/references/feature-support/pending-web-features.md@1ca60a996638feb4b69a4acd3ef9d9c15297bf7b": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "LevyBytes/AI-SKILL-tauri-develop/references/feature-support/pending-web-features.md@1ca60a996638feb4b69a4acd3ef9d9c15297bf7b": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "paulirish/guidance/guides/performance/load-shared-resources-declaratively/guide.md@92cf4050967a6975b409c49ebac10e19ce052fe2": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cos-slides-lightning-talk/demos/whisper/whisper.js@9112d252a2b73cc6e673b26230b56fe804e6f24b": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cos-slides-lightning-talk/assets/js/demo.js@4f98a93fab78c6a5ace7c4b4a560cf1a82b0aeb9": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "LevyBytes/AI-SKILL-chrome-extensions/references/rendering-performance/load-shared-resources-declaratively.md@713a1fa7deb0e60cb8d7b75ad82a4f08e11ba877": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "LevyBytes/AI-SKILL-tauri-develop/references/rendering-performance/load-shared-resources-declaratively.md@713a1fa7deb0e60cb8d7b75ad82a4f08e11ba877": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cos-slides-lightning-talk/assets/js/deck.js@34b05fe7e033a18a2d934041fbbc3cb1739ade46": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "LevyBytes/AI-SKILL-chrome-extensions/references/feature-support/tmp-cross-origin-storage.md@568235a1ea7a7b0784483ceecebac9556ec91b06": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "LevyBytes/AI-SKILL-tauri-develop/references/feature-support/tmp-cross-origin-storage.md@568235a1ea7a7b0784483ceecebac9556ec91b06": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "BLKKKBVSIK/flutter-sdk-ios27-fix-a11y/engine/src/flutter/lib/web_ui/flutter_js/src/instantiate_wasm.js@57a65d2a13a855d3ca03bfdc539ef54202d607fa": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cos-slides-lightning-talk/index.html@0d53ade30eedec31f5c1797de87c79901c4cd726": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "ksahib/co-execution-scheduler/web/src/artifact_cache.ts@9b4494805b3d7066dd00a155c252422fcf6be5b6": {
-      "api": "old",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "DatasunriseOU/tvm/web/src/artifact_cache.ts@d36573cccceabfe78f640575273d30d8a279c7e3": {
-      "api": "old",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "TexasInstruments-Sandbox/tvm/web/src/artifact_cache.ts@4c2932739e9f291b2dc2c12fe2318277625ab0a9": {
       "api": "old",
       "kind": "code",
       "oldApiToo": false,
@@ -1369,6 +1167,111 @@
     "Priyatham-sai-chand/NinjaVerse/src/mlc/tvm/artifact_cache.ts@4c2932739e9f291b2dc2c12fe2318277625ab0a9": {
       "api": "old",
       "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "mlc-ai/relax/web/src/artifact_cache.ts@087cd3d1e74c4f4bdb61b5e663b2ffaedf7a7cb8": {
+      "api": "new",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "paulirish/guidance/features/tmp-cross-origin-storage.md@07f4b0650f034f1f33bdd483c2646dfbff31c9d6": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-chrome-extensions/references/feature-support/pending-web-features.md@1ca60a996638feb4b69a4acd3ef9d9c15297bf7b": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-tauri-develop/references/feature-support/pending-web-features.md@1ca60a996638feb4b69a4acd3ef9d9c15297bf7b": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "paulirish/guidance/guides/performance/load-shared-resources-declaratively/guide.md@92cf4050967a6975b409c49ebac10e19ce052fe2": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-chrome-extensions/references/rendering-performance/load-shared-resources-declaratively.md@713a1fa7deb0e60cb8d7b75ad82a4f08e11ba877": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-tauri-develop/references/rendering-performance/load-shared-resources-declaratively.md@713a1fa7deb0e60cb8d7b75ad82a4f08e11ba877": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-chrome-extensions/references/feature-support/tmp-cross-origin-storage.md@568235a1ea7a7b0784483ceecebac9556ec91b06": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-tauri-develop/references/feature-support/tmp-cross-origin-storage.md@568235a1ea7a7b0784483ceecebac9556ec91b06": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "BLKKKBVSIK/flutter-sdk-ios27-fix-a11y/engine/src/flutter/lib/web_ui/flutter_js/src/instantiate_wasm.js@57a65d2a13a855d3ca03bfdc539ef54202d607fa": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "ksahib/co-execution-scheduler/web/src/artifact_cache.ts@9b4494805b3d7066dd00a155c252422fcf6be5b6": {
+      "api": "old",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "DatasunriseOU/tvm/web/src/artifact_cache.ts@d36573cccceabfe78f640575273d30d8a279c7e3": {
+      "api": "old",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "TexasInstruments-Sandbox/tvm/web/src/artifact_cache.ts@4c2932739e9f291b2dc2c12fe2318277625ab0a9": {
+      "api": "old",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-chrome-extensions/references/rendering-performance/avoid-redundant-large-asset-downloads/overview.md@193aab30dd2bd318a140849f9ec85adcf21d9557": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "LevyBytes/AI-SKILL-tauri-develop/references/rendering-performance/avoid-redundant-large-asset-downloads/overview.md@193aab30dd2bd318a140849f9ec85adcf21d9557": {
+      "api": "new",
+      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -1527,6 +1430,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "jhaabhijeet864/On-device-Visual-Perception-for-Light-weight-Browser-Agents/.adal/skills/modern-web-guidance/guides/performance/avoid-redundant-large-asset-downloads.md@2a1c2d77c70e7560e9d17d808bffaf566ab2bd55": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "miksula/supa-app/.agents/skills/modern-web-guidance/guides/performance/avoid-redundant-large-asset-downloads.md@dcf7ff2f29a038e31bd8ecb0c96fe72f58802e26": {
       "api": "old",
       "kind": null,
@@ -1537,6 +1447,20 @@
     "jhaabhijeet864/On-device-Visual-Perception-for-Light-weight-Browser-Agents/.claude/skills/modern-web-guidance/guides/performance/avoid-redundant-large-asset-downloads.md@2a1c2d77c70e7560e9d17d808bffaf566ab2bd55": {
       "api": "old",
       "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "FerdinandoConte/portfolio/.agents/skills/modern-web-guidance/guides/performance/avoid-redundant-large-asset-downloads.md@2a1c2d77c70e7560e9d17d808bffaf566ab2bd55": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "leemiracle/work4ai/讲透宇宙/05-侦/讲透huggingface/transformers.js/deepwiki/16.3-advanced-usage-patterns.md@03aba60db327a8b023becc025c84be2a8be7666c": {
+      "api": null,
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -1562,7 +1486,56 @@
       "webrefHeader": false,
       "generated": false
     },
+    "oinume/dotfiles/home.claude/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@a2632b109a58a4d9e44fbe9b442dbdc5fe276272": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "briancullinan2/illustrious/components/llm-workers/wllama/index.js@af4445b5d92a1b092f52ad52e1cfe215e016548f": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "Nzettodess/Awesome-Agent-Skills/Skills/Frontend/modern-web-guidance-main/modern-web-guidance-main/features/tmp-cross-origin-storage.md@07f4b0650f034f1f33bdd483c2646dfbff31c9d6": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "malikrajat/deepwork-site/.agents/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@86619cd1560b8de5e7c6bfd631123cb35877b7b6": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "leemiracle/work4ai/讲透宇宙/05-侦/讲透huggingface/transformers.js/deepwiki/7.2-caching-architecture.md@5063d349e450a8d4570867db81b51c326a32ebc3": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "jhaabhijeet864/On-device-Visual-Perception-for-Light-weight-Browser-Agents/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@a2632b109a58a4d9e44fbe9b442dbdc5fe276272": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Nzettodess/Awesome-Agent-Skills/Skills/Frontend/modern-web-guidance-main/modern-web-guidance-main/guides/performance/load-shared-resources-declaratively/guide.md@92cf4050967a6975b409c49ebac10e19ce052fe2": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "jhaabhijeet864/On-device-Visual-Perception-for-Light-weight-Browser-Agents/.adal/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@a2632b109a58a4d9e44fbe9b442dbdc5fe276272": {
       "api": null,
       "kind": null,
       "oldApiToo": false,
@@ -1598,6 +1571,13 @@
       "generated": false
     },
     "just-arpit/Avro/.agents/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@a2632b109a58a4d9e44fbe9b442dbdc5fe276272": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "jhaabhijeet864/On-device-Visual-Perception-for-Light-weight-Browser-Agents/.claude/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@a2632b109a58a4d9e44fbe9b442dbdc5fe276272": {
       "api": null,
       "kind": null,
       "oldApiToo": false,
@@ -1674,6 +1654,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "NotAisu/Accessibility_Extension/test/ground-truth/injection/invalid-aria-prop/chrome-samples/io2026-chrome-built-in-ai-demos__index.html--1324.html@fb07b2a89f05e55eef5c19871038ed39d2136ce4": {
+      "api": "new",
+      "kind": "test",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "ranuts/document/packages/agent-core/vendor/wllama-count/client/index.js@73ebbadbf1506c87db75e9914d8cbd1c91f21342": {
       "api": "old",
       "kind": null,
@@ -1690,20 +1677,6 @@
     },
     "lausiklauskn-png/Familienbuero-Pro/packages/agent-core/vendor/wllama-count/client/index.js@73ebbadbf1506c87db75e9914d8cbd1c91f21342": {
       "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "LevyBytes/AI-SKILL-chrome-extensions/references/rendering-performance/avoid-redundant-large-asset-downloads/overview.md@193aab30dd2bd318a140849f9ec85adcf21d9557": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "LevyBytes/AI-SKILL-tauri-develop/references/rendering-performance/avoid-redundant-large-asset-downloads/overview.md@193aab30dd2bd318a140849f9ec85adcf21d9557": {
-      "api": "new",
       "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
@@ -1751,20 +1724,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "jhaabhijeet864/On-device-Visual-Perception-for-Light-weight-Browser-Agents/.adal/skills/modern-web-guidance/guides/performance/avoid-redundant-large-asset-downloads.md@2a1c2d77c70e7560e9d17d808bffaf566ab2bd55": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "FerdinandoConte/portfolio/.agents/skills/modern-web-guidance/guides/performance/avoid-redundant-large-asset-downloads.md@2a1c2d77c70e7560e9d17d808bffaf566ab2bd55": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "bushra-muneer/portfolio_workshop/.agents/skills/modern-web-guidance/guides/performance/avoid-redundant-large-asset-downloads.md@2a1c2d77c70e7560e9d17d808bffaf566ab2bd55": {
       "api": "old",
       "kind": null,
@@ -1793,70 +1752,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "leemiracle/work4ai/讲透宇宙/05-侦/讲透huggingface/transformers.js/deepwiki/16.3-advanced-usage-patterns.md@03aba60db327a8b023becc025c84be2a8be7666c": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "oinume/dotfiles/home.claude/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@a2632b109a58a4d9e44fbe9b442dbdc5fe276272": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "briancullinan2/illustrious/components/llm-workers/wllama/index.js@af4445b5d92a1b092f52ad52e1cfe215e016548f": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "malikrajat/deepwork-site/.agents/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@86619cd1560b8de5e7c6bfd631123cb35877b7b6": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "leemiracle/work4ai/讲透宇宙/05-侦/讲透huggingface/transformers.js/deepwiki/7.2-caching-architecture.md@5063d349e450a8d4570867db81b51c326a32ebc3": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "jhaabhijeet864/On-device-Visual-Perception-for-Light-weight-Browser-Agents/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@a2632b109a58a4d9e44fbe9b442dbdc5fe276272": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "F0rty-Tw0/.claude/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@a2632b109a58a4d9e44fbe9b442dbdc5fe276272": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Nzettodess/Awesome-Agent-Skills/Skills/Frontend/modern-web-guidance-main/modern-web-guidance-main/guides/performance/load-shared-resources-declaratively/guide.md@92cf4050967a6975b409c49ebac10e19ce052fe2": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "jhaabhijeet864/On-device-Visual-Perception-for-Light-weight-Browser-Agents/.adal/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@a2632b109a58a4d9e44fbe9b442dbdc5fe276272": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "jhaabhijeet864/On-device-Visual-Perception-for-Light-weight-Browser-Agents/.claude/skills/modern-web-guidance/guides/performance/share-web-fonts-across-origins.md@a2632b109a58a4d9e44fbe9b442dbdc5fe276272": {
       "api": null,
       "kind": null,
       "oldApiToo": false,
@@ -1867,13 +1763,6 @@
       "api": null,
       "kind": null,
       "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/rummy-mcrummyface/patches/vite-plugin-cross-origin-storage@2.0.3.patch@cb6fd830c3237748dd3345f06e72a809480762e1": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
       "webrefHeader": false,
       "generated": false
     },
@@ -1940,9 +1829,975 @@
       "webrefHeader": false,
       "generated": false
     },
+    "miroljub1995/natrix/src/Natrix.StdWeb/AutoGen/Navigator.cs@fcbb41feac29809e3cf248a16fa2c060f8087bab": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "miroljub1995/iskra/src/Iskra.StdWeb/AutoGen/Navigator.cs@c1d32aa63cb81894f5d872744d92cde9627f82de": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "web-platform-tests/wpt/interfaces/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "zig-whatwg/crane/src/webidl/interfaces/NavigatorCrossOriginStorage.zig@d1b9b1b6a37c17f8f1466cbfd7e69050ba328d95": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "w3c/webref/ed/idl/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "emscripten-core/emscripten/src/settings.js@c1cab4af28526ae207ec6cf8750338b8c9129e88": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "zig-whatwg/crane/src/webidl/interfaces/Navigator.zig@0bee8118a314e71b7e1aa0c764c517792b013c3b": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "dontcallmedom/webidlpedia/names/Navigator.html@ddc2da089ebd4b1978523d2fad278327d2be47cf": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "dontcallmedom/webidlpedia/names/NavigatorCrossOriginStorage.html@fb6359cb0892565c8712ea7aea2fd6acac793bd1": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "emscripten-core/emscripten/site/source/docs/tools_reference/settings_reference.rst@a1752043f5ee7b82354372788a3d53840795a694": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "zig-whatwg/crane/src/webidl/impls/NavigatorCrossOriginStorage.zig@4794d6fd03dfbbe1b0a6786ca1c659eb6eb24703": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "zig-whatwg/crane/src/webidl/impls/Navigator.zig@24dfefce185322a7470a77f0aee2e74f32072f47": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "zig-whatwg/crane/src/webidl/mixins/NavigatorCrossOriginStorage.zig@5fb98365c2d855bd4ee7de390070f48044e77eb7": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "huggingface/transformers.js/packages/transformers/src/env.js@5b00064c3805417de7c615500587de32ec79e58f": {
+      "api": "link",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "zig-whatwg/crane/src/webidl/interfaces/WorkerNavigator.zig@8aea8312ba2e841c62689915670a4f6059db82b5": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "dontcallmedom/webidlpedia/names/WorkerNavigator.html@472db9406f89c863d1f36f6d90e93d6bd2b43c93": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "brave/brave-core/tools/cr/codehealth/M157.md@02e6599a3b4b4988835b0ddbdbdd6d7ed4b887d6": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "brave/brave-core/tools/cr/codehealth/M158.md@c3c44b2f8c835848db67bfcb64d9e6006038bb74": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "kLabz/js-std/libs/js-window-api/src/js/web/html/Navigator.hx@4dd620a6134eab217a546a8ac863c056938b866f": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "software-mansion/popcorn/popcorn/js/src/assets.ts@6b9c98be4180fbc5e245bf5eefff1c35b081242c": {
+      "api": "new",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "w3c/webref/ed/ids/cross-origin-storage.json@b7f2d9a691cc97e0ce13c3938b78c306dbe98f7f": {
+      "api": "new",
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "afflom/me/app/specs/browser/idl/Navigator.idl@d136c4a450747b06d954f5bac7b4610865b77a10": {
+      "api": "link",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "snowlark-browser/snowlark/idl/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "zig-whatwg/crane/specs/idl/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "mdn/content/files/jsondata/InterfaceData.json@2826381c8f383b4664373f0e2fe32efc8c16cb4d": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "software-mansion/popcorn/popcorn/js/src/beam.ts@7887656f53c1b27718f3cb9c20ed49adc1936c6a": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "lightpanda-io/wpt/interfaces/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "GoogleChromeLabs/web-ai-demos/built-in-ai-task-apis-polyfills/decision-model-api-polyfill.js@9d6dfa007886953a78b9c0267ce05135cfa2d825": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "tinybrowser-dev/tinybrowser/crates/renderer/src/js/scripts/web/navigator.js@e07805bd4689cc9e839b8f496e1f371bde02d315": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "zig-whatwg/crane/src/webidl/impls/WorkerNavigator.zig@3fc49c69b2230809493e4996a73d5f98c6a674b7": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "narcotic-sh/parakeet.wgsl/demo/src/main.ts@543c16cdeb169e5d87f23dc7a46b508219553564": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "dontcallmedom/webidlpedia/names/CrossOriginStorageManager.html@87764de495ac024a74e721b8bbd7b9cc3ba14d5c": {
+      "api": "new",
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "kLabz/js-std/libs/js-worker-api/src/js/web/html/WorkerNavigator.hx@e881df49928c2ba4b13ae71a715265755af788c6": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "w3c/webref/ed/dfns/cross-origin-storage.json@9d5478171f021a7f5e4e248bcd4c5106a37bae68": {
+      "api": "new",
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "software-mansion/popcorn/popcorn/js/e2e/runtime.spec.ts@cdf558e04ca4f63873b6c724145406f60c8cdeaa": {
+      "api": "new",
+      "kind": "test",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "kLabz/js-std/libs/js-service-worker-api/src/js/web/html/WorkerNavigator.hx@720279d5fe3cec2830e90f6ba528e570365b060f": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "KorvusBrowser/korvus-browser/plugins/korvus-persona/bundles/chrome-152-linux-20261016T1022/oracle/Navigator.json@407d676ff9ffbf86f04ca640e15036861d3154ec": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "KorvusBrowser/korvus-browser/plugins/korvus-persona/bundles/chrome-152-macos-20261017/oracle/Navigator.json@d046e91f4ac8595b3a7d4315fc3d3fabbc040964": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "dariofenoglio98/WebAgents/chrome-agent-browser/src/extension/execution/engine-worker.ts@4be188b8031217da5f7d2515664a203117f607b4": {
       "api": null,
       "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "ConlinH/pyv8c/pyv8c/pyv8c/data/chrome-environment-darwin.json@0811b981443bc89ca14415a6ec958080bd75a935": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "miroljub1995/natrix/src/Natrix.StdWeb/AutoGen/WorkerNavigator.cs@e1a3fad30b62fb2a3090a28ea86097c054b741cf": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "pannous/warp/lib/web.webidl@31f3862eb3db866ca0b602d718a75e9d99bac8ff": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "zig-whatwg/crane/src/webidl/mixins/root.zig@0ba5ba90a8105655f2b527c52ad17948195a82d0": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "xenodeve/clone-space-mcp/src/capture/environment.ts@ccd06fe734085df70ee3466e4738cccb931c6bf5": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "kripken/emscripten-site/docs/porting/pthreads.html@f02097e6a914d296c552aa0b82b355bc312db633": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "pannous/wap/lib/web.webidl@31f3862eb3db866ca0b602d718a75e9d99bac8ff": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "canassa/beni/src/js/WorkerGlobals.zig@e0c2c323e014808dc07987d2a3e1df8fefebe07b": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "tomayac/just-mute/src/kokoro.js@827f77350e3f60eda08e33736a07c4704b11b3ac": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "dontcallmedom/webidlpedia/globals/DedicatedWorker.html@df88c205b466a31b1dbd4761550b194f3c5f457b": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "kripken/emscripten-site/docs/tools_reference/settings_reference.html@6202d2d57d5f3bc369adc43d592d74664a29ce9f": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "JohanCarrion1/instalador-PWA/tools/cr/codehealth/M157.md@02e6599a3b4b4988835b0ddbdbdd6d7ed4b887d6": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "JohanCarrion1/instalador-PWA/tools/cr/codehealth/M158.md@c3c44b2f8c835848db67bfcb64d9e6006038bb74": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "dontcallmedom/webidlpedia/globals/Worker.html@227770db007a0f515463d36d314e227c09ba7c6c": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "speced/bikeshed-data/data/anchors/anchors-cr.data@f271bf7b36fd6a25974f8bbba8169b2b637a6bac": {
+      "api": "new",
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "zhbhun/frontend-learning/framework/ai/transformers.js/cheatsheets/cache-offline/README.mdx@9a325d1a7a4a709b70571954a8e92f1afcc2c2b1": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Braisdlim/myPanel/research/rag/navegador.md@592cd8709e9d2ac17464f6b90ddfb7b377bc5cc3": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "erfanshayegani/website-agent/src/workers/agent.worker.ts@a3f2fd835e1d576162f78d0670c432ca5605866c": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "VBWizard/os64/docs/design/pending/WINDOW_DOCUMENT.md@cb28dd0ce2af6378150526c130036b7a7fc3580d": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": false
+    },
+    "speced/bikeshed-data/data/anchors/anchors-ha.data@fbb9ed853f8006e39554fd4c6fc919a791b427e3": {
+      "api": "new",
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "CD-LC/vegaduta/web/app/lib/edge/tier1/download.ts@c3c5b50661c3d1605f4fed8e9719f4bd4663242d": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "miroljub1995/iskra/src/Iskra.StdWeb/AutoGen/StdWebProxyFactory.cs@e9c833dcf5d826995036eb9ed90e2babf9b6ea2f": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "CPlusPlus17/Redoubt/patches/android/drm-permission-default.patch@014f858b4cfd4952b7293936803a5fb24f83ee1d": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "eqrion/webidl-index/data/objects/6a/6a6bd31d96ebdc96f92dd7e2beb91d171bde56ea6d571265dd65a43567c71ce3.json@8a08645a8a201a81c4bdad9d3404bb7b2af7e203": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "eqrion/webidl-index/data/objects/fb/fbc258daac3e3a1320706da2c61249f689ba0e359b740d0caa49965ee1a87e93.json@bab7503e6ca51f69105945355659d1e418b98e20": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "meziantou/Meziantou.Framework/tests/Meziantou.Framework.WebPlatform.SpecData/webref/ed/idlparsed/cross-origin-storage.json@3dcf0b5d09e4d08c204cad2b0dca51bc40db91ac": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Kenneth-Cho-InfoSec/Antares/tests/wpt/tests/interfaces/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "f3liz-casa/noraneko-runtime/testing/web-platform/tests/interfaces/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "trunksio/engram-md/esm/storage/cos.d.ts@ea6e9be54c9b59302268f04946342fc19865d8cf": {
+      "api": "old",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "VTFLAB/misskey-fork-msjp/packages/frontend/vendor/wllama/esm/storage/cos.d.ts@56c46ec30178f1b05f33bdf2b4c6aedbff20406b": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "huggingface/transformers.js/packages/transformers/src/utils/cache/cross-origin-storage.d.ts@b1b7ca17d4c721c9e1592f818a9406ed6f85a106": {
+      "api": "old",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "escalier-lang/escalier/internal/webidl/table.go@1d8564213833f9f8b97d8a6b709d9f129a07e76f": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "seriva/gofront/stdlib/gofront/dom/dom.d.ts@81337347b83837eba810a74b72c46680dfd993d9": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "tinybrowser-dev/tinybrowser/crates/webidl-bindgen/idl/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "narcotic-sh/parakeet.wgsl/src/api.ts@b40b4be2eb1ede2abf260510fe253057508a29cd": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "KorvusBrowser/korvus-browser/plugins/korvus-persona/bundles/chrome-152-windows-20261017T0248/oracle/Navigator.json@83eefbb1cb522cb520bcfb5a87d91d4b72f5016e": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "o2alexanderfedin/angular-cas-disot/docs/03-developer-guide/security/indexeddb-security.md@9db1763e6a9c617d3a43e29c76e678ec1ea19cd2": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "kripken/emscripten-site/_sources/docs/tools_reference/settings_reference.rst.txt@a1752043f5ee7b82354372788a3d53840795a694": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "zig-whatwg/crane/src/webidl/interfaces/root.zig@aefbf702468ff8c13c6bb5b052707937fa39f478": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "flutter-zl/web-triage/weekly-log/2026-08-05.md@5c33aa8e963d5858bf290e478f34c68482ca48b8": {
+      "api": "old",
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "dontcallmedom/webidlpedia/globals/SharedWorker.html@724bab30bd67c9604a1388c588bf65ac77cbc48b": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "zig-whatwg/crane/src/webidl/impls/root.zig@2e8e20b5006ed3fd0cd9dba28cfd576d925955e0": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "tomayac/voice-transcriber-for-whatsapp/extension/src/options.js@7f96e270bbe48f416090f4fffacb691d14f0a5c5": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "dontcallmedom/webidlpedia/globals/ServiceWorker.html@6a946ca23beaa50e6680e51e59612c357d9a4b84": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Zolmid/Weld/tools/cr/M157_codehealth.md@613ed083e1c879e0a8e7f252700351c7f85e75d9": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "ECOSYSTEMAX/TRANSFORMER.JS-V4/packages/transformers/src/env.js@45636c5ebc64df32d14756a304beb3704c6daef4": {
+      "api": "link",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "erfanshayegani/website-agent/docs/SPEC.md@b59c11727852ac9143d20cdb4445e4f239d7137c": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "patrickdobler/asd123ai_website/offline-chat/scripts/chat-app.js@346dba440357fa7764511aba33e1bfc4344fa7d8": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "koneb71/vikado/web/.pnpm-store/v11/files/94/874140900f4bc9e2a1182e5a8ece440fb6985623c133ea73f4958fdcc76e5a8b9f9891b5fa517151fb814e19cb74621635366342e47e23995d0aea1e34781c@a66ec31d72acf6f24ac15fb4326fd3709f3715a9": {
+      "api": "old",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "miroljub1995/natrix/src/Natrix.StdWeb/AutoGen/StdWebProxyFactory.cs@fa1c54b23761a6d77546991401c0a6cf38895922": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "arschmitz/tb-knowledge/notes/677f283b-86f9-4ec5-b840-844bf7905a66.md@83f8b817a8d778eece0704ba2134aa4043cd18bc": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "zig-whatwg/crane/src/webidl/dictionaries/root.zig@e25f1f728112ca6ab9b209f4ecf29d6a8c15cd5a": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "eqrion/webidl-index/data/objects/13/138fb02ab287b852760f3c132000ce5acdb8651c85ea26ac2bd0bdba525c3dc2.json@4f8aa82893849558fa06d13999b9109cc810c37f": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "danielroe/cross-origin-storage/packages/nuxt-cos/test/browser.test.ts@c0153268dfac77b7036464e3ac85cb3b1fe1872c": {
+      "api": null,
+      "kind": "test",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Orvaen/chremo/tests/wpt/tests/interfaces/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "SysAdminDoc/BetterTTS/src/lib/runtime-readiness.test.ts@533dab885f33f506770e375f1fbdd4d32ad077cc": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "razoring/OneAgent-Desktop/firefox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "codylindley/codylindley.com/tests/unit/engine-wllama.test.ts@42692185257431f8426485a589a7e4c4e99521dc": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "codylindley/ailocal-on-device-ai/tests/unit/engine-wllama.test.ts@42692185257431f8426485a589a7e4c4e99521dc": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "DefinitelyTyped/DefinitelyTyped/types/wicg-cross-origin-storage/index.d.ts@e8e5c1445aeb7dc34fed99c218f3b51818171d41": {
+      "api": "new",
+      "kind": "code",
+      "oldApiToo": true,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "werg/natlang/ts-host/vendor/wllama/esm/storage/cos.d.ts@ea6e9be54c9b59302268f04946342fc19865d8cf": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "ChromeDevTools/devtools-frontend/front_end/models/javascript_metadata/NativeFunctions.ts@a8d4a21cbedc2fe83e70e74ef5a57c8c6f710883": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "KorvusBrowser/korvus-browser/core/korvus-webapi/gen/webref/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "tomayac/cos-ad-blocking-demo/extension/manager.js@671f59fdcb60cd5d76b09d27152121baf5ac71ec": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "miroljub1995/iskra/src/Iskra.StdWeb/AutoGen/WorkerNavigator.cs@96deccf2c34170af51b4d09f558830eee3d5b8fb": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "canassa/beni/src/js/RealmCheck.zig@9cb661f0b9729bec364426457d944e6ba5d5486a": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "web-ai-community/cross-origin-storage-extension/background.js@b3f3e2c087d7b893d4c8bcd855b242d1bde5341a": {
+      "api": "new",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "kripken/emscripten-site/docs/compiling/Deploying-Pages.html@ae4da9a7763a779f32760ace56f42dd50da5ef30": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "dontcallmedom/webidlpedia/globals/RTCIdentityProvider.html@1038d0099d19b0add920862eb0f11d693ca5b8e2": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "speced/bikeshed-data/data/anchors/anchors-na.data@a7373de6d185cd8f47ab0694f8de404e457c4b61": {
+      "api": "link",
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "vab1997/article-lens/docs/efforts/first-open-model-choice/assets/research-cache-detection.md@a9380510ed32d17128e7beefd561ded1c7504871": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "massmaddy530-stack/zigmaa-photos/frontend/src/lib/image.ts@25338e30d71e213c1f80a2943c69bc6bcfd97b95": {
+      "api": null,
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Millillion/lasm/scripts/bindings/web-surface.json@76a8f1ad5786a2a4d0900a70b0c7d3ded01551da": {
+      "api": "new",
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "dontcallmedom/webidlpedia/globals/Window.html@cd0050413af9005313dd32e6b4c348cde3121695": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "speced/bikeshed-data/data/anchors/anchors-ge.data@73a48f1e10ab7f0fe81378b9570fde0efef437c0": {
+      "api": "new",
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "patrickdobler/asd123ai_website/src/scripts/chat-app.js@4e370922a5ec1bff465a844691156084c1a87efc": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "patrickdobler/asd123ai_website/offline-chat/scripts/chat-offline-bundle.js@2bb0bfb6b9b6459210807453074216fedd012267": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "arschmitz/tb-knowledge/notes/21ee5ed5-338a-42c8-8aec-531f6d14e2fc.md@c3066e19c32749b8ba96409bf34035f865840566": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "koneb71/vikado/web/.pnpm-store/v11/files/90/56b08c223b0b853d7b4fd8c04cc8461ce254a3fc0d43d4fb85c404c1ddb28244be2ab1b6268cbdd555aa9ba4b2d73bc7997364bdcbf1ac0f8ce39ac88a2b98@25b3cf3d2944ded10597f536ce6ca7f14004693f": {
+      "api": "link",
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "eqrion/webidl-index/data/objects/02/020e3b046c0acc7e128b79d86abe5575943374b262e14dacff25cc8304d8ac09.json@d520928cda0737ea56dec767d68b506c3cda657d": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "eqrion/webidl-index/data/objects/a1/a1069a6e4f787eb5233241da22025ef5a89c56830715657ec3e64402adb22a53.json@2b2b3c6265aa5a3a4b8c1fc5f664479f54c3a473": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "TheSoftwareDesignLab/MECAC-Dataset/diffsets/firefox-android/eeb286dd3e850687dc5d9c0af3e582e73805895c_aaa491820b3fcbf3a4b0f23eafd18e81ca190910.txt@0498081795af4fd6be8e50104235c28835a19319": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "eqrion/webidl-index/data/objects/7a/7a353ef4df8cbb386d7006b850becadc9035602295be86e11540f4b2c7d53659.json@53e45ef235276e0b2db94e6e3cfb76e1112e91a7": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "servo/servo/tests/wpt/tests/interfaces/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "mozilla-firefox/firefox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "meziantou/Meziantou.Framework/tests/Meziantou.Framework.WebPlatform.SpecData/webref/ed/idl/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "BrowserWorks/waterfox-android/testing/web-platform/tests/interfaces/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "mozilla/enterprise-firefox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "Floorp-Projects/Floorp-Runtime/testing/web-platform/tests/interfaces/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "mozilla-releng/staging-firefox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "sailfishos-mirror/firefox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "utbuiquoc/Hox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "P-DoxQuad/sierra-fox-browser/161.0a1/testing/web-platform/tests/interfaces/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
+      "api": "old",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": true
+    },
+    "ykoh42/web-llm-adapters/examples/strands-web-llm/browser/test/extensions/cache.spec.ts@b1a532f95fd750c5b0b2302a9bc6b0bf296d3b28": {
+      "api": null,
+      "kind": "test",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "adelpro/quranlm/src/vite-env.d.ts@67e2749e61fc52c1ee0d7c39be61f7b101a2da0f": {
+      "api": "new",
+      "kind": "code",
+      "oldApiToo": true,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "eqrion/webidl-index/data/snapshots/blink/157.json@29d4883086d39c3ed3f1f8441ff00733bc59f326": {
+      "api": "new",
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "eqrion/webidl-index/data/snapshots/blink/158.json@62216332dc872cf147fc61c4c818bf74f264571c": {
+      "api": "new",
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "eqrion/webidl-index/data/snapshots/webref/current.json@d2faba881831070cee8591ee5c650c4de4fc7c8d": {
+      "api": "new",
+      "kind": null,
+      "oldApiToo": false,
+      "webrefHeader": true,
+      "generated": false
+    },
+    "WICG/cross-origin-storage/cross-origin-storage.d.ts@cfc5ccbeb11cf99d10b1d0810bdd9150a9cefde0": {
+      "api": "new",
+      "kind": "code",
+      "oldApiToo": true,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "ECOSYSTEMAX/TRANSFORMER.JS-V4/packages/transformers/src/utils/cache/cross-origin-storage.d.ts@a66ec31d72acf6f24ac15fb4326fd3709f3715a9": {
+      "api": "old",
+      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -1953,13 +2808,6 @@
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
-    },
-    "emscripten-core/emscripten/src/settings.js@c1cab4af28526ae207ec6cf8750338b8c9129e88": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": true
     },
     "WICG/cross-origin-storage/browsers/cross-origin-storage-servo-plan.md@8d9a6bd42f2ab6f74567f99d1d5903cb01e611ea": {
       "api": null,
@@ -3578,13 +4426,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "columbia/pdslib-firefox/mobile/android/fenix/app/src/main/res/values-gn/strings.xml@d1c2c7f28571dd5c71a352bb938bfa3206ca2737": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "columbia/pdslib-firefox/mobile/android/fenix/app/src/main/res/values-is/strings.xml@9bf5c30a2ca3ed018684aeb440a35d8fd48d923d": {
       "api": null,
       "kind": "docs or mention",
@@ -3952,6 +4793,13 @@
     "razoring/OneAgent-Desktop/firefox/mobile/android/android-components/components/feature/sitepermissions/src/androidTest/java/mozilla/components/feature/sitepermissions/db/OnDeviceSitePermissionsStorageTest.kt@1c21c0dff2b18290c8abd3c17e57a6bfeee6126e": {
       "api": null,
       "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "emscripten-core/emscripten/test/test_browser.py@d3646718fd3945764230aa888b04403d6fc8b59c": {
+      "api": null,
+      "kind": "test",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -4488,6 +5336,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "columbia/pdslib-firefox/mobile/android/fenix/app/src/main/res/values-gn/strings.xml@d1c2c7f28571dd5c71a352bb938bfa3206ca2737": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "columbia/pdslib-firefox/mobile/android/fenix/app/src/main/res/values-uk/strings.xml@bcf506983419aece084c4aad827f4b31f7df91d1": {
       "api": null,
       "kind": "docs or mention",
@@ -4950,13 +5805,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "danadrianmirea/firefox-android/fenix/app/src/main/res/values-eu/strings.xml@5799fbc4872946f281c27b86a1155297f6e81f64": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "danadrianmirea/firefox-android/fenix/app/src/main/res/values-ug/strings.xml@57e047172456a5cab70c44fe0af1f30ad87b2d06": {
       "api": null,
       "kind": "docs or mention",
@@ -5335,6 +6183,20 @@
       "webrefHeader": false,
       "generated": false
     },
+    "BrowserWorks/waterfox/mobile/android/fenix/app/src/main/res/values-te/strings.xml@450e6a1b2d34a4f643fa559d1c72f918c32fd0c3": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "codegeasse1/nova-browser/app/src/main/java/org/mozilla/fenix/settings/PhoneFeature.kt@23ecbf7940074f6f9d407c7322f9fe7068d6c61b": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "BrowserWorks/waterfox-android/mobile/android/fenix/app/src/main/res/values-scn/strings.xml@9c0e34451a077d37696e27124e62e5670cedcbcf": {
       "api": null,
       "kind": "docs or mention",
@@ -5357,6 +6219,20 @@
       "generated": false
     },
     "SAP/project-foxhound/mobile/android/fenix/app/src/main/res/values-hr/strings.xml@2ec62a2fed1497fc7cb006ce19cb5a131c6051c3": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "mozilla-l10n/automated-lqa-tools/reports/fy-NL/android.md@fcc84879f9570c7bcd438e583edef7c005f3be0b": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": true
+    },
+    "Floorp-Projects/Floorp-Android/fenix/app/src/main/res/values-pl/strings.xml@81e18fab112950357ce845d7b22dab22dc028dc1": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -5412,6 +6288,27 @@
       "webrefHeader": false,
       "generated": false
     },
+    "AvGDeV-io/Clarus/app/src/main/res/values-meh/strings.xml@6062d83de0eb8fb11ba8acc29347e2a701a4daf7": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "AvGDeV-io/Clarus/app/src/main/res/values-kmr/strings.xml@0fd73b1261590b1fa5b9b95351a3ea1214acf8d5": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "shmibblez/Inferno/app/src/main/res/values-te/strings.xml@882a8f395a16e913e70a14cae6a8014064f16a90": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "shmibblez/Inferno/app/src/main/res/values-sc/strings.xml@3305b0b293bab62db8bed6f3cc70ca4a8c171b3f": {
       "api": null,
       "kind": "docs or mention",
@@ -5426,6 +6323,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "shmibblez/Inferno/app/src/main/res/values-es/strings.xml@810efde5198e86ec093e03c7d53caed17d5a50ac": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "i4/site-attestation/firefox/mobile/android/fenix/app/src/main/res/values-kmr/strings.xml@67de1139634425d5dfe8b17a570ca61cb83fcdc3": {
       "api": null,
       "kind": "docs or mention",
@@ -5433,7 +6337,21 @@
       "webrefHeader": false,
       "generated": false
     },
+    "shmibblez/Inferno/app/src/main/res/values-hsb/strings.xml@1267a7c25703b50d741c809fc6565380097c85b1": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "sailfishos-mirror/gecko-dev/mobile/android/fenix/app/src/main/java/org/mozilla/fenix/utils/Settings.kt@85ae79e982eb2767633e4a83f640a1379c485237": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "jwidar/LatencyZeroGithub/mobile/android/fenix/app/src/main/java/org/mozilla/fenix/utils/Settings.kt@0dd807d6c8dc1e9d8a6006badbc07c0628a485d9": {
       "api": null,
       "kind": "code",
       "oldApiToo": false,
@@ -5468,6 +6386,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "jwidar/LatencyZeroGithub/mobile/android/fenix/app/src/main/res/xml/site_permissions_preferences.xml@d224eedd7c878033b9b58548a384ec967d00ccae": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "builderxp99/firefox/app/src/main/res/values-et/strings.xml@253dfca2ded6f2caae76ab0aa32ce38ba96d4037": {
       "api": null,
       "kind": "docs or mention",
@@ -5489,6 +6414,20 @@
       "webrefHeader": false,
       "generated": false
     },
+    "builderxp99/firefox/app/src/main/res/values-ka/strings.xml@54ba351e449373f28f04ef161ce4392651d5d128": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "mozilla-l10n/automated-lqa-tools/android/state/sl/findings.json@ad3cbf8090f6c882775822042c9ec5d7a8e13939": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "mozilla-releng/git-backing/mobile/android/fenix/app/src/main/java/org/mozilla/fenix/utils/Settings.kt@7686d06ec8d1446721478377a03815c5605ba8d0": {
       "api": null,
       "kind": "code",
@@ -5496,7 +6435,35 @@
       "webrefHeader": false,
       "generated": false
     },
+    "mozilla-l10n/automated-lqa-tools/android/state/zh-CN/strings.json@98ac22722883734d08b21e38fa5129e176600719": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "QUBIP/mozilla-central/mobile/android/fenix/app/src/main/res/values-in/strings.xml@a5bb6680337a9d9cbddbab15804c589302b4dfca": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "QUBIP/mozilla-central/mobile/android/fenix/app/src/main/res/values-cy/strings.xml@d34c90cd26e49db455c4277403e2f3fa113a5e52": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "QUBIP/mozilla-central/mobile/android/fenix/app/src/main/res/values-nl/strings.xml@81698a996e0161217347b3b731945c49bc66f1d3": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "larygwil/ff-src-part/firefox-src-part/mobile/android/fenix/app/src/main/res/values-sq/strings.xml@98a3bd02796eb7750af6fb0eac091e2064b2c318": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -5531,7 +6498,42 @@
       "webrefHeader": false,
       "generated": false
     },
-    "TommyLemon/UIGO-Browser/fenix/app/src/main/res/values-eu/strings.xml@5799fbc4872946f281c27b86a1155297f6e81f64": {
+    "danadrianmirea/firefox-android/fenix/app/src/main/res/values-eu/strings.xml@5799fbc4872946f281c27b86a1155297f6e81f64": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Eyesearch/Eyebrowse/fenix/app/src/main/res/values-eu/strings.xml@14d8926166d44ff60c78dd1b3d0949a7538549b1": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "danadrianmirea/firefox-android/fenix/app/src/main/res/values-is/strings.xml@9a5f4cae12f789f6fd76fa7662ab3729d38ca742": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "danadrianmirea/firefox-android/fenix/app/src/main/res/values-si/strings.xml@b986ea293dc47ae07257a45b6c3706f2834d5723": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Eyesearch/Eyebrowse/fenix/app/src/main/res/values-fr/strings.xml@fd34dd506447a8df70fa90f8d8e0b9a6303374d1": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "danadrianmirea/firefox-android/fenix/app/src/main/res/values-am/strings.xml@82c9874c7538902578167fbbf1cb1dfcf720c874": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -5539,6 +6541,27 @@
       "generated": false
     },
     "TommyLemon/UIGO-Browser/fenix/app/src/main/res/values-ug/strings.xml@57e047172456a5cab70c44fe0af1f30ad87b2d06": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "nsanjines-bitrise/firefox-android/fenix/app/src/main/res/values-dsb/strings.xml@54a6a8848ada8a41cd9e72448a4fe90311ae9e24": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "deepin-community/thunderbird/mobile/android/fenix/app/src/main/res/values-tt/strings.xml@97247fd738319a6e6c0df8266298244b733f23dc": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "deepin-community/thunderbird/mobile/android/fenix/app/src/main/res/values-fi/strings.xml@58b98475ac2b78716459f071d619b13a84767800": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -5818,6 +6841,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "mozilla/enterprise-firefox/mobile/android/fenix/app/src/test/java/org/mozilla/fenix/utils/SettingsTest.kt@0b2c36701779beccc94bc8ce568ecc1f3a3f9b2f": {
+      "api": null,
+      "kind": "test",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "sailfishos-mirror/firefox/mobile/android/fenix/app/src/test/java/org/mozilla/fenix/utils/SettingsTest.kt@0b2c36701779beccc94bc8ce568ecc1f3a3f9b2f": {
       "api": null,
       "kind": "test",
@@ -5825,9 +6855,30 @@
       "webrefHeader": false,
       "generated": false
     },
+    "AvGDeV-io/Clarus/app/src/main/java/org/mozilla/fenix/settings/PhoneFeature.kt@23ecbf7940074f6f9d407c7322f9fe7068d6c61b": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "SAP/project-foxhound/mobile/android/fenix/app/src/main/res/values-yo/strings.xml@7f0c627adf27e9922b26ecef827202403db93c57": {
       "api": null,
       "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "SAP/project-foxhound/mobile/android/fenix/app/src/main/res/values-te/strings.xml@450e6a1b2d34a4f643fa559d1c72f918c32fd0c3": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "7sarus/iceraven-history-mod/app/src/main/java/org/mozilla/fenix/settings/PhoneFeature.kt@23ecbf7940074f6f9d407c7322f9fe7068d6c61b": {
+      "api": null,
+      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -5854,6 +6905,34 @@
       "generated": false
     },
     "isworking/flamewolf/mobile/android/fenix/app/src/main/res/xml/site_permissions_details_exceptions_preferences.xml@6bb8cfbbe633fc2fafa4967912c477f918223340": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox/mobile/android/fenix/app/src/main/res/xml/site_permissions_preferences.xml@d224eedd7c878033b9b58548a384ec967d00ccae": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif_ungrouped/mobile/android/fenix/app/src/main/res/xml/site_permissions_preferences.xml@d224eedd7c878033b9b58548a384ec967d00ccae": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif_ungrouped_/mobile/android/fenix/app/src/main/res/xml/site_permissions_preferences.xml@d224eedd7c878033b9b58548a384ec967d00ccae": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif_grouped/mobile/android/fenix/app/src/main/res/xml/site_permissions_preferences.xml@d224eedd7c878033b9b58548a384ec967d00ccae": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -5888,7 +6967,21 @@
       "webrefHeader": false,
       "generated": false
     },
-    "danadrianmirea/firefox-android/fenix/app/src/main/res/values-am/strings.xml@82c9874c7538902578167fbbf1cb1dfcf720c874": {
+    "TommyLemon/UIGO-Browser/fenix/app/src/main/res/values-eu/strings.xml@5799fbc4872946f281c27b86a1155297f6e81f64": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "TommyLemon/UIGO-Browser/fenix/app/src/main/res/values-is/strings.xml@9a5f4cae12f789f6fd76fa7662ab3729d38ca742": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "TommyLemon/UIGO-Browser/fenix/app/src/main/res/values-si/strings.xml@b986ea293dc47ae07257a45b6c3706f2834d5723": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -5902,7 +6995,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "deepin-community/thunderbird/mobile/android/fenix/app/src/main/res/values-tt/strings.xml@97247fd738319a6e6c0df8266298244b733f23dc": {
+    "jcristau/firefox-android-nooctopus/fenix/app/src/main/res/values-dsb/strings.xml@54a6a8848ada8a41cd9e72448a4fe90311ae9e24": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -5916,7 +7009,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "deepin-community/thunderbird/mobile/android/fenix/app/src/main/res/values-fi/strings.xml@58b98475ac2b78716459f071d619b13a84767800": {
+    "deepin-community/thunderbird/mobile/android/fenix/app/src/main/res/values-ko/strings.xml@91cc4ef5f3c48c7a9ea4ab9ea7283e6bf91b0738": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -5930,6 +7023,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "deepin-community/thunderbird/mobile/android/fenix/app/src/main/res/values-el/strings.xml@592e8357a24acad205e97501c77c3fd6204699ec": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "isworking/flamewolf/mobile/android/fenix/app/src/main/res/values-fi/strings.xml@58b98475ac2b78716459f071d619b13a84767800": {
       "api": null,
       "kind": "docs or mention",
@@ -5937,7 +7037,21 @@
       "webrefHeader": false,
       "generated": false
     },
+    "isworking/flamewolf/mobile/android/fenix/app/src/main/res/values-ko/strings.xml@91cc4ef5f3c48c7a9ea4ab9ea7283e6bf91b0738": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "isworking/flamewolf/mobile/android/fenix/app/src/main/res/values-hu/strings.xml@63824524212df0e767bbba0c114f936176a002ba": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "isworking/flamewolf/mobile/android/fenix/app/src/main/res/values-el/strings.xml@592e8357a24acad205e97501c77c3fd6204699ec": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -5972,6 +7086,13 @@
       "webrefHeader": false,
       "generated": false
     },
+    "deepin-community/firefox/mobile/android/fenix/app/src/main/res/values-tt/strings.xml@b2c1a720349218761332af97b255da3a2acdbed6": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "sailfishos-mirror/gecko-dev/mobile/android/fenix/app/src/main/res/values-tt/strings.xml@97247fd738319a6e6c0df8266298244b733f23dc": {
       "api": null,
       "kind": "docs or mention",
@@ -5986,7 +7107,42 @@
       "webrefHeader": false,
       "generated": false
     },
+    "celray/tern/mobile/android/fenix/app/src/main/res/values-te/strings.xml@450e6a1b2d34a4f643fa559d1c72f918c32fd0c3": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "deepin-community/firefox/mobile/android/fenix/app/src/main/res/values-sl/strings.xml@df825b586a7096f6ea740746326a7ea55878756c": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Sakura286/firefox-rockos/mobile/android/fenix/app/src/main/res/values-tt/strings.xml@b2c1a720349218761332af97b255da3a2acdbed6": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Sakura286/firefox-es/mobile/android/fenix/app/src/main/res/values-tt/strings.xml@b2c1a720349218761332af97b255da3a2acdbed6": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sailfishos-mirror/gecko-dev/mobile/android/fenix/app/src/main/res/values-be/strings.xml@0c182fa6af945ed322b903707b2653df576b6b6d": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sailfishos-mirror/gecko-dev/mobile/android/fenix/app/src/main/res/values-am/strings.xml@040280302390ea28148cd41eaab64f3cfd709e79": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -6001,6 +7157,13 @@
       "generated": false
     },
     "sailfishos-mirror/firefox/mobile/android/fenix/app/src/main/res/values-su/strings.xml@bea32854403fae468e9c9324d4be44695077b66c": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "mozilla-releng/staging-firefox/mobile/android/fenix/app/src/main/res/values-oc/strings.xml@ec4b53e7191f7f83b1a78a0cb96f8af308064248": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -6042,420 +7205,35 @@
       "webrefHeader": false,
       "generated": false
     },
-    "gavinwunz/frontieropensearch/mobile/android/fenix/app/src/main/res/values-gd/strings.xml@910b2505e9db469eb5f606e364cddd3f32a0fb3a": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Guerteltier/firefox/mobile/android/fenix/app/src/main/res/values-sk/strings.xml@69ff632438e53a6e56d84de8b3e1df2da6cd3300": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "ale82to/Fenix/firefox-android/fenix/app/src/main/java/org/mozilla/fenix/settings/quicksettings/WebsitePermissionsView.kt@b3ae01ce3b10abd2ca473b42da7abc4f2498adbc": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "gavinwunz/frontieropensearch/mobile/android/fenix/app/src/main/res/values-pa-rPK/strings.xml@f1450c5229933d0af3f186808d0faa067d491003": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sailfishos-mirror/gecko-dev/mobile/android/fenix/app/src/main/res/values-zh-rTW/strings.xml@1bec6b339bbf66335bde157cd00098eb021de3fb": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "vasi/mozilla-unified/mobile/android/fenix/app/src/main/res/values-es-rES/strings.xml@327b30e87a713501b957c3501855d64c7701edce": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "thakurabhinav22/Lykon-Browser/mobile/android/fenix/app/src/main/res/values-nb-rNO/strings.xml@638d2da6263a6b6c58e7d067ce363c94d4fe06ab": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "P-DoxQuad/sierra-fox-browser/161.0a1/mobile/android/fenix/app/src/main/res/values-ab/strings.xml@365f1fd25766ece3a6780160ad7b96a9051443dd": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "mozilla-releng/git-backing/mobile/android/fenix/app/src/main/res/values-te/strings.xml@325137f1e868692ae0fb474f705690c147c14ab1": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "keizman/LinguaSurf/Android-app/app/src/main/res/values-yo/strings.xml@3f14e0b4f815f63e9aa2c9dd224a6db018e2ee45": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "keizman/LinguaSurf/Android-app/app/src/main/res/values-oc/strings.xml@50facb075df48ca482e8651f500eb83c9dbee6ba": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "keizman/LinguaSurf/Android-app/app/src/main/res/values-ja/strings.xml@95a4088f994c97de87ebaa10024366462c811fad": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "keizman/LinguaSurf/Android-app/app/src/main/res/values-scn/strings.xml@84a4da16da130e1de84931058bc588b93d947cba": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "ale82to/Fenix/firefox-android/fenix/app/src/main/res/values-ar/strings.xml@ec997ef63247f3c8af4a25aea9cf087cf930214e": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "ale82to/Fenix/firefox-android/fenix/app/src/main/res/values-in/strings.xml@22acc1e75b297394fb48114b90f0873457947279": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "ale82to/Fenix/firefox-android/fenix/app/src/main/res/values-th/strings.xml@f9a9ad5c7ed999c8b6adf478a1adf7de6c4bb02f": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "ale82to/Fenix/firefox-android/fenix/app/src/main/res/values-trs/strings.xml@7992a88b7d1ded2d24cc66162a6fc2d953924bec": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "jwidar/LatencyZeroGithub/mobile/android/android-components/components/feature/sitepermissions/schemas/mozilla.components.feature.sitepermissions.db.SitePermissionsDatabase/9.json@39025c9af3be8d34239bb5d17ef93122d1d59891": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Dweep4269/sideraven/app/src/test/java/org/mozilla/fenix/utils/SettingsTest.kt@a9cb61b462b14a32c85b0321d94a21b83dce6ebb": {
-      "api": null,
-      "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Floorp-Projects/Floorp-Android/android-components/components/browser/engine-gecko/src/test/java/mozilla/components/browser/engine/gecko/permission/GeckoSitePermissionsStorageTest.kt@ced8b7643b475ff050afecea646e1e16dd03c65e": {
-      "api": null,
-      "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "BrowserWorks/waterfox/mobile/android/fenix/app/src/main/res/values-te/strings.xml@450e6a1b2d34a4f643fa559d1c72f918c32fd0c3": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "codegeasse1/nova-browser/app/src/main/java/org/mozilla/fenix/settings/PhoneFeature.kt@23ecbf7940074f6f9d407c7322f9fe7068d6c61b": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "mozilla-l10n/android-l10n/_data/fenix/beta.json@c9eaa5f72c00b8ead7e93f7e349ee3cd4ecab32a": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "mozilla-l10n/automated-lqa-tools/reports/fy-NL/android.md@fcc84879f9570c7bcd438e583edef7c005f3be0b": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": true
-    },
-    "Floorp-Projects/Floorp-Android/fenix/app/src/main/res/values-uz/strings.xml@df507d7341f6f5d6a4e0c61e4bb4bc5f3e644971": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Floorp-Projects/Floorp-Android/fenix/app/src/main/res/values-pl/strings.xml@81e18fab112950357ce845d7b22dab22dc028dc1": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "AvGDeV-io/Clarus/app/src/main/res/values-meh/strings.xml@6062d83de0eb8fb11ba8acc29347e2a701a4daf7": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "AvGDeV-io/Clarus/app/src/main/res/values-kmr/strings.xml@0fd73b1261590b1fa5b9b95351a3ea1214acf8d5": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "shmibblez/Inferno/app/src/main/res/values-te/strings.xml@882a8f395a16e913e70a14cae6a8014064f16a90": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "shmibblez/Inferno/app/src/main/res/values-si/strings.xml@dd9a7c148cbc7e039d9cd97929faa8b78d9b0bbe": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "shmibblez/Inferno/app/src/main/res/values-tr/strings.xml@92cad07ee622a2bfd8fc47b2aa235af948786840": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "shmibblez/Inferno/app/src/main/res/values-es/strings.xml@810efde5198e86ec093e03c7d53caed17d5a50ac": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "shmibblez/Inferno/app/src/main/res/values-hsb/strings.xml@1267a7c25703b50d741c809fc6565380097c85b1": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "jwidar/LatencyZeroGithub/mobile/android/fenix/app/src/main/java/org/mozilla/fenix/utils/Settings.kt@0dd807d6c8dc1e9d8a6006badbc07c0628a485d9": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "i4/site-attestation/firefox/mobile/android/fenix/app/src/main/res/layout/quicksettings_permissions.xml@fddc60c641584e1a7a10aca93f3bd620aa746aef": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "f3liz-casa/noraneko-runtime/mobile/android/fenix/app/src/main/res/values-zh-rCN/strings.xml@8161ff38ec2ad2523f300613071406ff1cd26af0": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "jwidar/LatencyZeroGithub/mobile/android/fenix/app/src/main/res/xml/site_permissions_preferences.xml@d224eedd7c878033b9b58548a384ec967d00ccae": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "builderxp99/firefox/app/src/main/res/values-ka/strings.xml@54ba351e449373f28f04ef161ce4392651d5d128": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "mozilla-l10n/automated-lqa-tools/android/state/fa/strings.json@24e7244e08d6d46155819715617a7765d4708dbd": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "mozilla-l10n/automated-lqa-tools/android/state/sl/findings.json@ad3cbf8090f6c882775822042c9ec5d7a8e13939": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "nsanjines-bitrise/firefox-android/fenix/app/src/main/res/values/strings.xml@4b4b6b659df9daa3cbdfed98e2f7ead8dc5ce7eb": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "mozilla-l10n/automated-lqa-tools/android/state/zh-CN/strings.json@98ac22722883734d08b21e38fa5129e176600719": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "QUBIP/mozilla-central/mobile/android/fenix/app/src/main/res/values-cy/strings.xml@d34c90cd26e49db455c4277403e2f3fa113a5e52": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "QUBIP/mozilla-central/mobile/android/fenix/app/src/main/res/values-nl/strings.xml@81698a996e0161217347b3b731945c49bc66f1d3": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "larygwil/ff-src-part/firefox-src-part/mobile/android/fenix/app/src/main/res/values-sq/strings.xml@98a3bd02796eb7750af6fb0eac091e2064b2c318": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "nsanjines-bitrise/firefox-android/fenix/app/src/main/res/values-el/strings.xml@5c50fde00659eae0369f488e7473efb77c698dbf": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Eyesearch/Eyebrowse/fenix/app/src/main/res/values-bs/strings.xml@33a91bd429de608f2498bd689416c8681519c6e5": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Eyesearch/Eyebrowse/fenix/app/src/main/res/values-eu/strings.xml@14d8926166d44ff60c78dd1b3d0949a7538549b1": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "danadrianmirea/firefox-android/fenix/app/src/main/res/values-is/strings.xml@9a5f4cae12f789f6fd76fa7662ab3729d38ca742": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "danadrianmirea/firefox-android/fenix/app/src/main/res/values-si/strings.xml@b986ea293dc47ae07257a45b6c3706f2834d5723": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Eyesearch/Eyebrowse/fenix/app/src/main/res/values-fr/strings.xml@fd34dd506447a8df70fa90f8d8e0b9a6303374d1": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "nsanjines-bitrise/firefox-android/fenix/app/src/main/res/values-dsb/strings.xml@54a6a8848ada8a41cd9e72448a4fe90311ae9e24": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Eyesearch/Eyebrowse/fenix/app/src/main/res/values-hsb/strings.xml@f742d5f68c9cce333c2b98f7477d22cc38cb0b77": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "deepin-community/thunderbird/mobile/android/fenix/app/src/main/res/values-ko/strings.xml@91cc4ef5f3c48c7a9ea4ab9ea7283e6bf91b0738": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "deepin-community/thunderbird/mobile/android/fenix/app/src/main/res/values-el/strings.xml@592e8357a24acad205e97501c77c3fd6204699ec": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "deepin-community/firefox/mobile/android/fenix/app/src/main/res/values-tt/strings.xml@b2c1a720349218761332af97b255da3a2acdbed6": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sailfishos-mirror/gecko-dev/mobile/android/fenix/app/src/main/res/values-be/strings.xml@0c182fa6af945ed322b903707b2653df576b6b6d": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sailfishos-mirror/gecko-dev/mobile/android/fenix/app/src/main/res/values-am/strings.xml@040280302390ea28148cd41eaab64f3cfd709e79": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "mozilla-releng/staging-firefox/mobile/android/fenix/app/src/main/res/values-oc/strings.xml@ec4b53e7191f7f83b1a78a0cb96f8af308064248": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "sig-chakrava/firefox/mobile/android/fenix/app/src/main/res/values-hr/strings.xml@0fe4bc45d87a5e5edfa36d79d5542ec54254f5d2": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif_ungrouped/mobile/android/fenix/app/src/main/res/values-hr/strings.xml@0fe4bc45d87a5e5edfa36d79d5542ec54254f5d2": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif_ungrouped_/mobile/android/fenix/app/src/main/res/values-hr/strings.xml@0fe4bc45d87a5e5edfa36d79d5542ec54254f5d2": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif_grouped/mobile/android/fenix/app/src/main/res/values-hr/strings.xml@0fe4bc45d87a5e5edfa36d79d5542ec54254f5d2": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif/mobile/android/fenix/app/src/main/res/values-hr/strings.xml@0fe4bc45d87a5e5edfa36d79d5542ec54254f5d2": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -6476,7 +7254,14 @@
       "webrefHeader": false,
       "generated": false
     },
-    "jwidar/LatencyZeroGithub/mobile/android/fenix/app/src/main/res/values-da/strings.xml@76ead95165129d3578c40b5bfbbbbbcf7777792a": {
+    "gavinwunz/frontieropensearch/mobile/android/fenix/app/src/main/res/values-gd/strings.xml@910b2505e9db469eb5f606e364cddd3f32a0fb3a": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Guerteltier/firefox/mobile/android/fenix/app/src/main/res/values-sk/strings.xml@69ff632438e53a6e56d84de8b3e1df2da6cd3300": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -6504,7 +7289,42 @@
       "webrefHeader": false,
       "generated": false
     },
+    "ale82to/Fenix/firefox-android/fenix/app/src/main/java/org/mozilla/fenix/settings/quicksettings/WebsitePermissionsView.kt@b3ae01ce3b10abd2ca473b42da7abc4f2498adbc": {
+      "api": null,
+      "kind": "code",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "gavinwunz/frontieropensearch/mobile/android/fenix/app/src/main/res/values-pa-rPK/strings.xml@f1450c5229933d0af3f186808d0faa067d491003": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sailfishos-mirror/gecko-dev/mobile/android/fenix/app/src/main/res/values-zh-rTW/strings.xml@1bec6b339bbf66335bde157cd00098eb021de3fb": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "itsaky/mozilla-release/mobile/android/fenix/app/src/main/res/values-pt-rBR/strings.xml@5275973cfc186b12864b51fd8b47569d497d46ed": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Ryosuke-Asano/Noraneko-Runtime-macOS/mobile/android/fenix/app/src/main/res/values-pt-rBR/strings.xml@5275973cfc186b12864b51fd8b47569d497d46ed": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "vasi/mozilla-unified/mobile/android/fenix/app/src/main/res/values-es-rES/strings.xml@327b30e87a713501b957c3501855d64c7701edce": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -6546,14 +7366,63 @@
       "webrefHeader": false,
       "generated": false
     },
-    "P-DoxQuad/sierra-fox-browser/161.0a1/mobile/android/fenix/app/src/main/res/values-azb/strings.xml@876ebc4b93e90403b5b70b731edc92d950228597": {
+    "sig-chakrava/firefox_sarif_ungrouped/mobile/android/fenix/app/src/main/res/values-fy-rNL/strings.xml@a47ae120a6ba56486a9047a692bbd4386478ff98": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
-    "mozilla-releng/git-backing/mobile/android/fenix/app/src/main/res/values-szl/strings.xml@899899d44f1ecbee1cf7a2225e77ff2d0d91acf5": {
+    "sig-chakrava/firefox_sarif_ungrouped_/mobile/android/fenix/app/src/main/res/values-fy-rNL/strings.xml@a47ae120a6ba56486a9047a692bbd4386478ff98": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif_grouped/mobile/android/fenix/app/src/main/res/values-fy-rNL/strings.xml@a47ae120a6ba56486a9047a692bbd4386478ff98": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif/mobile/android/fenix/app/src/main/res/values-fy-rNL/strings.xml@a47ae120a6ba56486a9047a692bbd4386478ff98": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "thakurabhinav22/Lykon-Browser/mobile/android/fenix/app/src/main/res/values-nb-rNO/strings.xml@638d2da6263a6b6c58e7d067ce363c94d4fe06ab": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "P-DoxQuad/sierra-fox-browser/161.0a1/mobile/android/fenix/app/src/main/res/values-ab/strings.xml@365f1fd25766ece3a6780160ad7b96a9051443dd": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "mozilla-releng/git-backing/mobile/android/fenix/app/src/main/res/values-te/strings.xml@325137f1e868692ae0fb474f705690c147c14ab1": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "keizman/LinguaSurf/Android-app/app/src/main/res/values-yo/strings.xml@3f14e0b4f815f63e9aa2c9dd224a6db018e2ee45": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "keizman/LinguaSurf/Android-app/app/src/main/res/values-oc/strings.xml@50facb075df48ca482e8651f500eb83c9dbee6ba": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -6567,6 +7436,20 @@
       "webrefHeader": false,
       "generated": false
     },
+    "keizman/LinguaSurf/Android-app/app/src/main/res/values-ja/strings.xml@95a4088f994c97de87ebaa10024366462c811fad": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "keizman/LinguaSurf/Android-app/app/src/main/res/values-scn/strings.xml@84a4da16da130e1de84931058bc588b93d947cba": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "keizman/LinguaSurf/Android-app/app/src/main/res/values-fy-rNL/strings.xml@dc42827ea590c0da35fa7b66252ec17e8864bb6e": {
       "api": null,
       "kind": "docs or mention",
@@ -6574,7 +7457,14 @@
       "webrefHeader": false,
       "generated": false
     },
-    "ale82to/Fenix/firefox-android/fenix/app/src/main/res/values-tr/strings.xml@322ac63a88f387cd5ae43cee6e2406779136963f": {
+    "ale82to/Fenix/firefox-android/fenix/app/src/main/res/values-ar/strings.xml@ec997ef63247f3c8af4a25aea9cf087cf930214e": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "ale82to/Fenix/firefox-android/fenix/app/src/main/res/values-in/strings.xml@22acc1e75b297394fb48114b90f0873457947279": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -6588,28 +7478,21 @@
       "webrefHeader": false,
       "generated": false
     },
-    "sig-chakrava/firefox/mobile/android/android-components/components/feature/sitepermissions/schemas/mozilla.components.feature.sitepermissions.db.SitePermissionsDatabase/9.json@39025c9af3be8d34239bb5d17ef93122d1d59891": {
+    "ale82to/Fenix/firefox-android/fenix/app/src/main/res/values-th/strings.xml@f9a9ad5c7ed999c8b6adf478a1adf7de6c4bb02f": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
-    "sig-chakrava/firefox_sarif_ungrouped/mobile/android/android-components/components/feature/sitepermissions/schemas/mozilla.components.feature.sitepermissions.db.SitePermissionsDatabase/9.json@39025c9af3be8d34239bb5d17ef93122d1d59891": {
+    "ale82to/Fenix/firefox-android/fenix/app/src/main/res/values-trs/strings.xml@7992a88b7d1ded2d24cc66162a6fc2d953924bec": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
-    "sig-chakrava/firefox_sarif_ungrouped_/mobile/android/android-components/components/feature/sitepermissions/schemas/mozilla.components.feature.sitepermissions.db.SitePermissionsDatabase/9.json@39025c9af3be8d34239bb5d17ef93122d1d59891": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sig-chakrava/firefox_sarif_grouped/mobile/android/android-components/components/feature/sitepermissions/schemas/mozilla.components.feature.sitepermissions.db.SitePermissionsDatabase/9.json@39025c9af3be8d34239bb5d17ef93122d1d59891": {
+    "jwidar/LatencyZeroGithub/mobile/android/android-components/components/feature/sitepermissions/schemas/mozilla.components.feature.sitepermissions.db.SitePermissionsDatabase/9.json@39025c9af3be8d34239bb5d17ef93122d1d59891": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -6644,6 +7527,167 @@
       "webrefHeader": false,
       "generated": false
     },
+    "Dweep4269/sideraven/app/src/test/java/org/mozilla/fenix/utils/SettingsTest.kt@a9cb61b462b14a32c85b0321d94a21b83dce6ebb": {
+      "api": null,
+      "kind": "test",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "preetykumar/ai-a11y-sensor/tests/test_service.py@9346ffd700ecf3911dfee789f2808ee8bb84ba56": {
+      "api": null,
+      "kind": "test",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "itsaky/mozilla-release/mobile/android/fenix/app/src/test/java/org/mozilla/fenix/utils/SettingsTest.kt@89d9e707769fedce1b1e85a5cba3f27af07b46c5": {
+      "api": null,
+      "kind": "test",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Floorp-Projects/Floorp-Android/android-components/components/browser/engine-gecko/src/test/java/mozilla/components/browser/engine/gecko/permission/GeckoSitePermissionsStorageTest.kt@ced8b7643b475ff050afecea646e1e16dd03c65e": {
+      "api": null,
+      "kind": "test",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "mozilla-l10n/android-l10n/_data/fenix/beta.json@c9eaa5f72c00b8ead7e93f7e349ee3cd4ecab32a": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Floorp-Projects/Floorp-Android/fenix/app/src/main/res/values-uz/strings.xml@df507d7341f6f5d6a4e0c61e4bb4bc5f3e644971": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "shmibblez/Inferno/app/src/main/res/values-si/strings.xml@dd9a7c148cbc7e039d9cd97929faa8b78d9b0bbe": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "shmibblez/Inferno/app/src/main/res/values-tr/strings.xml@92cad07ee622a2bfd8fc47b2aa235af948786840": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "i4/site-attestation/firefox/mobile/android/fenix/app/src/main/res/layout/quicksettings_permissions.xml@fddc60c641584e1a7a10aca93f3bd620aa746aef": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "f3liz-casa/noraneko-runtime/mobile/android/fenix/app/src/main/res/values-zh-rCN/strings.xml@8161ff38ec2ad2523f300613071406ff1cd26af0": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "mozilla-l10n/automated-lqa-tools/android/state/fa/strings.json@24e7244e08d6d46155819715617a7765d4708dbd": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "nsanjines-bitrise/firefox-android/fenix/app/src/main/res/values/strings.xml@4b4b6b659df9daa3cbdfed98e2f7ead8dc5ce7eb": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "nsanjines-bitrise/firefox-android/fenix/app/src/main/res/values-el/strings.xml@5c50fde00659eae0369f488e7473efb77c698dbf": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Eyesearch/Eyebrowse/fenix/app/src/main/res/values-bs/strings.xml@33a91bd429de608f2498bd689416c8681519c6e5": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Eyesearch/Eyebrowse/fenix/app/src/main/res/values-hsb/strings.xml@f742d5f68c9cce333c2b98f7477d22cc38cb0b77": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "jwidar/LatencyZeroGithub/mobile/android/fenix/app/src/main/res/values-da/strings.xml@76ead95165129d3578c40b5bfbbbbbcf7777792a": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "P-DoxQuad/sierra-fox-browser/161.0a1/mobile/android/fenix/app/src/main/res/values-azb/strings.xml@876ebc4b93e90403b5b70b731edc92d950228597": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "mozilla-releng/git-backing/mobile/android/fenix/app/src/main/res/values-szl/strings.xml@899899d44f1ecbee1cf7a2225e77ff2d0d91acf5": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "ale82to/Fenix/firefox-android/fenix/app/src/main/res/values-tr/strings.xml@322ac63a88f387cd5ae43cee6e2406779136963f": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox/mobile/android/android-components/components/feature/sitepermissions/schemas/mozilla.components.feature.sitepermissions.db.SitePermissionsDatabase/9.json@39025c9af3be8d34239bb5d17ef93122d1d59891": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif_ungrouped/mobile/android/android-components/components/feature/sitepermissions/schemas/mozilla.components.feature.sitepermissions.db.SitePermissionsDatabase/9.json@39025c9af3be8d34239bb5d17ef93122d1d59891": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif_ungrouped_/mobile/android/android-components/components/feature/sitepermissions/schemas/mozilla.components.feature.sitepermissions.db.SitePermissionsDatabase/9.json@39025c9af3be8d34239bb5d17ef93122d1d59891": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "sig-chakrava/firefox_sarif_grouped/mobile/android/android-components/components/feature/sitepermissions/schemas/mozilla.components.feature.sitepermissions.db.SitePermissionsDatabase/9.json@39025c9af3be8d34239bb5d17ef93122d1d59891": {
+      "api": null,
+      "kind": "docs or mention",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
     "22085/iceraven-browser/app/src/test/java/org/mozilla/fenix/utils/SettingsTest.kt@a9cb61b462b14a32c85b0321d94a21b83dce6ebb": {
       "api": null,
       "kind": "test",
@@ -6652,6 +7696,13 @@
       "generated": false
     },
     "just-a-user-me/Crimson-Browser-/app/src/test/java/org/mozilla/fenix/utils/SettingsTest.kt@a9cb61b462b14a32c85b0321d94a21b83dce6ebb": {
+      "api": null,
+      "kind": "test",
+      "oldApiToo": false,
+      "webrefHeader": false,
+      "generated": false
+    },
+    "Ryosuke-Asano/Noraneko-Runtime-macOS/mobile/android/fenix/app/src/test/java/org/mozilla/fenix/utils/SettingsTest.kt@89d9e707769fedce1b1e85a5cba3f27af07b46c5": {
       "api": null,
       "kind": "test",
       "oldApiToo": false,
@@ -6679,13 +7730,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "chromium/chromium/content/browser/cross_origin_storage/cross_origin_storage_staging_writer.cc@d1f997406df81062b689e6a74831c856db1d1702": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "nwjs/chromium.src/content/browser/cross_origin_storage/cross_origin_storage_staging_writer.cc@4295aef09957dc13d1f3b9fa261a53d182168b69": {
       "api": null,
       "kind": "code",
@@ -6703,13 +7747,6 @@
     "BrowserWorks/waterfox/mobile/android/fenix/app/src/main/res/values-meh/strings.xml@a6d23efe7f41355212c74835a7286c4eacc6becd": {
       "api": null,
       "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "AvGDeV-io/Clarus/app/src/main/java/org/mozilla/fenix/settings/PhoneFeature.kt@23ecbf7940074f6f9d407c7322f9fe7068d6c61b": {
-      "api": null,
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -6738,20 +7775,6 @@
     "BrowserWorks/waterfox-android/mobile/android/fenix/app/src/main/res/values-sc/strings.xml@6c4c0805a835e9b6c02110e600953c99bac5f1ba": {
       "api": null,
       "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "SAP/project-foxhound/mobile/android/fenix/app/src/main/res/values-te/strings.xml@450e6a1b2d34a4f643fa559d1c72f918c32fd0c3": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "7sarus/iceraven-history-mod/app/src/main/java/org/mozilla/fenix/settings/PhoneFeature.kt@23ecbf7940074f6f9d407c7322f9fe7068d6c61b": {
-      "api": null,
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -6829,41 +7852,6 @@
     "f3liz-casa/noraneko-runtime/mobile/android/fenix/app/src/main/res/values-sq/strings.xml@be0dc6e035222aa2b01bb9c69c638865db97331f": {
       "api": null,
       "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sig-chakrava/firefox/mobile/android/fenix/app/src/main/res/xml/site_permissions_preferences.xml@d224eedd7c878033b9b58548a384ec967d00ccae": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sig-chakrava/firefox_sarif_ungrouped/mobile/android/fenix/app/src/main/res/xml/site_permissions_preferences.xml@d224eedd7c878033b9b58548a384ec967d00ccae": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sig-chakrava/firefox_sarif_ungrouped_/mobile/android/fenix/app/src/main/res/xml/site_permissions_preferences.xml@d224eedd7c878033b9b58548a384ec967d00ccae": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sig-chakrava/firefox_sarif_grouped/mobile/android/fenix/app/src/main/res/xml/site_permissions_preferences.xml@d224eedd7c878033b9b58548a384ec967d00ccae": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "CPlusPlus17/Redoubt/patches/android/drm-permission-default.patch@014f858b4cfd4952b7293936803a5fb24f83ee1d": {
-      "api": null,
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -6959,13 +7947,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "TommyLemon/UIGO-Browser/fenix/app/src/main/res/values-is/strings.xml@9a5f4cae12f789f6fd76fa7662ab3729d38ca742": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "Eyesearch/Eyebrowse/fenix/app/src/main/res/values-de/strings.xml@e2677372f0ca6c98deef6048eea704347d30bd92": {
       "api": null,
       "kind": "docs or mention",
@@ -6973,21 +7954,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "TommyLemon/UIGO-Browser/fenix/app/src/main/res/values-si/strings.xml@b986ea293dc47ae07257a45b6c3706f2834d5723": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "danadrianmirea/firefox-android/fenix/app/src/main/res/values-azb/strings.xml@eaf9def6d220e6595fffddb9c75a9b9fe504bdb8": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "jcristau/firefox-android-nooctopus/fenix/app/src/main/res/values-dsb/strings.xml@54a6a8848ada8a41cd9e72448a4fe90311ae9e24": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -7029,20 +7996,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "isworking/flamewolf/mobile/android/fenix/app/src/main/res/values-ko/strings.xml@91cc4ef5f3c48c7a9ea4ab9ea7283e6bf91b0738": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "isworking/flamewolf/mobile/android/fenix/app/src/main/res/values-el/strings.xml@592e8357a24acad205e97501c77c3fd6204699ec": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "Floorp-Projects/gecko-dev/mobile/android/fenix/app/src/main/res/values-nl/strings.xml@8255e365b262607880123cf4cb0b38735c2eea23": {
       "api": null,
       "kind": "docs or mention",
@@ -7064,13 +8017,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "celray/tern/mobile/android/fenix/app/src/main/res/values-te/strings.xml@450e6a1b2d34a4f643fa559d1c72f918c32fd0c3": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "deepin-community/firefox/mobile/android/fenix/app/src/main/res/values-oc/strings.xml@7afd9abf5100fe9dee8596b751013f311c8b897b": {
       "api": null,
       "kind": "docs or mention",
@@ -7079,20 +8025,6 @@
       "generated": false
     },
     "deepin-community/firefox/mobile/android/fenix/app/src/main/res/values-ug/strings.xml@4e4832b22d4cade931cf3b7d9aa65dc0e5ffabcc": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Sakura286/firefox-rockos/mobile/android/fenix/app/src/main/res/values-tt/strings.xml@b2c1a720349218761332af97b255da3a2acdbed6": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Sakura286/firefox-es/mobile/android/fenix/app/src/main/res/values-tt/strings.xml@b2c1a720349218761332af97b255da3a2acdbed6": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -7120,13 +8052,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "itsaky/mozilla-release/mobile/android/fenix/app/src/main/res/values-gn/strings.xml@b5b0c6739ac5f65ce562a00fb55ad371c1ccd4d4": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "vasi/mozilla-unified/mobile/android/fenix/app/src/main/res/values-sl/strings.xml@272cb26fd885ac7d7c67262117827624a861f69e": {
       "api": null,
       "kind": "docs or mention",
@@ -7135,34 +8060,6 @@
       "generated": false
     },
     "itsaky/mozilla-release/mobile/android/fenix/app/src/main/res/values-hu/strings.xml@69466d061fc29429ea4f6a462167a59cc4cd7ab3": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sig-chakrava/firefox_sarif_ungrouped/mobile/android/fenix/app/src/main/res/values-hr/strings.xml@0fe4bc45d87a5e5edfa36d79d5542ec54254f5d2": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sig-chakrava/firefox_sarif_ungrouped_/mobile/android/fenix/app/src/main/res/values-hr/strings.xml@0fe4bc45d87a5e5edfa36d79d5542ec54254f5d2": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sig-chakrava/firefox_sarif_grouped/mobile/android/fenix/app/src/main/res/values-hr/strings.xml@0fe4bc45d87a5e5edfa36d79d5542ec54254f5d2": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sig-chakrava/firefox_sarif/mobile/android/fenix/app/src/main/res/values-hr/strings.xml@0fe4bc45d87a5e5edfa36d79d5542ec54254f5d2": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -7218,58 +8115,30 @@
       "webrefHeader": false,
       "generated": false
     },
-    "Ryosuke-Asano/Noraneko-Runtime-macOS/mobile/android/fenix/app/src/main/res/values-pt-rBR/strings.xml@5275973cfc186b12864b51fd8b47569d497d46ed": {
+    "jwidar/LatencyZeroGithub/mobile/android/fenix/app/src/main/res/values-kk/strings.xml@4b9d045919762a66fce549103cf9502b76932ee9": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
-    "sig-chakrava/firefox_sarif_ungrouped/mobile/android/fenix/app/src/main/res/values-fy-rNL/strings.xml@a47ae120a6ba56486a9047a692bbd4386478ff98": {
+    "deepin-community/firefox/mobile/android/fenix/app/src/main/res/values-hsb/strings.xml@e8a775a4a918012b791dc81dc93e5d1338e03a49": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
-    "sig-chakrava/firefox_sarif_ungrouped_/mobile/android/fenix/app/src/main/res/values-fy-rNL/strings.xml@a47ae120a6ba56486a9047a692bbd4386478ff98": {
+    "jwidar/LatencyZeroGithub/mobile/android/fenix/app/src/main/res/values-bqi/strings.xml@30fc25a18840f1174b3f8774bae52bb6f1c095de": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
-    "sig-chakrava/firefox_sarif_grouped/mobile/android/fenix/app/src/main/res/values-fy-rNL/strings.xml@a47ae120a6ba56486a9047a692bbd4386478ff98": {
+    "thakurabhinav22/Lykon-Browser/mobile/android/fenix/app/src/main/res/values-dsb/strings.xml@55910805c2b1657746cd7d6b2c6425f5016e08ee": {
       "api": null,
       "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "sig-chakrava/firefox_sarif/mobile/android/fenix/app/src/main/res/values-fy-rNL/strings.xml@a47ae120a6ba56486a9047a692bbd4386478ff98": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "preetykumar/ai-a11y-sensor/tests/test_service.py@9346ffd700ecf3911dfee789f2808ee8bb84ba56": {
-      "api": null,
-      "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "itsaky/mozilla-release/mobile/android/fenix/app/src/test/java/org/mozilla/fenix/utils/SettingsTest.kt@89d9e707769fedce1b1e85a5cba3f27af07b46c5": {
-      "api": null,
-      "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Ryosuke-Asano/Noraneko-Runtime-macOS/mobile/android/fenix/app/src/test/java/org/mozilla/fenix/utils/SettingsTest.kt@89d9e707769fedce1b1e85a5cba3f27af07b46c5": {
-      "api": null,
-      "kind": "test",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -7330,21 +8199,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "flutter-zl/web-triage/weekly-log/2026-08-05.md@5c33aa8e963d5858bf290e478f34c68482ca48b8": {
-      "api": "old",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "xutianyi1999/codex-speed/.agents/skills/modern-web-guidance/guides/performance/avoid-redundant-large-asset-downloads.md@2a1c2d77c70e7560e9d17d808bffaf566ab2bd55": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "jhaabhijeet864/On-device-Visual-Perception-for-Light-weight-Browser-Agents/.agents/skills/modern-web-guidance/guides/performance/avoid-redundant-large-asset-downloads.md@2a1c2d77c70e7560e9d17d808bffaf566ab2bd55": {
       "api": "old",
       "kind": null,
       "oldApiToo": false,
@@ -7358,14 +8213,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "codylindley/codylindley.com/tests/unit/engine-wllama.test.ts@42692185257431f8426485a589a7e4c4e99521dc": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "codylindley/ailocal-on-device-ai/tests/unit/engine-wllama.test.ts@42692185257431f8426485a589a7e4c4e99521dc": {
+    "jhaabhijeet864/On-device-Visual-Perception-for-Light-weight-Browser-Agents/.agents/skills/modern-web-guidance/guides/performance/avoid-redundant-large-asset-downloads.md@2a1c2d77c70e7560e9d17d808bffaf566ab2bd55": {
       "api": "old",
       "kind": null,
       "oldApiToo": false,
@@ -7378,20 +8226,6 @@
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
-    },
-    "web-platform-tests/wpt/interfaces/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "w3c/webref/ed/idl/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
     },
     "WICG/cross-origin-storage/CONTRIBUTING.md@6024d7f89caa189840bf26aefca232d4bbec69b2": {
       "api": "link",
@@ -7442,13 +8276,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "w3c/webref/ed/dfns/cross-origin-storage.json@9d5478171f021a7f5e4e248bcd4c5106a37bae68": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "WICG/cross-origin-storage/public-hash-list/implementation/README.md@dc752c576ced83ee9750f3221a995a0b941ccda9": {
       "api": "link",
       "kind": "docs or mention",
@@ -7484,13 +8311,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "w3c/webref/ed/ids/cross-origin-storage.json@b7f2d9a691cc97e0ce13c3938b78c306dbe98f7f": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "join-the-flock/flock/packages/flutter_tools/lib/src/build_system/targets/web.dart@9a9ddf621b4220c69cafa68b7326b15982e4cb0c": {
       "api": "link",
       "kind": null,
@@ -7505,33 +8325,12 @@
       "webrefHeader": false,
       "generated": false
     },
-    "snowlark-browser/snowlark/idl/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "zig-whatwg/crane/specs/idl/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
     "WICG/cross-origin-storage/public-hash-list/implementation/index.html@9c663e0ff4ae52ebb7edefb6e7af45193887a041": {
       "api": "link",
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
-    },
-    "lightpanda-io/wpt/interfaces/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
     },
     "knopp/flutter_zero/packages/flutter_tools/lib/src/build_system/targets/web.dart@6a91f593b597904aef04c8f365fcf3cf5beee3f4": {
       "api": "link",
@@ -7575,16 +8374,9 @@
       "webrefHeader": false,
       "generated": false
     },
-    "web-ai-community/cross-origin-storage-extension/background.js@b3f3e2c087d7b893d4c8bcd855b242d1bde5341a": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "speced/bikeshed-data/data/biblio/biblio-cr.data@ca4127ba5124dce8cf6f027fb3c2e6851f682483": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -7598,212 +8390,170 @@
     },
     "speced/bikeshed-data/data/anchors/anchors-eq.data@3439dd7b83584eef6beda3e36683c1843d59f0a9": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-ph.data@a0d55eb5765ec3020b3a155c8c56150286c0287e": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-gl.data@006f074e0139f1091ed12a8a3d308854b62a2899": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-ap.data@b4a192320fea5eebc7eccd88b101504f715660cc": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-or.data@6d72975191851fd301bd2527db61c747d2a902c6": {
       "api": "new",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-by.data@639277c6c4201e2da1278415f764c77091c3bdd8": {
       "api": "link",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "speced/bikeshed-data/data/anchors/anchors-cr.data@f271bf7b36fd6a25974f8bbba8169b2b637a6bac": {
-      "api": "new",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-ob.data@b0add1603818298bbc559062f15daa89e42311f1": {
       "api": "link",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "speced/bikeshed-data/data/anchors/anchors-ha.data@fbb9ed853f8006e39554fd4c6fc919a791b427e3": {
-      "api": "new",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-pu.data@11ecd2725525fecc5bb5200e2dc02cb5a24ded96": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-va.data@24637d2f69bc3bc7140e49ea7590a55a4cd9e09b": {
       "api": "new",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-al.data@fc790405c1050c0572dd38bb47162a3d9a7f9fa3": {
       "api": "new",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-ve.data@fdebf0ebba0895eee145ae61b5dbebb25ae7444f": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-fi.data@dc4df09adcadc1afe643d39ae3c75796d47f8f44": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-up.data@d9cb89d70712debc0f91a3b94ddbc2d2663e1aca": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-gr.data@ac2c911888ca8b1ce66504e60d11ff40d39bf46f": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-pa.data@b9f586eeea0c184dd457bd815dc83db27256f902": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-so.data@cdf15f5431b8a3e552a815445af9348fb25fd1c3": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-ch.data@0e042a7c3c69b2e960bb240ce98b6d78c895a91a": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": true
     },
     "speced/bikeshed-data/data/anchors/anchors-ma.data@7db97310995a088d562704e0dc4600d4bdb1cffe": {
       "api": "link",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "speced/bikeshed-data/data/anchors/anchors-ge.data@73a48f1e10ab7f0fe81378b9570fde0efef437c0": {
-      "api": "new",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-on.data@46f758da0aab84f7b0d25a76df84a69240172a29": {
       "api": "link",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "speced/bikeshed-data/data/anchors/anchors-na.data@a7373de6d185cd8f47ab0694f8de404e457c4b61": {
-      "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-st.data@8376053357ff98f8518bb35bedc76e482beffe4d": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-op.data@fcb86458160f5b46f9708e4bb4dc69207d47a589": {
       "api": "new",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-no.data@61f1f2fc72cf84551b71e6a963e2a2c002f0582f": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
     },
     "speced/bikeshed-data/data/anchors/anchors-pr.data@7f1779d4fff511fab23c060562044c5448127f30": {
       "api": "link",
-      "kind": "code",
+      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
-    },
-    "tinybrowser-dev/tinybrowser/crates/webidl-bindgen/idl/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
     },
     "tomayac/cos-wpt/README.md@dd74f644ff9d8adf6d38953f4fe82ea9dc1e4740": {
       "api": "link",
       "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
-      "generated": true
-    },
-    "KorvusBrowser/korvus-browser/core/korvus-webapi/gen/webref/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
       "generated": true
     },
     "w3c/groups/cg/wicg/repositories.json@4cec0bcd3391ac31dcf9eb8147f4c5f38114c28b": {
@@ -7823,13 +8573,6 @@
     "speced/bikeshed-data/data/headings/headings-cross-origin-storage.json@5cc650c110523a49b65119f18b59fc71b68c9249": {
       "api": "link",
       "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "afflom/me/app/specs/browser/idl/Navigator.idl@d136c4a450747b06d954f5bac7b4610865b77a10": {
-      "api": "link",
-      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -7890,117 +8633,12 @@
       "webrefHeader": false,
       "generated": false
     },
-    "servo/servo/tests/wpt/tests/interfaces/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "mozilla-firefox/firefox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "meziantou/Meziantou.Framework/tests/Meziantou.Framework.WebPlatform.SpecData/webref/ed/idl/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "BrowserWorks/waterfox-android/testing/web-platform/tests/interfaces/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
     "SSHAHZAIBS/SCWMS/flutter/packages/flutter_tools/lib/src/build_system/targets/web.dart@7d235f60d691ca8f2df37180954c3d4a71837964": {
       "api": "link",
       "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
-    },
-    "meziantou/Meziantou.Framework/tests/Meziantou.Framework.WebPlatform.SpecData/webref/ed/idlparsed/cross-origin-storage.json@3dcf0b5d09e4d08c204cad2b0dca51bc40db91ac": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "Kenneth-Cho-InfoSec/Antares/tests/wpt/tests/interfaces/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "mozilla/enterprise-firefox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "Floorp-Projects/Floorp-Runtime/testing/web-platform/tests/interfaces/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "f3liz-casa/noraneko-runtime/testing/web-platform/tests/interfaces/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "Orvaen/chremo/tests/wpt/tests/interfaces/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "mozilla-releng/staging-firefox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "sailfishos-mirror/firefox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@aabff0dda5c4fd509a05a7bd0b49ad6661be7b36": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "utbuiquoc/Hox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@91c98fd584d51118d04316ea4564b69e33976291": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "P-DoxQuad/sierra-fox-browser/161.0a1/testing/web-platform/tests/interfaces/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "razoring/OneAgent-Desktop/firefox/testing/web-platform/tests/interfaces/cross-origin-storage.idl@3122cf5214c7bd3c4e27ee3ff34fcfc99c961e81": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
     },
     "guileen/mioa-core/tests/standards/catalog.json@d1c5980e146c4d08a3421f357889bf88e4b911eb": {
       "api": "link",
@@ -8033,13 +8671,6 @@
     "DefinitelyTyped/DefinitelyTyped/types/wicg-cross-origin-storage/package.json@57a96ab12428787489d293589bce9b636e1fb5c7": {
       "api": "link",
       "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "huggingface/transformers.js/packages/transformers/src/env.js@5b00064c3805417de7c615500587de32ec79e58f": {
-      "api": "link",
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -8261,13 +8892,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/rummy-mcrummyface/README.md@a8e8d5fb767901639545c0013dbf376b447541cf": {
-      "api": "link",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "hazadus/bluesky-reader/feeds/2026-06-17.md@a0f2a8a790f6ef897a671ba14c08e49385482f54": {
       "api": "link",
       "kind": "docs or mention",
@@ -8311,13 +8935,6 @@
       "generated": false
     },
     "aih/uscode-redesign/frontend/src/pages/about.astro@b5666d8e2b6ae0a21318b2d6b9914401c5a191c3": {
-      "api": "link",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "ECOSYSTEMAX/TRANSFORMER.JS-V4/packages/transformers/src/env.js@45636c5ebc64df32d14756a304beb3704c6daef4": {
       "api": "link",
       "kind": "code",
       "oldApiToo": false,
@@ -8387,13 +9004,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "koneb71/vikado/web/.pnpm-store/v11/files/94/874140900f4bc9e2a1182e5a8ece440fb6985623c133ea73f4958fdcc76e5a8b9f9891b5fa517151fb814e19cb74621635366342e47e23995d0aea1e34781c@a66ec31d72acf6f24ac15fb4326fd3709f3715a9": {
-      "api": "old",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "Ethan-Clenet/arboris/prisma/skills/transformers-js__huggingface-transformers-js__ai-skills-91ad59b4d429/references/CONFIGURATION.md@9baa9acb7291d36e83022c1d8d021b1758f13656": {
       "api": "link",
       "kind": null,
@@ -8402,13 +9012,6 @@
       "generated": true
     },
     "koneb71/vikado/web/.pnpm-store/v11/files/0d/c3a6207e00cd9d7e5caa7090371c79841bab1acfabc71e1e67859a58bbc04e6051d6f1315e927bcc1878b1c6a0ff08670cc898cc3664fe46abce95f5344b76@a5c7b58db4fb333fca4945e3e1510ac586d99446": {
-      "api": "link",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "koneb71/vikado/web/.pnpm-store/v11/files/90/56b08c223b0b853d7b4fd8c04cc8461ce254a3fc0d43d4fb85c404c1ddb28244be2ab1b6268cbdd555aa9ba4b2d73bc7997364bdcbf1ac0f8ce39ac88a2b98@25b3cf3d2944ded10597f536ce6ca7f14004693f": {
       "api": "link",
       "kind": "code",
       "oldApiToo": false,
@@ -8425,27 +9028,6 @@
     "pmeenan/ai-skills/chromium-code-review/scripts/tests/test_phase_brief_and_profile.py@f8273be4b1f661e9228839d6c6a3fbadd6c953ee": {
       "api": "link",
       "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "huggingface/transformers.js/packages/transformers/src/utils/cache/cross-origin-storage.d.ts@b1b7ca17d4c721c9e1592f818a9406ed6f85a106": {
-      "api": "old",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "adelpro/quranlm/src/vite-env.d.ts@67e2749e61fc52c1ee0d7c39be61f7b101a2da0f": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "ECOSYSTEMAX/TRANSFORMER.JS-V4/packages/transformers/src/utils/cache/cross-origin-storage.d.ts@a66ec31d72acf6f24ac15fb4326fd3709f3715a9": {
-      "api": "old",
-      "kind": "code",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -8472,13 +9054,6 @@
       "generated": false
     },
     "tomayac/cos-ad-blocking-demo/extension/popup.js@0108c8b2a7441514567c374a78ec20d339fdaa68": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/cos-ad-blocking-demo/extension/manager.js@671f59fdcb60cd5d76b09d27152121baf5ac71ec": {
       "api": null,
       "kind": "code",
       "oldApiToo": false,
@@ -8513,20 +9088,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/cos-slides-lightning-talk/assets/js/replay.js@301155bce0c18f0dd0ddcd06ee186e8fec85c316": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "web-ai-community/cos-slides-lightning-talk/assets/js/replay.js@301155bce0c18f0dd0ddcd06ee186e8fec85c316": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "pansong291/js-lib/src/cross-origin-storage.js@858286f7e6df33d2bcae0a75177e383596dde00b": {
       "api": null,
       "kind": "code",
@@ -8541,20 +9102,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "GoogleChromeLabs/web-ai-demos/built-in-ai-task-apis-polyfills/decision-model-api-polyfill.js@9d6dfa007886953a78b9c0267ce05135cfa2d825": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tinybrowser-dev/tinybrowser/crates/renderer/src/js/scripts/web/navigator.js@e07805bd4689cc9e839b8f496e1f371bde02d315": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "pansong291/ashe/js/tampermonkey/thz-helper.js@d570819f993b0353ee1da2781d91130f47aceb48": {
       "api": null,
       "kind": "code",
@@ -8562,21 +9109,7 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/voice-transcriber-for-whatsapp/extension/src/options.js@7f96e270bbe48f416090f4fffacb691d14f0a5c5": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "tomayac/voice-transcriber-for-whatsapp/extension/src/shared.js@11b4efd63b227129c9e3bc8082401124d1e5994d": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/just-mute/src/kokoro.js@827f77350e3f60eda08e33736a07c4704b11b3ac": {
       "api": null,
       "kind": "code",
       "oldApiToo": false,
@@ -8596,27 +9129,6 @@
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
-    },
-    "patrickdobler/asd123ai_website/src/scripts/chat-app.js@4e370922a5ec1bff465a844691156084c1a87efc": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": true
-    },
-    "patrickdobler/asd123ai_website/offline-chat/scripts/chat-app.js@346dba440357fa7764511aba33e1bfc4344fa7d8": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": true
-    },
-    "patrickdobler/asd123ai_website/offline-chat/scripts/chat-offline-bundle.js@2bb0bfb6b9b6459210807453074216fedd012267": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": true
     },
     "web-ai-community/cross-origin-storage-extension/docs/test-declarative-script.js@0db5fc656e1d0ce72edc4e1914615c395b00b284": {
       "api": null,
@@ -8660,13 +9172,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "software-mansion/popcorn/popcorn/js/src/assets.ts@6b9c98be4180fbc5e245bf5eefff1c35b081242c": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "software-mansion/popcorn/popcorn/js/src/worker.ts@8bc717d3cacc1ed076329fdfc9e566b0dcc51033": {
       "api": null,
       "kind": "code",
@@ -8695,27 +9200,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "software-mansion/popcorn/popcorn/js/e2e/runtime.spec.ts@cdf558e04ca4f63873b6c724145406f60c8cdeaa": {
-      "api": "new",
-      "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "software-mansion/popcorn/popcorn/js/src/beam.ts@7887656f53c1b27718f3cb9c20ed49adc1936c6a": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "narcotic-sh/parakeet.wgsl/src/api.ts@b40b4be2eb1ede2abf260510fe253057508a29cd": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "apache/tvm/web/src/index.ts@453508b5822d71f1547a7f12f0d4114d9aefe333": {
       "api": null,
       "kind": "code",
@@ -8734,27 +9218,6 @@
       "api": null,
       "kind": "code",
       "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "ChromeDevTools/devtools-frontend/front_end/models/javascript_metadata/NativeFunctions.ts@a8d4a21cbedc2fe83e70e74ef5a57c8c6f710883": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": true
-    },
-    "narcotic-sh/parakeet.wgsl/demo/src/main.ts@543c16cdeb169e5d87f23dc7a46b508219553564": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "tomayac/rummy-mcrummyface/src/audio/cos.ts@afbe26214d5865d50ee2c1d7f7709d78abc95b9c": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
       "webrefHeader": false,
       "generated": false
     },
@@ -8808,13 +9271,6 @@
       "generated": false
     },
     "oftx/uni-sub-overlay/src/storage/VideoSettingsStorage.ts@ca8761d7056d939d2a0f721107d6f025ee636977": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "xenodeve/clone-space-mcp/src/capture/environment.ts@ccd06fe734085df70ee3466e4738cccb931c6bf5": {
       "api": null,
       "kind": "code",
       "oldApiToo": false,
@@ -8947,13 +9403,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "tomayac/rummy-mcrummyface/src/audio/kokoro.ts@40306603c54957113f576040e4a147800c6bccc0": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "nico-martin/apertus-mini-webgpu/src/utils/text-generation.ts@0304256f35ff39925993f4eb7eb6f7b38a024f75": {
       "api": null,
       "kind": "code",
@@ -8961,23 +9410,9 @@
       "webrefHeader": false,
       "generated": false
     },
-    "erfanshayegani/website-agent/src/workers/agent.worker.ts@a3f2fd835e1d576162f78d0670c432ca5605866c": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": true
-    },
     "codylindley/codylindley.com/src/engine/transformers-adapter.ts@07610c9135cd875bfc0572079f74c861bd154036": {
       "api": null,
       "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "massmaddy530-stack/zigmaa-photos/frontend/src/lib/image.ts@25338e30d71e213c1f80a2943c69bc6bcfd97b95": {
-      "api": null,
-      "kind": null,
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -9059,13 +9494,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "CD-LC/vegaduta/web/app/lib/edge/tier1/download.ts@c3c5b50661c3d1605f4fed8e9719f4bd4663242d": {
-      "api": null,
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "k8tar/field-day/tests/unit/crossOriginStorage.spec.ts@290e8bbb2065bb344c2f728e7326701467571fa3": {
       "api": null,
       "kind": "test",
@@ -9080,20 +9508,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "danielroe/cross-origin-storage/packages/nuxt-cos/test/browser.test.ts@c0153268dfac77b7036464e3ac85cb3b1fe1872c": {
-      "api": null,
-      "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "SysAdminDoc/BetterTTS/src/lib/runtime-readiness.test.ts@533dab885f33f506770e375f1fbdd4d32ad077cc": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "k8tar/field-day/tests/unit/messageStore.spec.ts@6186d984700482b0a9c4aa9ac125c7c0369716ab": {
       "api": null,
       "kind": "test",
@@ -9102,13 +9516,6 @@
       "generated": false
     },
     "k8tar/field-day/tests/unit/qsoStore.spec.ts@46f3c496a0ca381357c91ee7175c94eb713469ff": {
-      "api": null,
-      "kind": "test",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "ykoh42/web-llm-adapters/examples/strands-web-llm/browser/test/extensions/cache.spec.ts@b1a532f95fd750c5b0b2302a9bc6b0bf296d3b28": {
       "api": null,
       "kind": "test",
       "oldApiToo": false,
@@ -9227,72 +9634,9 @@
       "webrefHeader": false,
       "generated": false
     },
-    "DefinitelyTyped/DefinitelyTyped/types/wicg-cross-origin-storage/index.d.ts@e8e5c1445aeb7dc34fed99c218f3b51818171d41": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "WICG/cross-origin-storage/cross-origin-storage.d.ts@cfc5ccbeb11cf99d10b1d0810bdd9150a9cefde0": {
-      "api": "new",
-      "kind": "code",
-      "oldApiToo": true,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "trunksio/engram-md/esm/storage/cos.d.ts@ea6e9be54c9b59302268f04946342fc19865d8cf": {
-      "api": "old",
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "VTFLAB/misskey-fork-msjp/packages/frontend/vendor/wllama/esm/storage/cos.d.ts@56c46ec30178f1b05f33bdf2b4c6aedbff20406b": {
-      "api": "new",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "werg/natlang/ts-host/vendor/wllama/esm/storage/cos.d.ts@ea6e9be54c9b59302268f04946342fc19865d8cf": {
-      "api": "old",
-      "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "seriva/gofront/stdlib/gofront/dom/dom.d.ts@81337347b83837eba810a74b72c46680dfd993d9": {
-      "api": null,
-      "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": true
-    },
-    "dontcallmedom/webidlpedia/names/CrossOriginStorageManager.html@87764de495ac024a74e721b8bbd7b9cc3ba14d5c": {
-      "api": "new",
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "dontcallmedom/webidlpedia/names/NavigatorCrossOriginStorage.html@fb6359cb0892565c8712ea7aea2fd6acac793bd1": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "GoogleChrome/samples/transformersjs-automatic-speech-recognition/index3.html@0aec510ac0c82747f98a315693bbeb5268ad3ebf": {
       "api": null,
       "kind": "code",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "dontcallmedom/webidlpedia/names/WorkerNavigator.html@472db9406f89c863d1f36f6d90e93d6bd2b43c93": {
-      "api": null,
-      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -9361,20 +9705,6 @@
       "generated": false
     },
     "kripken/emscripten-site/docs/compiling/GitLab.html@12a7579487ecdb3661b756cb7cfdcf7d28f10776": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "dontcallmedom/webidlpedia/names/Navigator.html@ddc2da089ebd4b1978523d2fad278327d2be47cf": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "kripken/emscripten-site/docs/porting/pthreads.html@f02097e6a914d296c552aa0b82b355bc312db633": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -9619,13 +9949,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "kripken/emscripten-site/docs/compiling/Deploying-Pages.html@ae4da9a7763a779f32760ace56f42dd50da5ef30": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "kripken/emscripten-site/docs/getting_started/bug_reports.html@2f450186acd7f3da93f8fbae028a4fd134d33537": {
       "api": null,
       "kind": "docs or mention",
@@ -9794,13 +10117,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "kripken/emscripten-site/docs/tools_reference/settings_reference.html@6202d2d57d5f3bc369adc43d592d74664a29ce9f": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "kripken/emscripten-site/docs/porting/guidelines/browser_limitations.html@7ba6bb3ea98951589d6d01637a3de16c0fcd7b79": {
       "api": null,
       "kind": "docs or mention",
@@ -9948,48 +10264,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "dontcallmedom/webidlpedia/globals/Worker.html@227770db007a0f515463d36d314e227c09ba7c6c": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "dontcallmedom/webidlpedia/globals/Window.html@cd0050413af9005313dd32e6b4c348cde3121695": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "dontcallmedom/webidlpedia/globals/SharedWorker.html@724bab30bd67c9604a1388c588bf65ac77cbc48b": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "dontcallmedom/webidlpedia/globals/ServiceWorker.html@6a946ca23beaa50e6680e51e59612c357d9a4b84": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "dontcallmedom/webidlpedia/globals/DedicatedWorker.html@df88c205b466a31b1dbd4761550b194f3c5f457b": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "dontcallmedom/webidlpedia/globals/RTCIdentityProvider.html@1038d0099d19b0add920862eb0f11d693ca5b8e2": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "tomayac/voice-transcriber-for-whatsapp/extension/src/options.html@69c31152d356cfbb2001d1d79b54eedf5d45006e": {
       "api": null,
       "kind": "docs or mention",
@@ -10032,20 +10306,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "brave/brave-core/tools/cr/codehealth/M158.md@c3c44b2f8c835848db67bfcb64d9e6006038bb74": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "brave/brave-core/tools/cr/codehealth/M157.md@02e6599a3b4b4988835b0ddbdbdd6d7ed4b887d6": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "WICG/cross-origin-storage/security-privacy-questionnaire.md@04a7f3e4a8ae0921f8eefd3bacb48218ff51c0a1": {
       "api": "new",
       "kind": "docs or mention",
@@ -10074,30 +10334,9 @@
       "webrefHeader": false,
       "generated": false
     },
-    "Zolmid/Weld/tools/cr/M157_codehealth.md@613ed083e1c879e0a8e7f252700351c7f85e75d9": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "LevyBytes/AI-SKILL-modern-web-development/references/rendering-performance/load-shared-resources-declaratively-criteria.md@014c3a23cf4ea248eef481de8e99485406519407": {
       "api": null,
       "kind": null,
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "o2alexanderfedin/angular-cas-disot/docs/03-developer-guide/security/indexeddb-security.md@9db1763e6a9c617d3a43e29c76e678ec1ea19cd2": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "vab1997/article-lens/docs/efforts/first-open-model-choice/assets/research-cache-detection.md@a9380510ed32d17128e7beefd561ded1c7504871": {
-      "api": null,
-      "kind": "docs or mention",
       "oldApiToo": false,
       "webrefHeader": false,
       "generated": false
@@ -10144,27 +10383,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "JohanCarrion1/instalador-PWA/tools/cr/codehealth/M158.md@c3c44b2f8c835848db67bfcb64d9e6006038bb74": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "JohanCarrion1/instalador-PWA/tools/cr/codehealth/M157.md@02e6599a3b4b4988835b0ddbdbdd6d7ed4b887d6": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "erfanshayegani/website-agent/docs/SPEC.md@b59c11727852ac9143d20cdb4445e4f239d7137c": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
     "az9713/transformer.js-tutorial/docs/concepts/model-loading-and-caching.md@5b418ac391773d009f78adb548f449bbe3428717": {
       "api": null,
       "kind": "docs or mention",
@@ -10186,20 +10404,6 @@
       "webrefHeader": false,
       "generated": false
     },
-    "Braisdlim/myPanel/research/rag/navegador.md@592cd8709e9d2ac17464f6b90ddfb7b377bc5cc3": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "VBWizard/os64/docs/design/pending/WINDOW_DOCUMENT.md@cb28dd0ce2af6378150526c130036b7a7fc3580d": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": true,
-      "generated": false
-    },
     "arschmitz/tb-knowledge/notes/37857aab-f300-4ee8-ac22-6804fcd88da4.md@056e6a9510ccce674ea308dd5729025458c27e33": {
       "api": null,
       "kind": "docs or mention",
@@ -10208,20 +10412,6 @@
       "generated": false
     },
     "arschmitz/tb-knowledge/notes/dfbcfe30-154c-4af0-b7ba-55bc7cac095a.md@93342295b238cbe13c8d8c764c69f2a1248b0dab": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": false
-    },
-    "arschmitz/tb-knowledge/notes/677f283b-86f9-4ec5-b840-844bf7905a66.md@83f8b817a8d778eece0704ba2134aa4043cd18bc": {
-      "api": null,
-      "kind": "docs or mention",
-      "oldApiToo": false,
-      "webrefHeader": false,
-      "generated": true
-    },
-    "arschmitz/tb-knowledge/notes/21ee5ed5-338a-42c8-8aec-531f6d14e2fc.md@c3066e19c32749b8ba96409bf34035f865840566": {
       "api": null,
       "kind": "docs or mention",
       "oldApiToo": false,
@@ -10284,6 +10474,7 @@
     "edtechdev/notes": false,
     "eduardoworrel/state-of-the-art-webai": false,
     "emscripten-core/emscripten": false,
+    "eqrion/webidl-index": false,
     "explainers-by-googlers/decisions-api": false,
     "farre/webspec-tracer": false,
     "flutter-zl/web-triage": false,
@@ -10305,7 +10496,6 @@
     "jnjaeschke/webspec-index": false,
     "klaaay/weekly-gen": false,
     "kripken/emscripten-site": false,
-    "meziantou/Meziantou.Framework": false,
     "miantiao-me/github-stars": false,
     "mlc-ai/web-llm": false,
     "narcotic-sh/parakeet.wgsl": false,
@@ -10322,11 +10512,9 @@
     "tomayac/blogccasion": false,
     "tomayac/Chromium": false,
     "tomayac/cos-ad-blocking-demo": false,
-    "tomayac/cos-slides-lightning-talk": false,
     "tomayac/cos-wpt": false,
     "tomayac/google-fonts-cos": false,
     "tomayac/react-app-cos": false,
-    "tomayac/rummy-mcrummyface": false,
     "tomayac/SVGcode": false,
     "tomayac/three-starter": false,
     "tomayac/voice-transcriber-for-whatsapp": false,
@@ -10342,5 +10530,6 @@
     "WICG/wicg.github.io": false,
     "wuhy80/llm-news-tracker": false,
     "xiaoqianran/huggingface-docs": false
-  }
+  },
+  "version": 2
 }
