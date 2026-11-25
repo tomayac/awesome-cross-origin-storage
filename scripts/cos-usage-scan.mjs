@@ -87,8 +87,26 @@ const KINDS = ['code', 'test', 'Emscripten opt-in', 'docs or mention'];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Waits until GitHub's rate limits have room again. Primary limits report
+// their reset time. Secondary limits do not, so those back off by attempt.
+async function waitForRateLimit(attempt) {
+  let until = Date.now() + 60_000 * (attempt + 1);
+  try {
+    const { stdout } = await run('gh', ['api', 'rate_limit']);
+    const exhausted = Object.values(JSON.parse(stdout).resources).filter(
+      (r) => r.remaining === 0,
+    );
+    if (exhausted.length)
+      until = Math.max(...exhausted.map((r) => r.reset * 1_000)) + 5_000;
+  } catch {}
+  console.error(
+    `rate limited, waiting ${Math.round((until - Date.now()) / 1_000)}s`,
+  );
+  await sleep(Math.max(until - Date.now(), 5_000));
+}
+
 async function gh(args, { raw = false } = {}) {
-  for (let attempt = 0; attempt < 4; attempt++) {
+  for (let attempt = 0; attempt < 8; attempt++) {
     try {
       const { stdout } = await run('gh', args, { maxBuffer: 64 * 1024 * 1024 });
       return raw ? stdout : JSON.parse(stdout);
@@ -96,7 +114,11 @@ async function gh(args, { raw = false } = {}) {
       const msg = String(err.stderr || err.message);
       // Only rate limits and server errors are worth waiting out. Any other
       // 403, such as a token that may not search code, fails at once.
-      if (/rate limit|HTTP 429|HTTP 5\d\d/i.test(msg)) {
+      if (/rate limit|HTTP 429/i.test(msg)) {
+        await waitForRateLimit(attempt);
+        continue;
+      }
+      if (/HTTP 5\d\d/.test(msg)) {
         await sleep(30_000 * (attempt + 1));
         continue;
       }
@@ -104,7 +126,38 @@ async function gh(args, { raw = false } = {}) {
       throw err;
     }
   }
-  return null;
+  // Giving up silently would publish a partial report.
+  throw new Error(`gh ${args.join(' ')} kept failing`);
+}
+
+// Pages through code search one request at a time, so that a rate limit only
+// repeats the page it hit. The search API returns at most 1,000 results.
+async function searchCode(q) {
+  const hits = [];
+  for (let page = 1; page <= 10; page++) {
+    const res = await gh([
+      'api',
+      '-X',
+      'GET',
+      'search/code',
+      '-f',
+      `q=${q}`,
+      '-F',
+      'per_page=100',
+      '-F',
+      `page=${page}`,
+    ]);
+    for (const i of res.items)
+      hits.push({
+        repository: { nameWithOwner: i.repository.full_name },
+        path: i.path,
+        url: i.html_url,
+        sha: i.sha,
+      });
+    await sleep(7_000);
+    if (res.items.length < 100 || hits.length >= res.total_count) break;
+  }
+  return hits;
 }
 
 const rawFile = (repo, path) =>
@@ -188,20 +241,10 @@ async function main() {
   // 1. Search.
   const files = new Map();
   for (const q of QUERIES) {
-    const hits =
-      (await gh([
-        'search',
-        'code',
-        q,
-        '--limit',
-        '1000',
-        '--json',
-        'repository,path,url,sha',
-      ])) || [];
+    const hits = await searchCode(q);
     console.error(`${hits.length}\t${q}`);
     for (const h of hits)
       files.set(`${h.repository.nameWithOwner}/${h.path}`, h);
-    await sleep(7_000);
   }
   // An empty result would overwrite the report with nothing.
   if (!files.size) throw new Error('Code search returned no results.');
